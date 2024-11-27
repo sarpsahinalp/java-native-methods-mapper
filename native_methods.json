@@ -1,0 +1,3037 @@
+{
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\aix\\classes\\sun\\nio\\ch\\Pollset.java": [
+        "pollsetCreate",
+        "pollsetCtl",
+        "pollsetDestroy",
+        "init",
+        "eventSize",
+        "eventsOffset",
+        "reventsOffset",
+        "fdOffset",
+        "socketpair",
+        "interrupt",
+        "drain1",
+        "close0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\aix\\classes\\sun\\nio\\fs\\AixNativeDispatcher.java": [
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\jdk\\internal\\platform\\CgroupMetrics.java": [
+        "isUseContainerSupport",
+        "getTotalMemorySize0",
+        "getTotalSwapSize0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\ch\\EPoll.java": [
+        "eventSize",
+        "eventsOffset",
+        "dataOffset",
+        "create",
+        "ctl"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\ch\\EventFD.java": [
+        "eventfd0",
+        "set0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\ch\\FileDispatcherImpl.java": [
+        "init0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\fs\\LinuxNativeDispatcher.java": [
+        "endmntent",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\fs\\LinuxWatchService.java": [
+        "eventSize",
+        "inotifyInit",
+        "socketpair",
+        "poll"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\apple\\security\\KeychainStore.java": [
+        "_addItemToKeychain",
+        "_removeItemFromKeychain",
+        "_releaseKeychainItemRef",
+        "_scanKeychain"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\nio\\ch\\KQueue.java": [
+        "keventSize",
+        "identOffset",
+        "filterOffset",
+        "flagsOffset",
+        "create",
+        "register"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\nio\\fs\\BsdNativeDispatcher.java": [
+        "getfsstat",
+        "endfsstat",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\nio\\fs\\UTIFileTypeDetector.java": [
+        "probe0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\util\\locale\\provider\\HostLocaleProviderAdapterImpl.java": [
+        "getDefaultLocale",
+        "getDateTimePatternNative",
+        "getCalendarID",
+        "getNumberPatternNative",
+        "getCurrencySymbol",
+        "getDecimalSeparator",
+        "getGroupingSeparator",
+        "getInfinity",
+        "getInternationalCurrencySymbol",
+        "getMinusSign",
+        "getMonetaryDecimalSeparator",
+        "getNaN",
+        "getPercent",
+        "getPerMill",
+        "getZeroDigit",
+        "getExponentSeparator",
+        "getCalendarInt",
+        "getDisplayString",
+        "getTimeZoneDisplayString"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\Console.java": [
+        "encoding",
+        "istty"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\FileCleanable.java": [
+        "cleanupClose0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\FileDescriptor.java": [
+        "sync",
+        "initIDs",
+        "getHandle",
+        "getAppend",
+        "close0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\FileInputStream.java": [
+        "open0",
+        "read0",
+        "readBytes",
+        "length0",
+        "position0",
+        "skip0",
+        "available0",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\FileOutputStream.java": [
+        "write",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\ObjectStreamClass.java": [
+        "initNative",
+        "hasStaticInitializer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\RandomAccessFile.java": [
+        "read0",
+        "readBytes0",
+        "write0",
+        "writeBytes0",
+        "getFilePointer",
+        "seek0",
+        "length0",
+        "setLength0",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Class.java": [
+        "registerNatives",
+        "isInstance",
+        "isAssignableFrom",
+        "isInterface",
+        "isArray",
+        "isPrimitive",
+        "initClassName",
+        "getModifiers",
+        "setSigners",
+        "getSimpleBinaryName0",
+        "getGenericSignature0",
+        "getConstantPool",
+        "isRecord0",
+        "desiredAssertionStatus0",
+        "isHidden",
+        "getClassFileVersion0",
+        "getClassAccessFlagsRaw0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\ClassLoader.java": [
+        "registerNatives",
+        "retrieveDirectives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Double.java": [
+        "doubleToRawLongBits",
+        "longBitsToDouble"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Float.java": [
+        "floatToRawIntBits",
+        "intBitsToFloat"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Module.java": [
+        "addReads0",
+        "addExports0",
+        "addExportsToAll0",
+        "addExportsToAllUnnamed0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\NullPointerException.java": [
+        "getExtendedNPEMessage"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Object.java": [
+        "hashCode",
+        "clone",
+        "notify",
+        "notifyAll",
+        "wait0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\ProcessHandleImpl.java": [
+        "initNative",
+        "waitForProcessExit0",
+        "getCurrentPid0",
+        "parent0",
+        "destroy0",
+        "isAlive0",
+        "initIDs",
+        "info0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Runtime.java": [
+        "availableProcessors",
+        "freeMemory",
+        "totalMemory",
+        "maxMemory",
+        "gc"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Shutdown.java": [
+        "beforeHalt",
+        "halt0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\StackStreamFactory.java": [
+        "setContinuation",
+        "checkStackWalkModes"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\String.java": [
+        "intern"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\StringUTF16.java": [
+        "isBigEndian"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\System.java": [
+        "registerNatives",
+        "setIn0",
+        "setOut0",
+        "setErr0",
+        "currentTimeMillis",
+        "nanoTime",
+        "identityHashCode",
+        "mapLibraryName"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Thread.java": [
+        "registerNatives",
+        "findScopedValueBindings",
+        "currentCarrierThread",
+        "currentThread",
+        "setCurrentThread",
+        "setScopedValueCache",
+        "ensureMaterializedForStackWalk",
+        "yield0",
+        "sleep0",
+        "start0",
+        "holdsLock",
+        "getStackTrace0",
+        "setPriority0",
+        "interrupt0",
+        "clearInterruptEvent",
+        "setNativeName",
+        "getNextThreadIdOffset"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\Throwable.java": [
+        "fillInStackTrace"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\VirtualThread.java": [
+        "notifyJvmtiStart",
+        "notifyJvmtiEnd",
+        "notifyJvmtiMount",
+        "notifyJvmtiUnmount",
+        "notifyJvmtiHideFrames",
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\Inet4Address.java": [
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\Inet4AddressImpl.java": [
+        "getLocalHostName",
+        "getHostByAddr",
+        "isReachable0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\Inet6Address.java": [
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\Inet6AddressImpl.java": [
+        "getLocalHostName",
+        "getHostByAddr"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\InetAddress.java": [
+        "isIPv4Available",
+        "isIPv6Supported",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\NetworkInterface.java": [
+        "isUp0",
+        "isLoopback0",
+        "supportsMulticast0",
+        "isP2P0",
+        "getMTU0",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\nio\\MappedMemoryUtils.java": [
+        "isLoaded0",
+        "load0",
+        "unload0",
+        "force0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\security\\AccessController.java": [
+        "getProtectionDomain",
+        "ensureMaterializedForStackWalk",
+        "getStackAccessControlContext",
+        "getInheritedAccessControlContext"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\TimeZone.java": [
+        "getSystemTimeZoneID",
+        "getSystemGMTOffsetID"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\invoke\\MethodHandleNatives.java": [
+        "init",
+        "expand",
+        "objectFieldOffset",
+        "staticFieldOffset",
+        "staticFieldBase",
+        "getMemberVMInfo",
+        "setCallSiteTargetNormal",
+        "setCallSiteTargetVolatile",
+        "clearCallSiteContext",
+        "registerNatives",
+        "getNamedCon"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\ref\\Finalizer.java": [
+        "isFinalizationEnabled",
+        "reportComplete"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\ref\\PhantomReference.java": [
+        "refersTo0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\ref\\Reference.java": [
+        "hasReferencePendingList",
+        "waitForReferencePendingList",
+        "refersTo0",
+        "clear0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\zip\\Adler32.java": [
+        "update"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\zip\\CRC32.java": [
+        "update",
+        "updateBytes0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\zip\\Deflater.java": [
+        "init",
+        "setDictionaryBuffer",
+        "getAdler",
+        "reset",
+        "end"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\zip\\Inflater.java": [
+        "initIDs",
+        "init",
+        "setDictionaryBuffer",
+        "getAdler",
+        "reset",
+        "end"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\concurrent\\atomic\\AtomicLong.java": [
+        "VMSupportsCS8"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\foreign\\AbstractMemorySegmentImpl.java": [
+        "heap"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\io\\JdkConsoleImpl.java": [
+        "echo"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\jimage\\NativeImageBuffer.java": [
+        "getNativeMap"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\loader\\BootLoader.java": [
+        "getSystemPackageLocation",
+        "setBootLoaderUnnamedModule0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\loader\\NativeLibraries.java": [
+        "unload",
+        "findBuiltinLib"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\loader\\NativeLibrary.java": [
+        "findEntry0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\loader\\RawNativeLibraries.java": [
+        "load0",
+        "unload0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\misc\\CDS.java": [
+        "isDumpingClassList0",
+        "isDumpingArchive0",
+        "isSharingEnabled0",
+        "logLambdaFormInvoker",
+        "initializeFromArchive",
+        "defineArchivedModules",
+        "getRandomSeedForDumping",
+        "dumpClassList",
+        "dumpDynamicArchive"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\misc\\PreviewFeatures.java": [
+        "isPreviewEnabled"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\misc\\Signal.java": [
+        "findSignal0",
+        "handle0",
+        "raise0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\misc\\Unsafe.java": [
+        "registerNatives",
+        "getInt",
+        "putInt",
+        "getReference",
+        "putReference",
+        "getBoolean",
+        "putBoolean",
+        "getByte",
+        "putByte",
+        "getShort",
+        "putShort",
+        "getChar",
+        "putChar",
+        "getLong",
+        "putLong",
+        "getFloat",
+        "putFloat",
+        "getDouble",
+        "putDouble",
+        "getUncompressedObject",
+        "writeback0",
+        "writebackPreSync0",
+        "writebackPostSync0",
+        "throwException",
+        "getReferenceVolatile",
+        "putReferenceVolatile",
+        "getIntVolatile",
+        "putIntVolatile",
+        "getBooleanVolatile",
+        "putBooleanVolatile",
+        "getByteVolatile",
+        "putByteVolatile",
+        "getShortVolatile",
+        "putShortVolatile",
+        "getCharVolatile",
+        "putCharVolatile",
+        "getLongVolatile",
+        "putLongVolatile",
+        "getFloatVolatile",
+        "putFloatVolatile",
+        "getDoubleVolatile",
+        "putDoubleVolatile",
+        "unpark",
+        "park",
+        "fullFence",
+        "allocateMemory0",
+        "reallocateMemory0",
+        "freeMemory0",
+        "setMemory0",
+        "copyMemory0",
+        "copySwapMemory0",
+        "objectFieldOffset0",
+        "objectFieldOffset1",
+        "staticFieldOffset0",
+        "staticFieldBase0",
+        "shouldBeInitialized0",
+        "ensureClassInitialized0",
+        "arrayBaseOffset0",
+        "arrayIndexScale0",
+        "getLoadAverage0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\misc\\VM.java": [
+        "latestUserDefinedLoader0",
+        "getuid",
+        "geteuid",
+        "getgid",
+        "getegid",
+        "getNanoTimeAdjustment",
+        "initialize"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\perf\\Perf.java": [
+        "attach0",
+        "detach",
+        "highResCounter",
+        "highResFrequency",
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\ConstantPool.java": [
+        "getSize0",
+        "getClassRefIndexAt0",
+        "getMethodAt0",
+        "getMethodAtIfLoaded0",
+        "getFieldAt0",
+        "getFieldAtIfLoaded0",
+        "getNameAndTypeRefIndexAt0",
+        "getIntAt0",
+        "getLongAt0",
+        "getFloatAt0",
+        "getDoubleAt0",
+        "getStringAt0",
+        "getUTF8At0",
+        "getTagAt0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\DirectMethodHandleAccessor.java": [
+        "invoke0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\NativeMethodAccessorImpl.java": [
+        "invoke0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\Reflection.java": [
+        "getClassAccessFlags"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\vm\\Continuation.java": [
+        "pin",
+        "unpin",
+        "isPinned0",
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\vm\\ContinuationSupport.java": [
+        "isSupported0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\vm\\ForeignLinkerSupport.java": [
+        "isSupported0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\vm\\VMSupport.java": [
+        "initAgentProperties",
+        "getVMTemporaryDirectory"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\foreign\\abi\\NativeEntryPoint.java": [
+        "freeDowncallStub0",
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\foreign\\abi\\UpcallLinker.java": [
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\foreign\\abi\\UpcallStubs.java": [
+        "freeUpcallStub0",
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\foreign\\abi\\fallback\\LibFallback.java": [
+        "init",
+        "sizeofCif",
+        "createClosure",
+        "freeClosure",
+        "doDowncall",
+        "ffi_prep_cif",
+        "ffi_prep_cif_var",
+        "ffi_get_struct_offsets",
+        "ffi_default_abi",
+        "ffi_type_struct",
+        "ffi_type_void",
+        "ffi_type_uint8",
+        "ffi_type_sint8",
+        "ffi_type_uint16",
+        "ffi_type_sint16",
+        "ffi_type_uint32",
+        "ffi_type_sint32",
+        "ffi_type_uint64",
+        "ffi_type_sint64",
+        "ffi_type_float",
+        "ffi_type_double",
+        "ffi_type_pointer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\vm\\vector\\VectorSupport.java": [
+        "getMaxLaneCount",
+        "registerNatives"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\net\\sdp\\SdpSupport.java": [
+        "create0",
+        "convert0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\net\\spi\\DefaultProxySelector.java": [
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\IOUtil.java": [
+        "randomBytes",
+        "makePipe",
+        "write1",
+        "drain",
+        "drain1",
+        "fdVal",
+        "setfdVal",
+        "fdLimit",
+        "iovMax",
+        "writevMax",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\NativeSocketAddress.java": [
+        "AFINET",
+        "AFINET6",
+        "sizeofSockAddr4",
+        "sizeofSockAddr6",
+        "sizeofFamily",
+        "offsetFamily",
+        "offsetSin4Port",
+        "offsetSin4Addr",
+        "offsetSin6Port",
+        "offsetSin6Addr",
+        "offsetSin6ScopeId",
+        "offsetSin6FlowInfo"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\Net.java": [
+        "isIPv6Available0",
+        "isReusePortAvailable0",
+        "isExclusiveBindAvailable",
+        "shouldSetBothIPv4AndIPv6Options0",
+        "canIPv6SocketJoinIPv4Group0",
+        "canJoin6WithIPv4Group0",
+        "canUseIPv6OptionsWithIPv4LocalAddress0",
+        "listen",
+        "shutdown",
+        "available",
+        "sendOOB",
+        "discardOOB",
+        "setInterface4",
+        "getInterface4",
+        "setInterface6",
+        "getInterface6",
+        "initIDs",
+        "pollinValue",
+        "polloutValue",
+        "pollerrValue",
+        "pollhupValue",
+        "pollnvalValue",
+        "pollconnValue"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\UnixDomainSockets.java": [
+        "init",
+        "socket0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\java\\io\\UnixFileSystem.java": [
+        "canonicalize0",
+        "getBooleanAttributes0",
+        "checkAccess0",
+        "getLastModifiedTime0",
+        "getLength0",
+        "setPermission0",
+        "createFileExclusively0",
+        "delete0",
+        "createDirectory0",
+        "rename0",
+        "setLastModifiedTime0",
+        "setReadOnly0",
+        "getSpace0",
+        "getNameMax0",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\java\\lang\\ProcessImpl.java": [
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\net\\PortConfig.java": [
+        "getLower0",
+        "getUpper0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\net\\dns\\ResolverConfigurationImpl.java": [
+        "fallbackDomain0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\FileKey.java": [
+        "init",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\InheritedChannel.java": [
+        "initIDs",
+        "dup",
+        "dup2",
+        "open0",
+        "close0",
+        "soType0",
+        "addressFamily",
+        "inetPeerAddress0",
+        "peerPort0",
+        "isConnected"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\NativeThread.java": [
+        "current0",
+        "signal0",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\PollSelectorImpl.java": [
+        "poll"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\UnixAsynchronousSocketChannelImpl.java": [
+        "checkConnect"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\UnixDispatcher.java": [
+        "close0",
+        "preClose0",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\UnixFileDispatcherImpl.java": [
+        "size0",
+        "closeIntFD",
+        "allocationGranularity0",
+        "unmap0",
+        "setDirect0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\fs\\UnixNativeDispatcher.java": [
+        "dup",
+        "close0",
+        "rewind",
+        "getlinelen",
+        "unlink0",
+        "mkdir0",
+        "rmdir0",
+        "stat0",
+        "fchown0",
+        "fchmod0",
+        "opendir0",
+        "fdopendir",
+        "closedir",
+        "read0",
+        "write0",
+        "access0",
+        "exists0",
+        "getpwnam0",
+        "getgrnam0",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\java\\io\\WinNTFileSystem.java": [
+        "getDriveDirectory",
+        "getBooleanAttributes0",
+        "checkAccess0",
+        "getLastModifiedTime0",
+        "getLength0",
+        "setPermission0",
+        "createFileExclusively0",
+        "createDirectory0",
+        "setLastModifiedTime0",
+        "setReadOnly0",
+        "delete0",
+        "rename0",
+        "listRoots0",
+        "getSpace0",
+        "getNameMax0",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\java\\lang\\ProcessEnvironment.java": [
+        "environmentBlock"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\java\\lang\\ProcessImpl.java": [
+        "getStillActive",
+        "getExitCodeProcess",
+        "waitForInterruptibly",
+        "terminateProcess",
+        "getProcessId0",
+        "isProcessAlive",
+        "closeHandle"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\io\\Win32ErrorMode.java": [
+        "setErrorMode"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\net\\dns\\ResolverConfigurationImpl.java": [
+        "init0",
+        "loadDNSconfig0",
+        "notifyAddrChange0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\net\\www\\protocol\\http\\ntlm\\NTLMAuthentication.java": [
+        "isTrustedSiteAvailable",
+        "isTrustedSite0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\net\\www\\protocol\\http\\ntlm\\NTLMAuthSequence.java": [
+        "initFirst",
+        "getCredentialsHandle"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\FileDispatcherImpl.java": [
+        "seek0",
+        "size0",
+        "close0",
+        "duplicateHandle",
+        "allocationGranularity0",
+        "unmap0",
+        "maxDirectTransferSize0",
+        "setDirect0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\FileKey.java": [
+        "init",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\Iocp.java": [
+        "initIDs",
+        "close0",
+        "getErrorMessage"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\SocketDispatcher.java": [
+        "close0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WEPoll.java": [
+        "eventSize",
+        "eventsOffset",
+        "dataOffset",
+        "create",
+        "ctl",
+        "close"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WindowsAsynchronousServerSocketChannelImpl.java": [
+        "initIDs",
+        "closesocket0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WindowsAsynchronousSocketChannelImpl.java": [
+        "initIDs",
+        "updateConnectContext",
+        "shutdown0",
+        "closesocket0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WindowsSelectorImpl.java": [
+        "setWakeupSocket0",
+        "resetWakeupSocket0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\fs\\RegistryFileTypeDetector.java": [
+        "queryStringValue"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\fs\\WindowsNativeDispatcher.java": [
+        "CloseHandle",
+        "GetFileSizeEx",
+        "FindNextStream0",
+        "FindClose",
+        "SetEndOfFile",
+        "GetLogicalDrives",
+        "GetDriveType0",
+        "GetSecurityDescriptorDacl",
+        "GetAce",
+        "GetLengthSid",
+        "GetCurrentProcess",
+        "GetCurrentThread",
+        "FormatMessage",
+        "LocalFree",
+        "CancelIo",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\security\\provider\\NativeSeedGenerator.java": [
+        "nativeGenerateSeed"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\util\\locale\\provider\\HostLocaleProviderAdapterImpl.java": [
+        "initialize",
+        "getDefaultLocale",
+        "getDateTimePattern",
+        "getCalendarID",
+        "getNumberPattern",
+        "isNativeDigit",
+        "getCurrencySymbol",
+        "getDecimalSeparator",
+        "getGroupingSeparator",
+        "getInfinity",
+        "getInternationalCurrencySymbol",
+        "getMinusSign",
+        "getMonetaryDecimalSeparator",
+        "getNaN",
+        "getPercent",
+        "getPerMill",
+        "getZeroDigit",
+        "getCalendarDataValue",
+        "getDisplayString"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\aix\\classes\\sun\\awt\\X11InputMethod.java": [
+        "setStatusAreaVisible"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\apple\\laf\\JRSUIConstants.java": [
+        "getPtrForConstant"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\apple\\laf\\JRSUIControl.java": [
+        "initNativeJRSUI",
+        "getPtrOfBuffer",
+        "getCFDictionary",
+        "disposeCFDictionary",
+        "syncChanges",
+        "paint",
+        "paintChanges",
+        "paintToCGContext",
+        "paintChangesToCGContext",
+        "paintImage",
+        "paintChangesImage",
+        "getNativeHitPart",
+        "getNativePartBounds",
+        "getNativeScrollBarOffsetChange"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\apple\\laf\\JRSUIFocus.java": [
+        "beginNativeFocus",
+        "endNativeFocus"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\apple\\laf\\JRSUIUtils.java": [
+        "shouldUseScrollToClick"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\eawt\\Application.java": [
+        "nativeInitializeApplicationDelegate"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\eawt\\_AppDockIconHandler.java": [
+        "nativeSetDockMenu",
+        "nativeSetDockIconImage",
+        "nativeSetDockIconProgress",
+        "nativeGetDockIconImage",
+        "nativeSetDockIconBadge"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\eawt\\_AppEventHandler.java": [
+        "nativeOpenCocoaAboutWindow",
+        "nativeReplyToAppShouldTerminate",
+        "nativeRegisterForNotification"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\eawt\\_AppMenuBarHandler.java": [
+        "nativeSetMenuState",
+        "nativeSetDefaultMenuBar",
+        "nativeActivateDefaultMenuBar"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\eawt\\_AppMiscHandlers.java": [
+        "nativeOpenHelpViewer",
+        "nativeRequestActivation",
+        "nativeRequestUserAttention",
+        "nativeEnableSuddenTermination",
+        "nativeDisableSuddenTermination"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\eio\\FileManager.java": [
+        "_setFileTypeAndCreator",
+        "_setFileType",
+        "_setFileCreator",
+        "_getFileType",
+        "_getFileCreator",
+        "_findFolder",
+        "_openURL",
+        "getNativeResourceFromBundle",
+        "getNativePathToApplicationBundle",
+        "_moveToTrash",
+        "_revealInFinder"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\laf\\AquaFileView.java": [
+        "getNativePathToRunningJDKBundle",
+        "getNativePathToSharedJDKBundle",
+        "getNativeMachineName",
+        "getNativeDisplayName",
+        "getNativeLSInfo",
+        "getNativePathForResolvedAlias"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\laf\\AquaNativeResources.java": [
+        "getWindowBackgroundColor"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\com\\apple\\laf\\ScreenMenu.java": [
+        "addMenuListeners",
+        "removeMenuListeners"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\awt\\CGraphicsDevice.java": [
+        "nativeGetScaleFactor",
+        "nativeResetDisplayMode",
+        "nativeSetDisplayMode",
+        "nativeGetDisplayMode",
+        "nativeGetXResolution",
+        "nativeGetYResolution",
+        "nativeGetScreenInsets",
+        "nativeGetBounds"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\awt\\CGraphicsEnvironment.java": [
+        "getMainDisplayID",
+        "registerDisplayReconfiguration",
+        "deregisterDisplayReconfiguration"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\awt\\PlatformGraphicsInfo.java": [
+        "isInAquaSession"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\font\\CCharToGlyphMapper.java": [
+        "countGlyphs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\font\\CFont.java": [
+        "disposeNativeFont",
+        "getWidthNative",
+        "getWeightNative",
+        "getCGFontPtrNative",
+        "getCascadeList"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\font\\CFontManager.java": [
+        "loadNativeDirFonts",
+        "loadNativeFonts"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\font\\CStrike.java": [
+        "disposeNativeStrikePtr",
+        "getFontMetrics"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\font\\CStrikeDisposer.java": [
+        "freeNativeScalerContext",
+        "removeGlyphInfoFromCache"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\CRenderer.java": [
+        "init",
+        "doLine",
+        "doRect",
+        "doRoundRect",
+        "doOval",
+        "doArc",
+        "doPoly",
+        "doShape",
+        "doImage"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\OSXOffScreenSurfaceData.java": [
+        "initIDs",
+        "getSurfaceData",
+        "setSurfaceData",
+        "initRaster",
+        "initCustomRaster",
+        "xorSurfacePixels",
+        "clearSurfacePixels",
+        "syncToJavaPixels"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\metal\\MTLGraphicsConfig.java": [
+        "isMetalFrameworkAvailable",
+        "tryLoadMetalLibrary",
+        "getMTLConfigInfo",
+        "nativeGetMaxTextureSize"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\metal\\MTLLayer.java": [
+        "nativeCreateLayer",
+        "nativeSetScale",
+        "nativeSetInsets",
+        "validate",
+        "blitTexture",
+        "nativeSetOpaque"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\metal\\MTLRenderQueue.java": [
+        "flushBuffer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\metal\\MTLSurfaceData.java": [
+        "clearWindow",
+        "initTexture",
+        "initRTexture",
+        "initFlipBackbuffer",
+        "getMTLTexturePointer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\opengl\\CGLGraphicsConfig.java": [
+        "initCGL",
+        "getCGLConfigInfo",
+        "getOGLCapabilities",
+        "nativeGetMaxTextureSize"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\opengl\\CGLLayer.java": [
+        "nativeCreateLayer",
+        "nativeSetScale",
+        "validate",
+        "blitTexture"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\java2d\\opengl\\CGLSurfaceData.java": [
+        "clearWindow"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CAccessibility.java": [
+        "focusChanged",
+        "roleKey"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CAccessible.java": [
+        "unregisterFromCocoaAXSystem",
+        "valueChanged",
+        "selectedTextChanged",
+        "selectionChanged",
+        "titleChanged",
+        "menuOpened",
+        "menuClosed",
+        "menuItemSelected",
+        "treeNodeExpanded",
+        "treeNodeCollapsed",
+        "selectedCellsChanged",
+        "tableContentCacheClear"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CCheckboxMenuItem.java": [
+        "nativeSetState",
+        "nativeSetIsCheckbox"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CClipboard.java": [
+        "declareTypes",
+        "setData",
+        "checkPasteboardWithoutNotification"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CCursorManager.java": [
+        "nativeGetCursorPosition",
+        "nativeSetBuiltInCursor",
+        "nativeSetCustomCursor",
+        "nativeSetAllowsCursorSetInBackground"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CDataTransferer.java": [
+        "registerFormatWithPasteboard",
+        "formatForIndex"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CDesktopPeer.java": [
+        "_lsOpenURI",
+        "_lsOpenFile"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CDragSourceContextPeer.java": [
+        "doDragging",
+        "releaseNativeDragSource"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CDropTarget.java": [
+        "releaseNativeDropTarget"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CDropTargetContextPeer.java": [
+        "startTransfer",
+        "addTransfer",
+        "dropDone"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CFRetainedResource.java": [
+        "nativeCFRelease"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CImage.java": [
+        "nativeCreateNSImageFromArray",
+        "nativeCreateNSImageFromBytes",
+        "nativeCreateNSImageFromArrays",
+        "nativeCreateNSImageFromFileContents",
+        "nativeCreateNSImageOfFileFromLaunchServices",
+        "nativeCreateNSImageFromImageName",
+        "nativeCreateNSImageFromIconSelector",
+        "nativeCopyNSImageIntoArray",
+        "nativeGetNSImageSize",
+        "nativeSetNSImageSize",
+        "nativeResizeNSImageRepresentations"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CInputMethod.java": [
+        "nativeNotifyPeer",
+        "nativeEndComposition",
+        "nativeHandleEvent",
+        "getNativeLocale",
+        "setNativeLocale",
+        "nativeGetCurrentInputMethodInfo",
+        "nativeInit"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CInputMethodDescriptor.java": [
+        "nativeInit"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CMenu.java": [
+        "nativeCreateSubMenu",
+        "nativeSetMenuTitle",
+        "nativeDeleteItem",
+        "nativeGetNSMenu"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CMenuBar.java": [
+        "nativeCreateMenuBar",
+        "nativeSetHelpMenu",
+        "nativeDelMenu"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CMenuItem.java": [
+        "nativeCreate",
+        "nativeSetLabel",
+        "nativeSetImage",
+        "nativeSetTooltip",
+        "nativeSetEnabled"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPlatformComponent.java": [
+        "nativeCreateComponent",
+        "nativeSetBounds"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPlatformView.java": [
+        "nativeCreateView",
+        "nativeSetAutoResizable",
+        "nativeGetNSViewDisplayID",
+        "nativeGetLocationOnScreen",
+        "nativeIsViewUnderMouse"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPlatformWindow.java": [
+        "nativeCreateNSWindow",
+        "nativeSetNSWindowStyleBits",
+        "nativeSetNSWindowMenuBar",
+        "nativeGetNSWindowInsets",
+        "nativeSetNSWindowBounds",
+        "nativeSetNSWindowLocationByPlatform",
+        "nativeSetNSWindowMinMax",
+        "nativePushNSWindowToBack",
+        "nativePushNSWindowToFront",
+        "nativeSetNSWindowTitle",
+        "nativeRevalidateNSWindowShadow",
+        "nativeSetNSWindowMinimizedIcon",
+        "nativeSetNSWindowRepresentedFilename",
+        "nativeSetAllowAutomaticTabbingProperty",
+        "nativeSetEnabled",
+        "nativeSynthesizeMouseEnteredExitedEvents",
+        "nativeSynthesizeMouseEnteredExitedEvents",
+        "nativeDispose",
+        "nativeEnterFullScreenMode",
+        "nativeExitFullScreenMode",
+        "nativeGetTopmostPlatformWindowUnderMouse",
+        "_toggleFullScreenMode"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPopupMenu.java": [
+        "nativeCreatePopupMenu",
+        "nativeShowPopupMenu"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPrinterJob.java": [
+        "abortDoc",
+        "getDefaultPage",
+        "validatePaper",
+        "createNSPrintInfo",
+        "dispose",
+        "printLoop",
+        "_safePrintLoop"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPrinterJobDialog.java": [
+        "showDialog"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPrinterPageDialog.java": [
+        "showDialog"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CPrinterSurfaceData.java": [
+        "initOps",
+        "_flush"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CRobot.java": [
+        "mouseWheel",
+        "initRobot",
+        "keyEvent",
+        "nativeGetScreenPixels"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CTextPipe.java": [
+        "doDrawString",
+        "doDrawGlyphs",
+        "doUnicodes",
+        "doOneUnicode"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CTrayIcon.java": [
+        "nativeCreate",
+        "nativeSetToolTip",
+        "setNativeImage",
+        "nativeGetIconLocation"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\CWrapper.java": [
+        "setLevel",
+        "makeKeyAndOrderFront",
+        "makeKeyWindow",
+        "makeMainWindow",
+        "canBecomeMainWindow",
+        "isKeyWindow",
+        "orderFront",
+        "orderFrontRegardless",
+        "orderWindow",
+        "orderOut",
+        "close",
+        "addChildWindow",
+        "removeChildWindow",
+        "setAlphaValue",
+        "setOpaque",
+        "setBackgroundColor",
+        "miniaturize",
+        "deminiaturize",
+        "isZoomed",
+        "zoom",
+        "makeFirstResponder",
+        "addSubview",
+        "removeFromSuperview",
+        "setFrame",
+        "window",
+        "setHidden",
+        "setToolTip"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\LWCToolkit.java": [
+        "initIDs",
+        "initAppkit",
+        "loadNativeColors",
+        "beep",
+        "isCapsLockOn",
+        "getMultiClickTime",
+        "performOnMainThreadAfterDelay",
+        "isApplicationActive",
+        "isEmbedded",
+        "activateApplicationIgnoringOtherApps",
+        "createAWTRunLoopMediator",
+        "doAWTRunLoopImpl",
+        "stopAWTRunLoop",
+        "nativeSyncQueue",
+        "flushNativeSelectors"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\macosx\\classes\\sun\\lwawt\\macosx\\NSEvent.java": [
+        "nsToJavaModifiers",
+        "nsToJavaKeyInfo",
+        "nsKeyModifiersToJavaKeyInfo",
+        "nsToJavaChar"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\imageio\\plugins\\jpeg\\JPEGImageReader.java": [
+        "initJPEGImageReader",
+        "setSource",
+        "setOutColorSpace",
+        "clearNativeReadAbortFlag",
+        "abortRead",
+        "resetLibraryState",
+        "resetReader",
+        "disposeReader"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\imageio\\plugins\\jpeg\\JPEGImageWriter.java": [
+        "initJPEGImageWriter",
+        "setDest",
+        "abortWrite",
+        "resetWriter",
+        "disposeWriter"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\java\\swing\\plaf\\gtk\\GTKEngine.java": [
+        "native_get_gtk_setting",
+        "nativeStartPainting",
+        "nativeFinishPainting",
+        "native_switch_theme"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\java\\swing\\plaf\\gtk\\GTKStyle.java": [
+        "nativeGetXThickness",
+        "nativeGetYThickness",
+        "nativeGetPangoFontName"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\DirectAudioDevice.java": [
+        "nStart",
+        "nStop",
+        "nClose",
+        "nRead",
+        "nGetBufferSize",
+        "nIsStillDraining",
+        "nFlush",
+        "nAvailable",
+        "nGetBytePosition",
+        "nSetBytePosition",
+        "nRequiresServicing",
+        "nService"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\DirectAudioDeviceProvider.java": [
+        "nGetNumDevices",
+        "nNewDirectAudioDeviceInfo"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\MidiInDevice.java": [
+        "nOpen",
+        "nClose",
+        "nStart",
+        "nStop",
+        "nGetTimeStamp",
+        "nGetMessages"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\MidiInDeviceProvider.java": [
+        "nGetNumDevices",
+        "nGetName",
+        "nGetVendor",
+        "nGetDescription",
+        "nGetVersion"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\MidiOutDevice.java": [
+        "nOpen",
+        "nClose",
+        "nSendShortMessage",
+        "nSendLongMessage",
+        "nGetTimeStamp"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\MidiOutDeviceProvider.java": [
+        "nGetNumDevices",
+        "nGetName",
+        "nGetVendor",
+        "nGetDescription",
+        "nGetVersion"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\Platform.java": [
+        "nIsBigEndian"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\PortMixer.java": [
+        "nOpen",
+        "nClose",
+        "nGetPortCount",
+        "nGetPortType",
+        "nGetPortName",
+        "nGetControls",
+        "nControlSetIntValue",
+        "nControlGetIntValue",
+        "nControlSetFloatValue",
+        "nControlGetFloatValue"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\PortMixerProvider.java": [
+        "nGetNumDevices",
+        "nNewPortMixerInfo"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\AWTEvent.java": [
+        "initIDs",
+        "nativeSetSource"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Button.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Checkbox.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\CheckboxMenuItem.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Choice.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Color.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Component.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Container.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Cursor.java": [
+        "initIDs",
+        "finalizeImpl"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Dialog.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Dimension.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Event.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\FileDialog.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Font.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\FontMetrics.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Frame.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Insets.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\KeyboardFocusManager.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Label.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Menu.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\MenuBar.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\MenuComponent.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\MenuItem.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Rectangle.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Scrollbar.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\ScrollPane.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\ScrollPaneAdjustable.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\SplashScreen.java": [
+        "_update",
+        "_isVisible",
+        "_getBounds",
+        "_getInstance",
+        "_close",
+        "_getImageFileName",
+        "_getImageJarName",
+        "_setImageData",
+        "_getScaleFactor"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\TextArea.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\TextField.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Toolkit.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\TrayIcon.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\Window.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\event\\InputEvent.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\event\\KeyEvent.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\event\\MouseEvent.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\BufferedImage.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\ColorModel.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\IndexColorModel.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\Kernel.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\Raster.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\SampleModel.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\image\\SinglePixelPackedSampleModel.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\DebugSettings.java": [
+        "setCTracingOn",
+        "setCTracingOn",
+        "setCTracingOn"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\FontDescriptor.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\PlatformFont.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\SunToolkit.java": [
+        "closeSplashScreen"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\ColorGlyphSurfaceData.java": [
+        "initOps",
+        "setCurrentGlyph"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\FileFontStrike.java": [
+        "initNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\FreetypeFontScaler.java": [
+        "initIDs",
+        "disposeNativeScaler",
+        "getGlyphCodeNative",
+        "getNumGlyphsNative",
+        "getMissingGlyphCodeNative",
+        "getUnitsPerEMNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\NullFontScaler.java": [
+        "getNullScalerContext",
+        "getGlyphImage"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\StrikeCache.java": [
+        "getGlyphCacheDescription",
+        "freeIntPointer",
+        "freeLongPointer",
+        "freeIntMemory",
+        "freeLongMemory"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\SunFontManager.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\font\\SunLayoutEngine.java": [
+        "disposeFace"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\Disposer.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\SurfaceData.java": [
+        "initIDs",
+        "isOpaqueGray"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\BufImgSurfaceData.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\ByteComponentRaster.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\BytePackedRaster.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\DataBufferNative.java": [
+        "getElem",
+        "setElem"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\GifImageDecoder.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\ImageRepresentation.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\ImagingLib.java": [
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\IntegerComponentRaster.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\JPEGImageDecoder.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\ShortComponentRaster.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\loops\\GraphicsPrimitiveMgr.java": [
+        "registerNativeLoops"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\opengl\\OGLContext.java": [
+        "getOGLIdString"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\opengl\\OGLRenderQueue.java": [
+        "flushBuffer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\opengl\\OGLSurfaceData.java": [
+        "initFlipBackbuffer",
+        "getTextureTarget",
+        "getTextureID"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\pipe\\Region.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\pipe\\ShapeSpanIterator.java": [
+        "initIDs",
+        "setNormalize",
+        "setOutputAreaXYXY",
+        "setRule",
+        "addSegment",
+        "getPathBox",
+        "intersectClipBox",
+        "nextSpan",
+        "skipDownTo",
+        "getNativeIterator",
+        "dispose",
+        "moveTo",
+        "lineTo",
+        "closePath",
+        "pathDone",
+        "getNativeConsumer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\pipe\\SpanClipRenderer.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\java2d\\cmm\\lcms\\LCMS.java": [
+        "setTagDataNative",
+        "loadProfileNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\FcFontManager.java": [
+        "getFontPathNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\UNIXToolkit.java": [
+        "check_gtk",
+        "load_gtk",
+        "unload_gtk",
+        "load_gtk_icon",
+        "nativeSync",
+        "get_gtk_version"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11GraphicsConfig.java": [
+        "getNumColors",
+        "init",
+        "makeColorModel",
+        "getXResolution",
+        "getYResolution",
+        "initIDs",
+        "dispose",
+        "createBackBuffer",
+        "swapBuffers",
+        "destroyBackBuffer",
+        "isTranslucencyCapable"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11GraphicsDevice.java": [
+        "getDisplay",
+        "getNumConfigs",
+        "getConfigVisualId",
+        "getConfigDepth",
+        "getConfigColormap",
+        "isDBESupported",
+        "getDoubleBufferVisuals",
+        "enterFullScreenExclusive",
+        "exitFullScreenExclusive",
+        "initXrandrExtension",
+        "getCurrentDisplayMode",
+        "getNativeScaleFactor",
+        "pGetBounds"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11GraphicsEnvironment.java": [
+        "initGLX",
+        "initXRender",
+        "checkShmExt",
+        "getDisplayString",
+        "initDisplay",
+        "getNumScreens",
+        "getDefaultScreenNum",
+        "initNativeData",
+        "pRunningXinerama"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11InputMethodBase.java": [
+        "initIDs",
+        "turnoffStatusWindow",
+        "disposeXIC",
+        "resetXIC",
+        "setCompositionEnabledNative",
+        "isCompositionEnabledNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\font\\FontConfigManager.java": [
+        "getFontConfigVersion"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\font\\NativeFont.java": [
+        "haveBitmapFonts",
+        "fontExists",
+        "getFontMetrics",
+        "getGlyphAdvance",
+        "getGlyphImage",
+        "getGlyphImageNoDefault",
+        "countGlyphs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\font\\NativeStrike.java": [
+        "getMaxGlyph",
+        "createNullScalerContext"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\font\\NativeStrikeDisposer.java": [
+        "freeNativeScalerContext"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\print\\CUPSPrinter.java": [
+        "getCupsServer",
+        "getCupsPort",
+        "getCupsDefaultPrinter",
+        "canConnect",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\screencast\\ScreencastHelper.java": [
+        "loadPipewire"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\GtkFileDialogPeer.java": [
+        "initIDs",
+        "quit",
+        "toFront",
+        "setBounds"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XDesktopPeer.java": [
+        "gnome_url_show",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XInputMethod.java": [
+        "openXIMNative",
+        "createXICNative",
+        "adjustStatusWindow"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XlibWrapper.java": [
+        "XFree",
+        "memcpy",
+        "getAddress",
+        "copyIntArray",
+        "copyLongArray",
+        "XOpenDisplay",
+        "XCloseDisplay",
+        "XDisplayString",
+        "XSetCloseDownMode",
+        "DefaultScreen",
+        "ScreenOfDisplay",
+        "DoesBackingStore",
+        "DisplayWidth",
+        "DisplayWidthMM",
+        "DisplayHeight",
+        "DisplayHeightMM",
+        "RootWindow",
+        "ScreenCount",
+        "XCreateWindow",
+        "XDestroyWindow",
+        "XUngrabPointer",
+        "XUngrabKeyboard",
+        "XGrabServer",
+        "XUngrabServer",
+        "XMapWindow",
+        "XMapRaised",
+        "XRaiseWindow",
+        "XLowerWindow",
+        "XRestackWindows",
+        "XSetInputFocus",
+        "XSetInputFocus2",
+        "XGetInputFocus",
+        "XUnmapWindow",
+        "XSelectInput",
+        "XNextEvent",
+        "XMaskEvent",
+        "XWindowEvent",
+        "XFilterEvent",
+        "XSupportsLocale",
+        "XSetLocaleModifiers",
+        "XPeekEvent",
+        "XFlush",
+        "XSync",
+        "XMoveResizeWindow",
+        "XResizeWindow",
+        "XMoveWindow",
+        "XQueryPointer",
+        "XFreeCursor",
+        "XSetWindowBackground",
+        "XEventsQueued",
+        "XInternAtoms",
+        "SetProperty",
+        "GetProperty",
+        "InternAtom",
+        "XDeleteProperty",
+        "XSetTransientFor",
+        "XSetWMHints",
+        "XGetWMHints",
+        "XAllocWMHints",
+        "XGetPointerMapping",
+        "XGetDefault",
+        "getScreenOfWindow",
+        "XScreenNumberOfScreen",
+        "XIconifyWindow",
+        "ServerVendor",
+        "VendorRelease",
+        "IsXsunKPBehavior",
+        "IsSunKeyboard",
+        "IsKanaKeyboard",
+        "XBell",
+        "XCreateFontCursor",
+        "XCreateBitmapFromData",
+        "XFreePixmap",
+        "XCreatePixmapCursor",
+        "XQueryBestCursor",
+        "XAllocColor",
+        "SetToolkitErrorHandler",
+        "XSetErrorHandler",
+        "CallErrorHandler",
+        "XChangeWindowAttributes",
+        "XGetWindowAttributes",
+        "XGetWMNormalHints",
+        "XSetWMNormalHints",
+        "XSetMinMaxHints",
+        "XAllocSizeHints",
+        "XSendEvent",
+        "XPutBackEvent",
+        "XQueryTree",
+        "XGetVisualInfo",
+        "XReparentWindow",
+        "XGetSelectionOwner",
+        "XGetAtomName",
+        "XMaxRequestSize",
+        "XCreatePixmap",
+        "XDestroyImage",
+        "XCreateGC",
+        "XFreeGC",
+        "XSetWindowBackgroundPixmap",
+        "XClearWindow",
+        "XGetIconSizes",
+        "IsKeypadKey",
+        "XdbeAllocateBackBufferName",
+        "XdbeDeallocateBackBufferName",
+        "XdbeBeginIdiom",
+        "XdbeEndIdiom",
+        "XdbeSwapBuffers",
+        "XQueryKeymap",
+        "XKeycodeToKeysym",
+        "XKeysymToKeycode",
+        "XkbGetEffectiveGroup",
+        "XkbKeycodeToKeysym",
+        "XkbSelectEvents",
+        "XkbLibraryVersion",
+        "XkbGetMap",
+        "XkbGetUpdatedMap",
+        "XkbFreeKeyboard",
+        "XkbTranslateKeyCode",
+        "XkbSetDetectableAutoRepeat",
+        "XGetModifierMapping",
+        "XFreeModifiermap",
+        "XRefreshKeyboardMapping",
+        "XNextSecondaryLoopEvent",
+        "ExitSecondaryLoop",
+        "XShapeQueryExtension",
+        "SetZOrder",
+        "PrintXErrorEvent"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XRobotPeer.java": [
+        "setup",
+        "loadNativeLibraries",
+        "mouseMoveImpl",
+        "mousePressImpl",
+        "mouseReleaseImpl",
+        "mouseWheelImpl",
+        "keyPressImpl",
+        "keyReleaseImpl"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XTaskbarPeer.java": [
+        "runloop",
+        "setBadge",
+        "updateProgress",
+        "setUrgent",
+        "setNativeMenu"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XToolkit.java": [
+        "getTrayIconDisplayTimeout",
+        "initIDs",
+        "waitForEvents",
+        "awt_output_flush",
+        "nativeLoadSystemColors",
+        "getEnv",
+        "awt_toolkit_init",
+        "getDefaultXColormap",
+        "getNumberOfButtonsImpl",
+        "wakeup_poll"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XWindow.java": [
+        "initIDs",
+        "haveCurrentX11InputMethodInstance",
+        "getAWTKeyCodeForKeySym",
+        "getKeySymForAWTKeyCode"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\X11\\XWindowPeer.java": [
+        "getLocalHostname",
+        "getJvmPID"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\java2d\\opengl\\GLXGraphicsConfig.java": [
+        "getGLXConfigInfo",
+        "getOGLCapabilities",
+        "initConfig"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\java2d\\x11\\X11SurfaceData.java": [
+        "initIDs",
+        "isShmPMAvailable",
+        "XSetCopyMode",
+        "XSetXorMode",
+        "XSetForeground"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\java2d\\x11\\XSurfaceData.java": [
+        "initOps",
+        "XCreateGC",
+        "XResetClip",
+        "XSetClip",
+        "flushNativeSurface",
+        "isDrawableValid",
+        "setInvalid",
+        "XSetGraphicsExposures"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\java2d\\xr\\XIDGenerator.java": [
+        "bufferXIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\java2d\\xr\\XRBackendNative.java": [
+        "initIDs",
+        "createGC",
+        "freeGC",
+        "createPictureNative",
+        "freePicture",
+        "freePixmap",
+        "setGCExposures",
+        "setGCForeground",
+        "setPictureRepeat",
+        "setGCMode",
+        "setFilter",
+        "XRenderCreateGlyphSetNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\java2d\\xr\\XRSurfaceData.java": [
+        "initIDs",
+        "initXRPicture",
+        "freeXSDOPicture"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\Win32FontManager.java": [
+        "getEUDCFontFile",
+        "getFontPath",
+        "registerFontWithPlatform",
+        "deRegisterFontWithPlatform"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\Win32GraphicsConfig.java": [
+        "initIDs",
+        "getBounds"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\Win32GraphicsDevice.java": [
+        "initIDs",
+        "initDevice",
+        "initNativeScale",
+        "setNativeScale",
+        "getNativeScaleX",
+        "getNativeScaleY",
+        "getMaxConfigsImpl",
+        "isPixFmtSupported",
+        "getDefaultPixIDImpl",
+        "enterFullScreenExclusive",
+        "exitFullScreenExclusive",
+        "getCurrentDisplayMode",
+        "enumDisplayModes"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\Win32GraphicsEnvironment.java": [
+        "initDisplay",
+        "getNumScreens",
+        "getDefaultScreen",
+        "getXResolution",
+        "getYResolution",
+        "isVistaOS"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\print\\PrintServiceLookupProvider.java": [
+        "getDefaultPrinterName",
+        "notifyLocalPrinterChange",
+        "notifyRemotePrinterChange"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\print\\Win32PrintJob.java": [
+        "printRawData",
+        "endPrintRawData"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\print\\Win32PrintService.java": [
+        "getCopiesSupported",
+        "getCapabilities",
+        "getJobStatus",
+        "getPrinterPort"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\shell\\Win32ShellFolder2.java": [
+        "initIDs",
+        "initDesktop",
+        "initSpecial",
+        "getNextPIDLEntry",
+        "copyFirstPIDLEntry",
+        "combinePIDLs",
+        "releasePIDL",
+        "releaseIShellFolder",
+        "compareIDs",
+        "getAttributes0",
+        "getFileSystemPath0",
+        "getNextChild",
+        "releaseEnumObjects",
+        "bindToObject",
+        "parseDisplayName0",
+        "getFolderType",
+        "getExecutableType",
+        "getIShellIcon",
+        "getIconIndex",
+        "getIcon",
+        "hiResIconAvailable",
+        "getSystemIcon",
+        "disposeIcon",
+        "doGetColumnValue",
+        "compareIDsByColumn"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\shell\\Win32ShellFolderManager2.java": [
+        "initializeCom",
+        "uninitializeCom"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\ThemeReader.java": [
+        "initThemes",
+        "isThemePartDefined",
+        "getSysBoolean",
+        "openTheme",
+        "closeTheme",
+        "setWindowTheme"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WButtonPeer.java": [
+        "setLabel",
+        "create",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WCanvasPeer.java": [
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WCheckboxMenuItemPeer.java": [
+        "setState"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WCheckboxPeer.java": [
+        "setState",
+        "setCheckboxGroup",
+        "setLabel",
+        "getCheckMarkSize",
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WChoicePeer.java": [
+        "select",
+        "removeAll",
+        "remove",
+        "addItems",
+        "reshape",
+        "create",
+        "closeList"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WClipboard.java": [
+        "openClipboard",
+        "closeClipboard",
+        "publishClipboardData",
+        "init",
+        "registerClipboardViewer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WComponentPeer.java": [
+        "isObscured",
+        "pShow",
+        "hide",
+        "enable",
+        "disable",
+        "getLocationOnScreen",
+        "reshapeNoCheck",
+        "updateWindow",
+        "reshape",
+        "nativeHandleEvent",
+        "setFocus",
+        "_dispose",
+        "_setForeground",
+        "_setBackground",
+        "_setFont",
+        "start",
+        "beginValidate",
+        "endValidate",
+        "addNativeDropTarget",
+        "removeNativeDropTarget",
+        "nativeHandlesWheelScrolling",
+        "pSetParent",
+        "setZOrder"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WCustomCursor.java": [
+        "getCursorWidth",
+        "getCursorHeight"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDataTransferer.java": [
+        "registerClipboardFormat",
+        "getClipboardFormatName",
+        "startSecondaryEventLoop"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDefaultFontCharset.java": [
+        "canConvert",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDesktopPeer.java": [
+        "init",
+        "ShellExecute",
+        "setSuddenTerminationEnabled",
+        "moveToTrash"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDesktopProperties.java": [
+        "initIDs",
+        "init",
+        "getWindowsParameters",
+        "playWindowsSound"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDialogPeer.java": [
+        "createAwtDialog",
+        "showModal",
+        "endModal",
+        "pSetIMMOption"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDragSourceContextPeer.java": [
+        "setNativeCursor"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WDropTargetContextPeer.java": [
+        "getData",
+        "dropDone",
+        "freeStgMedium",
+        "Available",
+        "Read",
+        "ReadBytes",
+        "Close"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WEmbeddedFrame.java": [
+        "isPrinterDC",
+        "initIDs",
+        "notifyModalBlockedImpl"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WEmbeddedFramePeer.java": [
+        "create",
+        "getBoundsPrivate"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WFileDialogPeer.java": [
+        "setFilterString",
+        "_dispose",
+        "_show",
+        "_hide",
+        "toFront",
+        "toBack",
+        "initIDs",
+        "getLocationOnScreen"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WFontMetrics.java": [
+        "stringWidth",
+        "charsWidth",
+        "bytesWidth",
+        "init",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WFontPeer.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WFramePeer.java": [
+        "initIDs",
+        "setState",
+        "getState",
+        "setMaximizedBounds",
+        "clearMaximizedBounds",
+        "setMenuBar0",
+        "createAwtFrame",
+        "getSysMenuHeight",
+        "pSetIMMOption",
+        "synthesizeWmActivate"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WGlobalCursorManager.java": [
+        "setCursor",
+        "getCursorPos",
+        "findHeavyweightUnderCursor",
+        "getLocationOnScreen"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WInputMethod.java": [
+        "createNativeContext",
+        "destroyNativeContext",
+        "enableNativeIME",
+        "disableNativeIME",
+        "handleNativeIMEEvent",
+        "endCompositionNative",
+        "setConversionStatus",
+        "getConversionStatus",
+        "setOpenStatus",
+        "getOpenStatus",
+        "setStatusWindowVisible",
+        "getNativeIMMDescription",
+        "getNativeLocale",
+        "setNativeLocale",
+        "openCandidateWindow",
+        "isCompositionStringAvailable"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WKeyboardFocusManagerPeer.java": [
+        "setNativeFocusOwner",
+        "getNativeFocusOwner",
+        "getNativeFocusedWindow"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WLabelPeer.java": [
+        "lazyPaint",
+        "setText",
+        "setAlignment",
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WLightweightFramePeer.java": [
+        "overrideNativeHandle"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WListPeer.java": [
+        "addItems",
+        "delItems",
+        "select",
+        "deselect",
+        "makeVisible",
+        "setMultipleSelections",
+        "getMaxWidth",
+        "create",
+        "updateMaxItemWidth",
+        "isSelected"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WMenuBarPeer.java": [
+        "addMenu",
+        "delMenu",
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WMenuItemPeer.java": [
+        "_dispose",
+        "_setLabel",
+        "create",
+        "enable",
+        "initIDs",
+        "_setFont"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WMenuPeer.java": [
+        "delItem",
+        "createMenu",
+        "createSubMenu"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WMouseInfoPeer.java": [
+        "fillPointWithCoords",
+        "isWindowUnderMouse"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WObjectPeer.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPageDialog.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPageDialogPeer.java": [
+        "_show"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPanelPeer.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPopupMenuPeer.java": [
+        "createMenu",
+        "_show"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPrintDialog.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPrintDialogPeer.java": [
+        "_show",
+        "toFront",
+        "toBack",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPrinterJob.java": [
+        "getNativePrintService",
+        "getDefaultPage",
+        "validatePaper",
+        "setNativeCopies",
+        "jobSetup",
+        "initPrinter",
+        "endDoc",
+        "abortDoc",
+        "deleteDC",
+        "beginPath",
+        "endPath",
+        "closeFigure",
+        "fillPath",
+        "moveTo",
+        "lineTo",
+        "setPolyFillMode",
+        "setAdvancedGraphicsMode",
+        "setGraphicsMode",
+        "scale",
+        "getWorldTransform",
+        "setWorldTransform",
+        "getPenX",
+        "getPenY",
+        "selectClipPath",
+        "getGDIAdvance",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WRobotPeer.java": [
+        "mouseMoveImpl",
+        "mousePress",
+        "mouseRelease",
+        "mouseWheel",
+        "keyPress",
+        "keyRelease",
+        "getRGBPixels"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WScrollbarPeer.java": [
+        "getScrollbarSize",
+        "setLineIncrement",
+        "setPageIncrement",
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WScrollPanePeer.java": [
+        "initIDs",
+        "create",
+        "getOffset",
+        "setInsets",
+        "setScrollPosition",
+        "_getHScrollbarHeight",
+        "_getVScrollbarWidth"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WTaskbarPeer.java": [
+        "nativeInit",
+        "setProgressValue",
+        "setProgressState",
+        "setOverlayIcon",
+        "flashWindow"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WTextAreaPeer.java": [
+        "replaceRange",
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WTextComponentPeer.java": [
+        "getText",
+        "setText",
+        "getSelectionStart",
+        "getSelectionEnd",
+        "select",
+        "enableEditing",
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WTextFieldPeer.java": [
+        "setEchoChar",
+        "create"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WToolkit.java": [
+        "initIDs",
+        "getWindowsVersion",
+        "embeddedInit",
+        "embeddedDispose",
+        "embeddedEventLoopIdleProcessing",
+        "postDispose",
+        "startToolkitThread",
+        "init",
+        "eventLoop",
+        "shutdown",
+        "startSecondaryEventLoop",
+        "quitSecondaryEventLoop",
+        "setDynamicLayoutNative",
+        "isDynamicLayoutSupportedNative",
+        "makeColorModel",
+        "getScreenInsets",
+        "nativeSync",
+        "beep",
+        "getLockingKeyStateNative",
+        "setLockingKeyStateNative",
+        "loadSystemColors",
+        "getMaximumCursorColors",
+        "showTouchKeyboard",
+        "hideTouchKeyboard",
+        "syncNativeQueue",
+        "setExtraMouseButtonsEnabledNative",
+        "getNumberOfButtonsImpl"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WTrayIconPeer.java": [
+        "setToolTip",
+        "create",
+        "_dispose",
+        "updateNativeIcon",
+        "_displayMessage"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WWindowPeer.java": [
+        "initIDs",
+        "_toFront",
+        "toBack",
+        "setAlwaysOnTopNative",
+        "setFocusableWindow",
+        "_setTitle",
+        "_setResizable",
+        "createAwtWindow",
+        "updateInsets",
+        "getSysMinWidth",
+        "getSysMinHeight",
+        "getSysIconWidth",
+        "getSysIconHeight",
+        "getSysSmIconWidth",
+        "getSysSmIconHeight",
+        "reshapeFrame",
+        "getNativeWindowSize",
+        "requestWindowFocus",
+        "setMinSize",
+        "modalDisable",
+        "modalEnable",
+        "getScreenImOn",
+        "setFullScreenExclusiveModeState",
+        "nativeGrab",
+        "nativeUngrab",
+        "repositionSecurityWarning",
+        "setOpacity",
+        "setOpaqueImpl",
+        "updateWindowImpl"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\java2d\\d3d\\D3DGraphicsDevice.java": [
+        "initD3D",
+        "getDeviceCapsNative",
+        "getDeviceIdNative",
+        "exitFullScreenExclusiveNative",
+        "getCurrentDisplayModeNative",
+        "getAvailableAcceleratedMemoryNative",
+        "isD3DAvailableOnDeviceNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\java2d\\d3d\\D3DRenderQueue.java": [
+        "flushBuffer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\java2d\\d3d\\D3DSurfaceData.java": [
+        "initRTSurface",
+        "initOps",
+        "dbGetPixelNative",
+        "getNativeResourceNative"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\java2d\\opengl\\WGLGraphicsConfig.java": [
+        "getDefaultPixFmt",
+        "initWGL",
+        "getWGLConfigInfo",
+        "getOGLCapabilities"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\java2d\\windows\\GDIWindowSurfaceData.java": [
+        "initIDs",
+        "invalidateSD"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\java2d\\windows\\WindowsFlags.java": [
+        "initNativeFlags"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.instrument\\share\\classes\\java\\lang\\instrument\\Instrumentation.java": [
+        "foo",
+        "wrapped_foo"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.instrument\\share\\classes\\sun\\instrument\\InstrumentationImpl.java": [
+        "loadAgent0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\ClassLoadingImpl.java": [
+        "setVerboseClass"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\GarbageCollectorImpl.java": [
+        "getCollectionCount",
+        "getCollectionTime"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\HotspotThread.java": [
+        "getInternalThreadCount",
+        "getInternalThreadTimes0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\MemoryImpl.java": [
+        "getMemoryUsage0",
+        "setVerboseGC"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\MemoryPoolImpl.java": [
+        "getUsage0",
+        "getPeakUsage0",
+        "getCollectionUsage0",
+        "setUsageThreshold0",
+        "setCollectionThreshold0",
+        "resetPeakUsage0",
+        "setPoolUsageSensor",
+        "setPoolCollectionSensor"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\ThreadImpl.java": [
+        "getThreadTotalCpuTime0",
+        "getThreadTotalCpuTime1",
+        "getThreadUserCpuTime0",
+        "getThreadUserCpuTime1",
+        "getThreadAllocatedMemory0",
+        "getThreadAllocatedMemory1",
+        "getTotalThreadAllocatedMemory",
+        "setThreadCpuTimeEnabled0",
+        "setThreadAllocatedMemoryEnabled0",
+        "setThreadContentionMonitoringEnabled0",
+        "resetPeakThreadCount0",
+        "resetContentionTimes0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\VMManagementImpl.java": [
+        "getVersion0",
+        "initOptionalSupportFields",
+        "isThreadContentionMonitoringEnabled",
+        "isThreadCpuTimeEnabled",
+        "isThreadAllocatedMemoryEnabled",
+        "getTotalClassCount",
+        "getUnloadedClassCount",
+        "getVerboseClass",
+        "getVerboseGC",
+        "getProcessId",
+        "getStartupTime",
+        "getUptime0",
+        "getAvailableProcessors",
+        "getTotalCompileTime",
+        "getTotalThreadCount",
+        "getLiveThreadCount",
+        "getPeakThreadCount",
+        "getDaemonThreadCount",
+        "getSafepointCount",
+        "getTotalSafepointTime",
+        "getSafepointSyncTime",
+        "getTotalApplicationNonStoppedTime",
+        "getLoadedClassSize",
+        "getUnloadedClassSize",
+        "getClassLoadingTime",
+        "getMethodDataSize",
+        "getInitializedClassCount",
+        "getClassInitializationTime",
+        "getClassVerificationTime"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.prefs\\macosx\\classes\\java\\util\\prefs\\MacOSXPreferencesFile.java": [
+        "currentUser",
+        "anyUser",
+        "currentHost",
+        "anyHost"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.prefs\\unix\\classes\\java\\util\\prefs\\FileSystemPreferences.java": [
+        "unlockFile0",
+        "chmod"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.prefs\\windows\\classes\\java\\util\\prefs\\WindowsPreferences.java": [
+        "WindowsRegCloseKey",
+        "WindowsRegDeleteKey",
+        "WindowsRegFlushKey",
+        "WindowsRegDeleteValue"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.rmi\\share\\classes\\sun\\rmi\\transport\\GC.java": [
+        "maxObjectInspectionAge"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.security.jgss\\share\\classes\\sun\\security\\krb5\\Config.java": [
+        "getWindowsDirectory"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.security.jgss\\share\\classes\\sun\\security\\krb5\\Credentials.java": [
+        "acquireDefaultNativeCreds"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.security.jgss\\share\\classes\\sun\\security\\krb5\\SCDynamicStoreConfig.java": [
+        "installNotificationCallback"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.security.jgss\\share\\classes\\sun\\security\\jgss\\wrapper\\GSSLibStub.java": [
+        "init",
+        "getMechPtr",
+        "releaseName",
+        "importName",
+        "compareName",
+        "canonicalizeName",
+        "releaseCred",
+        "getCredName",
+        "getCredTime",
+        "getCredUsage",
+        "importContext",
+        "getContextMech",
+        "getContextName",
+        "getContextTime",
+        "deleteContext",
+        "wrapSizeLimit"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.smartcardio\\unix\\classes\\sun\\security\\smartcardio\\PlatformPCSC.java": [
+        "initialize"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.accessibility\\windows\\classes\\com\\sun\\java\\accessibility\\internal\\AccessBridge.java": [
+        "isSysWow",
+        "runDLL",
+        "sendDebugString",
+        "jawtGetNativeWindowHandleFromComponent",
+        "jawtGetComponentFromNativeWindowHandle",
+        "javaShutdown",
+        "focusGained",
+        "focusLost",
+        "caretUpdate",
+        "mouseClicked",
+        "mouseEntered",
+        "mouseExited",
+        "mousePressed",
+        "mouseReleased",
+        "menuCanceled",
+        "menuDeselected",
+        "menuSelected",
+        "popupMenuCanceled"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.attach\\aix\\classes\\sun\\tools\\attach\\VirtualMachineImpl.java": [
+        "sendQuitTo",
+        "checkPermissions",
+        "socket",
+        "connect",
+        "close",
+        "read",
+        "write"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.attach\\linux\\classes\\sun\\tools\\attach\\VirtualMachineImpl.java": [
+        "sendQuitTo",
+        "checkPermissions",
+        "socket",
+        "connect",
+        "close",
+        "read",
+        "write"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.attach\\macosx\\classes\\sun\\tools\\attach\\VirtualMachineImpl.java": [
+        "sendQuitTo",
+        "checkPermissions",
+        "socket",
+        "connect",
+        "close",
+        "read",
+        "write",
+        "createAttachFile0",
+        "getTempDir"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.attach\\windows\\classes\\sun\\tools\\attach\\AttachProviderImpl.java": [
+        "tempPath",
+        "volumeFlags",
+        "enumProcesses"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.attach\\windows\\classes\\sun\\tools\\attach\\VirtualMachineImpl.java": [
+        "init",
+        "openProcess",
+        "closeProcess",
+        "createPipe",
+        "closePipe",
+        "connectPipe",
+        "readPipe"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.cryptoki\\share\\classes\\sun\\security\\pkcs11\\Secmod.java": [
+        "nssGetLibraryHandle",
+        "nssLoadLibrary",
+        "nssVersionCheck",
+        "nssInitialize",
+        "nssGetModuleList"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.cryptoki\\share\\classes\\sun\\security\\pkcs11\\wrapper\\PKCS11.java": [
+        "freeMechanism",
+        "initializeLibrary",
+        "finalizeLibrary",
+        "disconnect",
+        "C_Initialize",
+        "C_Finalize",
+        "C_GetInfo",
+        "C_GetSlotInfo",
+        "C_CloseSession",
+        "C_CloseAllSessions",
+        "C_Logout",
+        "C_FindObjectsFinal",
+        "C_CancelFunction"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.mscapi\\windows\\classes\\sun\\security\\mscapi\\CKey.java": [
+        "cleanUp",
+        "getContainerName",
+        "getKeyType"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.mscapi\\windows\\classes\\sun\\security\\mscapi\\CKeyStore.java": [
+        "removeCngKey"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.mscapi\\windows\\classes\\sun\\security\\mscapi\\PRNG.java": [
+        "getContext",
+        "releaseContext"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\asm\\Disassembler.java": [
+        "load_library"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\debugger\\bsd\\BsdDebuggerLocal.java": [
+        "getAddressSize"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\debugger\\linux\\LinuxDebuggerLocal.java": [
+        "setSAAltRoot0",
+        "getAddressSize",
+        "demangle",
+        "findLibPtrByAddress0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\debugger\\windbg\\WindbgDebuggerLocal.java": [
+        "initIDs",
+        "attach0",
+        "attach0",
+        "detach0",
+        "getThreadIdFromSysId0",
+        "consoleExecuteCommand0",
+        "lookupByName0",
+        "lookupByAddress0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\debugger\\linux\\amd64\\DwarfParser.java": [
+        "init0",
+        "createDwarfContext",
+        "destroyDwarfContext",
+        "isIn0",
+        "processDwarf0",
+        "getCFARegister",
+        "getCFAOffset",
+        "getReturnAddressOffsetFromCFA",
+        "getBasePointerOffsetFromCFA",
+        "isBPOffsetAvailable"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.internal.le\\linux\\classes\\jdk\\internal\\org\\jline\\terminal\\impl\\jna\\linux\\CLibraryImpl.java": [
+        "initIDs",
+        "tcgetattr",
+        "tcsetattr",
+        "ioctl0",
+        "isatty",
+        "ttyname_r"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.internal.le\\macosx\\classes\\jdk\\internal\\org\\jline\\terminal\\impl\\jna\\osx\\CLibraryImpl.java": [
+        "initIDs",
+        "tcgetattr",
+        "tcsetattr",
+        "ioctl0",
+        "isatty",
+        "ttyname_r"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.internal.le\\windows\\classes\\jdk\\internal\\org\\jline\\terminal\\impl\\jna\\win\\Kernel32Impl.java": [
+        "initIDs",
+        "WaitForSingleObject",
+        "GetStdHandle",
+        "GetConsoleOutputCP",
+        "FillConsoleOutputCharacter",
+        "FillConsoleOutputAttribute",
+        "GetConsoleMode",
+        "GetConsoleScreenBufferInfo",
+        "ReadConsoleInput",
+        "SetConsoleCursorPosition",
+        "SetConsoleMode",
+        "SetConsoleTextAttribute",
+        "SetConsoleTitle",
+        "WriteConsoleW",
+        "ScrollConsoleScreenBuffer"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.internal.vm.ci\\share\\classes\\jdk\\vm\\ci\\hotspot\\CompilerToVM.java": [
+        "registerNatives",
+        "arrayBaseOffset",
+        "arrayIndexScale",
+        "getExceptionTableLength",
+        "getExceptionTableStart",
+        "isCompilable",
+        "hasNeverInlineDirective",
+        "shouldInlineMethod",
+        "findUniqueConcreteMethod",
+        "getImplementor",
+        "methodIsIgnoredBySecurityStackWalk",
+        "lookupType",
+        "lookupClass",
+        "lookupJClass",
+        "getUncachedStringInPool",
+        "resolvePossiblyCachedConstantInPool",
+        "lookupNameAndTypeRefIndexInPool",
+        "lookupNameInPool",
+        "lookupSignatureInPool",
+        "lookupKlassRefIndexInPool",
+        "lookupKlassInPool",
+        "resolveInvokeDynamicInPool",
+        "resolveInvokeHandleInPool",
+        "isResolvedInvokeHandleInPool",
+        "resolveTypeInPool",
+        "constantPoolRemapInstructionOperandFromCache",
+        "lookupAppendixInPool",
+        "getInstallCodeFlags",
+        "resetCompilationStatistics",
+        "getClassInitializer",
+        "hasFinalizableSubclass",
+        "asResolvedJavaMethod",
+        "getMaxCallTargetOffset",
+        "disassembleCodeBlob",
+        "getStackTraceElement",
+        "executeHotSpotNmethod",
+        "getLocalVariableTableLength",
+        "getLocalVariableTableStart",
+        "setNotInlinableOrCompilable",
+        "reprofile",
+        "invalidateHotSpotNmethod",
+        "getCountersSize",
+        "setCountersSize",
+        "isMature",
+        "allocateCompileId",
+        "hasCompiledCodeForOSR",
+        "getSymbol",
+        "getSignatureName",
+        "materializeVirtualObjects",
+        "getVtableIndexForInterfaceMethod",
+        "shouldDebugNonSafepoints",
+        "writeDebugOutput",
+        "flushDebugOutput",
+        "getResolvedJavaMethod",
+        "getConstantPool",
+        "getResolvedJavaType0",
+        "methodDataProfileDataSize",
+        "methodDataExceptionSeen",
+        "interpreterFrameSize",
+        "compileToBytecode",
+        "getFlagValue",
+        "getComponentType",
+        "getArrayType",
+        "ensureInitialized",
+        "ensureLinked",
+        "isInternedString",
+        "getIdentityHashCode",
+        "unboxPrimitive",
+        "boxPrimitive",
+        "readStaticFieldValue",
+        "readFieldValue",
+        "isInstance",
+        "isAssignableFrom",
+        "asJavaType",
+        "asString",
+        "equals",
+        "getJavaMirror",
+        "getArrayLength",
+        "readArrayElement",
+        "translate",
+        "unhand",
+        "updateHotSpotNmethod",
+        "asReflectionExecutable",
+        "asReflectionField",
+        "isTrustedForIntrinsics",
+        "releaseClearedOopHandles",
+        "getFailedSpeculationsAddress",
+        "releaseFailedSpeculations",
+        "addFailedSpeculation",
+        "isCurrentThreadAttached",
+        "getCurrentJavaThread",
+        "attachCurrentThread",
+        "detachCurrentThread",
+        "callSystemExit",
+        "ticksNow",
+        "setThreadLocalObject",
+        "getThreadLocalObject",
+        "setThreadLocalLong",
+        "getThreadLocalLong",
+        "registerCompilerPhase",
+        "notifyCompilerPhaseEvent"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.internal.vm.ci\\share\\classes\\jdk\\vm\\ci\\hotspot\\HotSpotJVMCIRuntime.java": [
+        "compile0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.internal.vm.ci\\share\\classes\\jdk\\vm\\ci\\runtime\\JVMCI.java": [
+        "initializeRuntime"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.jdi\\windows\\classes\\com\\sun\\tools\\jdi\\SharedMemoryConnection.java": [
+        "receiveByte0",
+        "sendByte0",
+        "close0",
+        "sendPacket0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.jdi\\windows\\classes\\com\\sun\\tools\\jdi\\SharedMemoryTransportService.java": [
+        "initialize",
+        "startListening0",
+        "attach0",
+        "stopListening0",
+        "accept0",
+        "name"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.jfr\\share\\classes\\jdk\\jfr\\internal\\JVM.java": [
+        "registerNatives",
+        "markChunkFinal",
+        "beginRecording",
+        "isRecording",
+        "endRecording",
+        "counterTime",
+        "emitEvent",
+        "getUnloadedEventClassCount",
+        "getClassId",
+        "getPid",
+        "getStackTraceId",
+        "getThreadId",
+        "getTicksFrequency",
+        "log",
+        "logEvent",
+        "subscribeLogLevel",
+        "retransformClasses",
+        "setEnabled",
+        "setFileNotification",
+        "setGlobalBufferCount",
+        "setGlobalBufferSize",
+        "setMemorySize",
+        "setMethodSamplingPeriod",
+        "setOutput",
+        "setForceInstrumentation",
+        "setCompressedIntegers",
+        "setStackDepth",
+        "setStackTraceEnabled",
+        "setThreadBufferSize",
+        "setThreshold",
+        "storeMetadataDescriptor",
+        "getAllowedToDoEventRetransforms",
+        "createJFR",
+        "destroyJFR",
+        "isAvailable",
+        "getTimeConversionFactor",
+        "getTypeId",
+        "getEventWriter",
+        "newEventWriter",
+        "flush",
+        "commit",
+        "flush",
+        "setRepositoryLocation",
+        "setDumpPath",
+        "getDumpPath",
+        "abort",
+        "addStringConstant",
+        "uncaughtException",
+        "setCutoff",
+        "setThrottle",
+        "emitOldObjectSamples",
+        "shouldRotateDisk",
+        "exclude",
+        "include",
+        "isExcluded",
+        "isExcluded",
+        "isInstrumented",
+        "getChunkStartNanos",
+        "setConfiguration",
+        "getConfiguration",
+        "getTypeId",
+        "isContainerized",
+        "hostTotalMemory",
+        "emitDataLoss"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.jpackage\\windows\\classes\\jdk\\jpackage\\internal\\ExecutableRebrander.java": [
+        "lockResource",
+        "unlockResource",
+        "iconSwap",
+        "versionSwap"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.jpackage\\windows\\classes\\jdk\\jpackage\\internal\\WindowsRegistry.java": [
+        "openRegistryKey",
+        "enumRegistryValue",
+        "closeRegistryKey",
+        "comparePaths"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.jpackage\\windows\\classes\\jdk\\jpackage\\internal\\WinExeBundler.java": [
+        "embedMSI"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management\\share\\classes\\com\\sun\\management\\internal\\DiagnosticCommandImpl.java": [
+        "setNotificationEnabled",
+        "executeDiagnosticCommand"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management\\share\\classes\\com\\sun\\management\\internal\\Flag.java": [
+        "getFlags",
+        "getInternalFlagCount",
+        "setLongValue",
+        "setDoubleValue",
+        "setBooleanValue",
+        "setStringValue",
+        "initialize"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management\\share\\classes\\com\\sun\\management\\internal\\GcInfoBuilder.java": [
+        "getNumGcExtAttributes"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management\\share\\classes\\com\\sun\\management\\internal\\HotSpotDiagnostic.java": [
+        "dumpHeap0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management\\unix\\classes\\com\\sun\\management\\internal\\OperatingSystemImpl.java": [
+        "getCommittedVirtualMemorySize0",
+        "getFreeMemorySize0",
+        "getFreeSwapSpaceSize0",
+        "getMaxFileDescriptorCount0",
+        "getOpenFileDescriptorCount0",
+        "getProcessCpuTime0",
+        "getProcessCpuLoad0",
+        "getCpuLoad0",
+        "getTotalMemorySize0",
+        "getTotalSwapSpaceSize0",
+        "getSingleCpuLoad0",
+        "getHostConfiguredCpuCount0",
+        "getHostOnlineCpuCount0",
+        "getHostTotalCpuTicks0",
+        "initialize0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management\\windows\\classes\\com\\sun\\management\\internal\\OperatingSystemImpl.java": [
+        "getCommittedVirtualMemorySize0",
+        "getFreeMemorySize0",
+        "getFreeSwapSpaceSize0",
+        "getProcessCpuLoad0",
+        "getProcessCpuTime0",
+        "getCpuLoad0",
+        "getTotalMemorySize0",
+        "getTotalSwapSpaceSize0",
+        "initialize0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management.agent\\unix\\classes\\jdk\\internal\\agent\\FileSystemImpl.java": [
+        "isAccessUserOnly0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.management.agent\\windows\\classes\\jdk\\internal\\agent\\FileSystemImpl.java": [
+        "init0",
+        "isSecuritySupported0",
+        "isAccessUserOnly0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.net\\aix\\classes\\jdk\\net\\AIXSocketOptions.java": [
+        "setTcpkeepAliveProbes0",
+        "setTcpKeepAliveTime0",
+        "setTcpKeepAliveIntvl0",
+        "setIpDontFragment0",
+        "getTcpkeepAliveProbes0",
+        "getTcpKeepAliveTime0",
+        "getTcpKeepAliveIntvl0",
+        "getIpDontFragment0",
+        "setQuickAck0",
+        "getQuickAck0",
+        "getSoPeerCred0",
+        "keepAliveOptionsSupported0",
+        "quickAckSupported0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.net\\linux\\classes\\jdk\\net\\LinuxSocketOptions.java": [
+        "setTcpkeepAliveProbes0",
+        "setTcpKeepAliveTime0",
+        "setTcpKeepAliveIntvl0",
+        "setIpDontFragment0",
+        "getTcpkeepAliveProbes0",
+        "getTcpKeepAliveTime0",
+        "getTcpKeepAliveIntvl0",
+        "getIpDontFragment0",
+        "setQuickAck0",
+        "getQuickAck0",
+        "getSoPeerCred0",
+        "keepAliveOptionsSupported0",
+        "quickAckSupported0",
+        "incomingNapiIdSupported0",
+        "getIncomingNapiId0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.net\\macosx\\classes\\jdk\\net\\MacOSXSocketOptions.java": [
+        "setTcpkeepAliveProbes0",
+        "setTcpKeepAliveTime0",
+        "setTcpKeepAliveIntvl0",
+        "setIpDontFragment0",
+        "getTcpkeepAliveProbes0",
+        "getTcpKeepAliveTime0",
+        "getTcpKeepAliveIntvl0",
+        "getIpDontFragment0",
+        "getSoPeerCred0",
+        "keepAliveOptionsSupported0",
+        "ipDontFragmentSupported0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.net\\windows\\classes\\jdk\\net\\WindowsSocketOptions.java": [
+        "setIpDontFragment0",
+        "getIpDontFragment0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.sctp\\unix\\classes\\sun\\nio\\ch\\sctp\\SctpChannelImpl.java": [
+        "initIDs"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.sctp\\unix\\classes\\sun\\nio\\ch\\sctp\\SctpNet.java": [
+        "socket0",
+        "listen0",
+        "close0",
+        "preClose0",
+        "getIntOption0",
+        "branch0",
+        "getInitMsgOption0",
+        "shutdown0",
+        "init"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.security.auth\\share\\classes\\com\\sun\\security\\auth\\module\\NTSystem.java": [
+        "getCurrent",
+        "getImpersonationToken0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.security.auth\\share\\classes\\com\\sun\\security\\auth\\module\\UnixSystem.java": [
+        "getUnixInfo"
+    ]
+}

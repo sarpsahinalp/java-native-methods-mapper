@@ -1,0 +1,1436 @@
+Id;Package;Class;Method;Category
+1;java.base;java.io.Console;echo(boolean);files
+2;java.base;java.io.Console;encoding();internal
+3;java.base;java.io.Console;istty();files
+4;java.base;java.io.FileCleanable;cleanupClose0(int, long);files
+5;java.base;java.io.FileDescriptor;close0();files
+6;java.base;java.io.FileDescriptor;getAppend(int);files
+7;java.base;java.io.FileDescriptor;getHandle(int);internal
+8;java.base;java.io.FileDescriptor;initIDs();internal
+9;java.base;java.io.FileDescriptor;sync();files
+10;java.base;java.io.FileInputStream;available0();files
+11;java.base;java.io.FileInputStream;initIDs();internal
+12;java.base;java.io.FileInputStream;length0();files
+13;java.base;java.io.FileInputStream;open0(java.lang.String);files
+14;java.base;java.io.FileInputStream;position0();files
+15;java.base;java.io.FileInputStream;read0();files
+16;java.base;java.io.FileInputStream;readBytes(byte[], int, int);files
+17;java.base;java.io.FileInputStream;skip0(long);files
+18;java.base;java.io.FileOutputStream;initIDs();internal
+19;java.base;java.io.FileOutputStream;open0(java.lang.String, boolean);files
+20;java.base;java.io.FileOutputStream;write(int, boolean);files
+21;java.base;java.io.FileOutputStream;writeBytes(byte[], int, int, boolean);files
+22;java.base;java.io.ObjectStreamClass;hasStaticInitializer(java.lang.Class);internal
+23;java.base;java.io.ObjectStreamClass;initNative();internal
+24;java.base;java.io.RandomAccessFile;getFilePointer();files
+25;java.base;java.io.RandomAccessFile;initIDs();internal
+26;java.base;java.io.RandomAccessFile;length();files
+27;java.base;java.io.RandomAccessFile;open0(java.lang.String, int);files
+28;java.base;java.io.RandomAccessFile;read0();files
+29;java.base;java.io.RandomAccessFile;readBytes(byte[], int, int);files
+30;java.base;java.io.RandomAccessFile;seek0(long);files
+31;java.base;java.io.RandomAccessFile;setLength(long);files
+32;java.base;java.io.RandomAccessFile;write0(int);files
+33;java.base;java.io.RandomAccessFile;writeBytes(byte[], int, int);files
+34;java.base;java.io.UnixFileSystem;canonicalize0(java.lang.String);files
+35;java.base;java.io.UnixFileSystem;checkAccess(java.io.File, int);files
+36;java.base;java.io.UnixFileSystem;createDirectory(java.io.File);files
+37;java.base;java.io.UnixFileSystem;createFileExclusively(java.lang.String);files
+38;java.base;java.io.UnixFileSystem;delete0(java.io.File);files
+39;java.base;java.io.UnixFileSystem;getBooleanAttributes0(java.io.File);files
+40;java.base;java.io.UnixFileSystem;getLastModifiedTime(java.io.File);files
+41;java.base;java.io.UnixFileSystem;getLength(java.io.File);files
+42;java.base;java.io.UnixFileSystem;getNameMax0(java.lang.String);files
+43;java.base;java.io.UnixFileSystem;getSpace(java.io.File, int);files
+44;java.base;java.io.UnixFileSystem;initIDs();internal
+45;java.base;java.io.UnixFileSystem;list(java.io.File);files
+46;java.base;java.io.UnixFileSystem;rename0(java.io.File, java.io.File);files
+47;java.base;java.io.UnixFileSystem;setLastModifiedTime(java.io.File, long);files
+48;java.base;java.io.UnixFileSystem;setPermission(java.io.File, int, boolean, boolean);files
+49;java.base;java.io.UnixFileSystem;setReadOnly(java.io.File);files
+50;java.base;java.lang.Class;desiredAssertionStatus0(java.lang.Class);internal
+51;java.base;java.lang.Class;forName0(java.lang.String, boolean, java.lang.ClassLoader, java.lang.Class);internal
+52;java.base;java.lang.Class;getConstantPool();internal
+53;java.base;java.lang.Class;getDeclaredClasses0();internal
+54;java.base;java.lang.Class;getDeclaredConstructors0(boolean);internal
+55;java.base;java.lang.Class;getDeclaredFields0(boolean);internal
+56;java.base;java.lang.Class;getDeclaredMethods0(boolean);internal
+57;java.base;java.lang.Class;getDeclaringClass0();internal
+58;java.base;java.lang.Class;getEnclosingMethod0();internal
+59;java.base;java.lang.Class;getGenericSignature0();internal
+60;java.base;java.lang.Class;getInterfaces0();internal
+61;java.base;java.lang.Class;getModifiers();internal
+62;java.base;java.lang.Class;getNestHost0();internal
+63;java.base;java.lang.Class;getNestMembers0();internal
+64;java.base;java.lang.Class;getPermittedSubclasses0();internal
+65;java.base;java.lang.Class;getPrimitiveClass(java.lang.String);internal
+66;java.base;java.lang.Class;getProtectionDomain0();internal
+67;java.base;java.lang.Class;getRawAnnotations();internal
+68;java.base;java.lang.Class;getRawTypeAnnotations();internal
+69;java.base;java.lang.Class;getRecordComponents0();internal
+70;java.base;java.lang.Class;getSigners();internal
+71;java.base;java.lang.Class;getSimpleBinaryName0();internal
+72;java.base;java.lang.Class;getSuperclass();internal
+73;java.base;java.lang.Class;initClassName();internal
+74;java.base;java.lang.Class;isArray();internal
+75;java.base;java.lang.Class;isAssignableFrom(java.lang.Class);internal
+76;java.base;java.lang.Class;isHidden();internal
+77;java.base;java.lang.Class;isInstance(java.lang.Object);internal
+78;java.base;java.lang.Class;isInterface();internal
+79;java.base;java.lang.Class;isPrimitive();internal
+80;java.base;java.lang.Class;isRecord0();internal
+81;java.base;java.lang.Class;registerNatives();internal
+82;java.base;java.lang.Class;setSigners(java.lang.Object[]);internal
+83;java.base;java.lang.ClassLoader;defineClass0(java.lang.ClassLoader, java.lang.Class, java.lang.String, byte[], int, int, java.security.ProtectionDomain, boolean, int, java.lang.Object);internal
+84;java.base;java.lang.ClassLoader;defineClass1(java.lang.ClassLoader, java.lang.String, byte[], int, int, java.security.ProtectionDomain, java.lang.String);internal
+85;java.base;java.lang.ClassLoader;defineClass2(java.lang.ClassLoader, java.lang.String, java.nio.ByteBuffer, int, int, java.security.ProtectionDomain, java.lang.String);internal
+86;java.base;java.lang.ClassLoader;findBootstrapClass(java.lang.String);internal
+87;java.base;java.lang.ClassLoader;findLoadedClass0(java.lang.String);internal
+88;java.base;java.lang.ClassLoader;registerNatives();internal
+89;java.base;java.lang.ClassLoader;retrieveDirectives();internal
+90;java.base;java.lang.Double;doubleToRawLongBits(double);internal
+91;java.base;java.lang.Double;longBitsToDouble(long);internal
+92;java.base;java.lang.Float;floatToRawIntBits(float);internal
+93;java.base;java.lang.Float;intBitsToFloat(int);internal
+94;java.base;java.lang.invoke.LambdaProxyClassArchive;addToArchive(java.lang.Class, java.lang.String, java.lang.invoke.MethodType, java.lang.invoke.MethodType, java.lang.invoke.MemberName, java.lang.invoke.MethodType, java.lang.Class);internal
+95;java.base;java.lang.invoke.LambdaProxyClassArchive;findFromArchive(java.lang.Class, java.lang.String, java.lang.invoke.MethodType, java.lang.invoke.MethodType, java.lang.invoke.MemberName, java.lang.invoke.MethodType);internal
+96;java.base;java.lang.invoke.MethodHandle;invoke(java.lang.Object[]);invocation
+97;java.base;java.lang.invoke.MethodHandle;invokeBasic(java.lang.Object[]);invocation
+98;java.base;java.lang.invoke.MethodHandle;invokeExact(java.lang.Object[]);invocation
+99;java.base;java.lang.invoke.MethodHandle;linkToInterface(java.lang.Object[]);invocation
+100;java.base;java.lang.invoke.MethodHandle;linkToNative(java.lang.Object[]);invocation
+101;java.base;java.lang.invoke.MethodHandle;linkToSpecial(java.lang.Object[]);invocation
+102;java.base;java.lang.invoke.MethodHandle;linkToStatic(java.lang.Object[]);invocation
+103;java.base;java.lang.invoke.MethodHandle;linkToVirtual(java.lang.Object[]);invocation
+104;java.base;java.lang.invoke.MethodHandleNatives;clearCallSiteContext(java.lang.invoke.MethodHandleNatives$CallSiteContext);internal
+105;java.base;java.lang.invoke.MethodHandleNatives;copyOutBootstrapArguments(java.lang.Class, int[], int, int, java.lang.Object[], int, boolean, java.lang.Object);internal
+106;java.base;java.lang.invoke.MethodHandleNatives;expand(java.lang.invoke.MemberName);internal
+107;java.base;java.lang.invoke.MethodHandleNatives;getMembers(java.lang.Class, java.lang.String, java.lang.String, int, java.lang.Class, int, java.lang.invoke.MemberName[]);internal
+108;java.base;java.lang.invoke.MethodHandleNatives;getMemberVMInfo(java.lang.invoke.MemberName);internal
+109;java.base;java.lang.invoke.MethodHandleNatives;getNamedCon(int, java.lang.Object[]);internal
+110;java.base;java.lang.invoke.MethodHandleNatives;init(java.lang.invoke.MemberName, java.lang.Object);internal
+111;java.base;java.lang.invoke.MethodHandleNatives;objectFieldOffset(java.lang.invoke.MemberName);internal
+112;java.base;java.lang.invoke.MethodHandleNatives;registerNatives();internal
+113;java.base;java.lang.invoke.MethodHandleNatives;resolve(java.lang.invoke.MemberName, java.lang.Class, int, boolean);internal
+114;java.base;java.lang.invoke.MethodHandleNatives;setCallSiteTargetNormal(java.lang.invoke.CallSite, java.lang.invoke.MethodHandle);internal
+115;java.base;java.lang.invoke.MethodHandleNatives;setCallSiteTargetVolatile(java.lang.invoke.CallSite, java.lang.invoke.MethodHandle);internal
+116;java.base;java.lang.invoke.MethodHandleNatives;staticFieldBase(java.lang.invoke.MemberName);internal
+117;java.base;java.lang.invoke.MethodHandleNatives;staticFieldOffset(java.lang.invoke.MemberName);internal
+118;java.base;java.lang.invoke.VarHandle;compareAndExchange(java.lang.Object[]);internal
+119;java.base;java.lang.invoke.VarHandle;compareAndExchangeAcquire(java.lang.Object[]);internal
+120;java.base;java.lang.invoke.VarHandle;compareAndExchangeRelease(java.lang.Object[]);internal
+121;java.base;java.lang.invoke.VarHandle;compareAndSet(java.lang.Object[]);internal
+122;java.base;java.lang.invoke.VarHandle;get(java.lang.Object[]);internal
+123;java.base;java.lang.invoke.VarHandle;getAcquire(java.lang.Object[]);internal
+124;java.base;java.lang.invoke.VarHandle;getAndAdd(java.lang.Object[]);internal
+125;java.base;java.lang.invoke.VarHandle;getAndAddAcquire(java.lang.Object[]);internal
+126;java.base;java.lang.invoke.VarHandle;getAndAddRelease(java.lang.Object[]);internal
+127;java.base;java.lang.invoke.VarHandle;getAndBitwiseAnd(java.lang.Object[]);internal
+128;java.base;java.lang.invoke.VarHandle;getAndBitwiseAndAcquire(java.lang.Object[]);internal
+129;java.base;java.lang.invoke.VarHandle;getAndBitwiseAndRelease(java.lang.Object[]);internal
+130;java.base;java.lang.invoke.VarHandle;getAndBitwiseOr(java.lang.Object[]);internal
+131;java.base;java.lang.invoke.VarHandle;getAndBitwiseOrAcquire(java.lang.Object[]);internal
+132;java.base;java.lang.invoke.VarHandle;getAndBitwiseOrRelease(java.lang.Object[]);internal
+133;java.base;java.lang.invoke.VarHandle;getAndBitwiseXor(java.lang.Object[]);internal
+134;java.base;java.lang.invoke.VarHandle;getAndBitwiseXorAcquire(java.lang.Object[]);internal
+135;java.base;java.lang.invoke.VarHandle;getAndBitwiseXorRelease(java.lang.Object[]);internal
+136;java.base;java.lang.invoke.VarHandle;getAndSet(java.lang.Object[]);internal
+137;java.base;java.lang.invoke.VarHandle;getAndSetAcquire(java.lang.Object[]);internal
+138;java.base;java.lang.invoke.VarHandle;getAndSetRelease(java.lang.Object[]);internal
+139;java.base;java.lang.invoke.VarHandle;getOpaque(java.lang.Object[]);internal
+140;java.base;java.lang.invoke.VarHandle;getVolatile(java.lang.Object[]);internal
+141;java.base;java.lang.invoke.VarHandle;set(java.lang.Object[]);internal
+142;java.base;java.lang.invoke.VarHandle;setOpaque(java.lang.Object[]);internal
+143;java.base;java.lang.invoke.VarHandle;setRelease(java.lang.Object[]);internal
+144;java.base;java.lang.invoke.VarHandle;setVolatile(java.lang.Object[]);internal
+145;java.base;java.lang.invoke.VarHandle;weakCompareAndSet(java.lang.Object[]);internal
+146;java.base;java.lang.invoke.VarHandle;weakCompareAndSetAcquire(java.lang.Object[]);internal
+147;java.base;java.lang.invoke.VarHandle;weakCompareAndSetPlain(java.lang.Object[]);internal
+148;java.base;java.lang.invoke.VarHandle;weakCompareAndSetRelease(java.lang.Object[]);internal
+149;java.base;java.lang.Module;addExports0(java.lang.Module, java.lang.String, java.lang.Module);internal
+150;java.base;java.lang.Module;addExportsToAll0(java.lang.Module, java.lang.String);internal
+151;java.base;java.lang.Module;addExportsToAllUnnamed0(java.lang.Module, java.lang.String);internal
+152;java.base;java.lang.Module;addReads0(java.lang.Module, java.lang.Module);internal
+153;java.base;java.lang.Module;defineModule0(java.lang.Module, boolean, java.lang.String, java.lang.String, java.lang.Object[]);internal
+154;java.base;java.lang.NullPointerException;getExtendedNPEMessage();internal
+155;java.base;java.lang.Object;clone();internal
+156;java.base;java.lang.Object;getClass();internal
+157;java.base;java.lang.Object;hashCode();internal
+158;java.base;java.lang.Object;notify();internal
+159;java.base;java.lang.Object;notifyAll();internal
+160;java.base;java.lang.Object;wait(long);time
+161;java.base;java.lang.ProcessEnvironment;environ();os
+162;java.base;java.lang.ProcessHandleImpl;destroy0(long, long, boolean);os
+163;java.base;java.lang.ProcessHandleImpl;getCurrentPid0();os
+164;java.base;java.lang.ProcessHandleImpl;getProcessPids0(long, long[], long[], long[]);os
+165;java.base;java.lang.ProcessHandleImpl;initNative();os
+166;java.base;java.lang.ProcessHandleImpl;isAlive0(long);os
+167;java.base;java.lang.ProcessHandleImpl;parent0(long, long);os
+168;java.base;java.lang.ProcessHandleImpl;waitForProcessExit0(long, boolean);os
+169;java.base;java.lang.ProcessHandleImpl$Info;info0(long);os
+170;java.base;java.lang.ProcessHandleImpl$Info;initIDs();internal
+171;java.base;java.lang.ProcessImpl;forkAndExec(int, byte[], byte[], byte[], int, byte[], int, byte[], int[], boolean);os
+172;java.base;java.lang.ProcessImpl;init();os
+173;java.base;java.lang.ref.PhantomReference;refersTo0(java.lang.Object);internal
+174;java.base;java.lang.ref.Reference;clear0();internal
+175;java.base;java.lang.ref.Reference;getAndClearReferencePendingList();internal
+176;java.base;java.lang.ref.Reference;hasReferencePendingList();internal
+177;java.base;java.lang.ref.Reference;refersTo0(java.lang.Object);internal
+178;java.base;java.lang.ref.Reference;waitForReferencePendingList();internal
+179;java.base;java.lang.reflect.Array;get(java.lang.Object, int);internal
+180;java.base;java.lang.reflect.Array;getBoolean(java.lang.Object, int);internal
+181;java.base;java.lang.reflect.Array;getByte(java.lang.Object, int);internal
+182;java.base;java.lang.reflect.Array;getChar(java.lang.Object, int);internal
+183;java.base;java.lang.reflect.Array;getDouble(java.lang.Object, int);internal
+184;java.base;java.lang.reflect.Array;getFloat(java.lang.Object, int);internal
+185;java.base;java.lang.reflect.Array;getInt(java.lang.Object, int);internal
+186;java.base;java.lang.reflect.Array;getLength(java.lang.Object);internal
+187;java.base;java.lang.reflect.Array;getLong(java.lang.Object, int);internal
+188;java.base;java.lang.reflect.Array;getShort(java.lang.Object, int);internal
+189;java.base;java.lang.reflect.Array;multiNewArray(java.lang.Class, int[]);internal
+190;java.base;java.lang.reflect.Array;newArray(java.lang.Class, int);internal
+191;java.base;java.lang.reflect.Array;set(java.lang.Object, int, java.lang.Object);internal
+192;java.base;java.lang.reflect.Array;setBoolean(java.lang.Object, int, boolean);internal
+193;java.base;java.lang.reflect.Array;setByte(java.lang.Object, int, byte);internal
+194;java.base;java.lang.reflect.Array;setChar(java.lang.Object, int, char);internal
+195;java.base;java.lang.reflect.Array;setDouble(java.lang.Object, int, double);internal
+196;java.base;java.lang.reflect.Array;setFloat(java.lang.Object, int, float);internal
+197;java.base;java.lang.reflect.Array;setInt(java.lang.Object, int, int);internal
+198;java.base;java.lang.reflect.Array;setLong(java.lang.Object, int, long);internal
+199;java.base;java.lang.reflect.Array;setShort(java.lang.Object, int, short);internal
+200;java.base;java.lang.reflect.Executable;getParameters0();internal
+201;java.base;java.lang.reflect.Executable;getTypeAnnotationBytes0();internal
+202;java.base;java.lang.reflect.Field;getTypeAnnotationBytes0();internal
+203;java.base;java.lang.Runtime;availableProcessors();os
+204;java.base;java.lang.Runtime;freeMemory();internal
+205;java.base;java.lang.Runtime;gc();internal
+206;java.base;java.lang.Runtime;maxMemory();internal
+207;java.base;java.lang.Runtime;totalMemory();internal
+208;java.base;java.lang.SecurityManager;getClassContext();internal
+209;java.base;java.lang.Shutdown;beforeHalt();invocation
+210;java.base;java.lang.Shutdown;halt0(int);time
+211;java.base;java.lang.StackStreamFactory;checkStackWalkModes();internal
+212;java.base;java.lang.StackStreamFactory$AbstractStackWalker;callStackWalk(long, int, int, int, java.lang.Object[]);internal
+213;java.base;java.lang.StackStreamFactory$AbstractStackWalker;fetchStackFrames(long, long, int, int, java.lang.Object[]);internal
+214;java.base;java.lang.StackTraceElement;initStackTraceElement(java.lang.StackTraceElement, java.lang.StackFrameInfo);internal
+215;java.base;java.lang.StackTraceElement;initStackTraceElements(java.lang.StackTraceElement[], java.lang.Throwable);internal
+216;java.base;java.lang.StrictMath;acos(double);internal
+217;java.base;java.lang.StrictMath;asin(double);internal
+218;java.base;java.lang.StrictMath;atan(double);internal
+219;java.base;java.lang.StrictMath;atan2(double, double);internal
+220;java.base;java.lang.StrictMath;cos(double);internal
+221;java.base;java.lang.StrictMath;cosh(double);internal
+222;java.base;java.lang.StrictMath;expm1(double);internal
+223;java.base;java.lang.StrictMath;IEEEremainder(double, double);internal
+224;java.base;java.lang.StrictMath;log(double);internal
+225;java.base;java.lang.StrictMath;log10(double);internal
+226;java.base;java.lang.StrictMath;log1p(double);internal
+227;java.base;java.lang.StrictMath;sin(double);internal
+228;java.base;java.lang.StrictMath;sinh(double);internal
+229;java.base;java.lang.StrictMath;sqrt(double);internal
+230;java.base;java.lang.StrictMath;tan(double);internal
+231;java.base;java.lang.StrictMath;tanh(double);internal
+232;java.base;java.lang.String;intern();internal
+233;java.base;java.lang.StringUTF16;isBigEndian();internal
+234;java.base;java.lang.System;arraycopy(java.lang.Object, int, java.lang.Object, int, int);internal
+235;java.base;java.lang.System;currentTimeMillis();time
+236;java.base;java.lang.System;identityHashCode(java.lang.Object);internal
+237;java.base;java.lang.System;mapLibraryName(java.lang.String);internal
+238;java.base;java.lang.System;nanoTime();time
+239;java.base;java.lang.System;registerNatives();internal
+240;java.base;java.lang.System;setErr0(java.io.PrintStream);internal
+241;java.base;java.lang.System;setIn0(java.io.InputStream);internal
+242;java.base;java.lang.System;setOut0(java.io.PrintStream);internal
+243;java.base;java.lang.Thread;clearInterruptEvent();internal
+244;java.base;java.lang.Thread;currentThread();internal
+245;java.base;java.lang.Thread;dumpThreads(java.lang.Thread[]);internal
+246;java.base;java.lang.Thread;getThreads();internal
+247;java.base;java.lang.Thread;holdsLock(java.lang.Object);internal
+248;java.base;java.lang.Thread;interrupt0();internal
+249;java.base;java.lang.Thread;isAlive();internal
+250;java.base;java.lang.Thread;registerNatives();internal
+251;java.base;java.lang.Thread;resume0();internal
+252;java.base;java.lang.Thread;setNativeName(java.lang.String);os
+253;java.base;java.lang.Thread;setPriority0(int);os
+254;java.base;java.lang.Thread;sleep(long);time
+255;java.base;java.lang.Thread;start0();internal
+256;java.base;java.lang.Thread;stop0(java.lang.Object);internal
+257;java.base;java.lang.Thread;suspend0();internal
+258;java.base;java.lang.Thread;yield();internal
+259;java.base;java.lang.Throwable;fillInStackTrace(int);internal
+260;java.base;java.net.AbstractPlainDatagramSocketImpl;isReusePortAvailable0();internal
+261;java.base;java.net.AbstractPlainSocketImpl;isReusePortAvailable0();internal
+262;java.base;java.net.DatagramPacket;init();internal
+263;java.base;java.net.Inet4Address;init();internal
+264;java.base;java.net.Inet4AddressImpl;getHostByAddr(byte[]);network
+265;java.base;java.net.Inet4AddressImpl;getLocalHostName();os
+266;java.base;java.net.Inet4AddressImpl;isReachable0(byte[], int, byte[], int);network
+267;java.base;java.net.Inet4AddressImpl;lookupAllHostAddr(java.lang.String);network
+268;java.base;java.net.Inet6Address;init();internal
+269;java.base;java.net.Inet6AddressImpl;getHostByAddr(byte[]);network
+270;java.base;java.net.Inet6AddressImpl;getLocalHostName();network
+271;java.base;java.net.Inet6AddressImpl;isReachable0(byte[], int, int, byte[], int, int);network
+272;java.base;java.net.Inet6AddressImpl;lookupAllHostAddr(java.lang.String);network
+273;java.base;java.net.InetAddress;init();internal
+274;java.base;java.net.InetAddressImplFactory;isIPv6Supported();internal
+275;java.base;java.net.NetworkInterface;boundInetAddress0(java.net.InetAddress);network
+276;java.base;java.net.NetworkInterface;getAll();network
+277;java.base;java.net.NetworkInterface;getByIndex0(int);network
+278;java.base;java.net.NetworkInterface;getByInetAddress0(java.net.InetAddress);network
+279;java.base;java.net.NetworkInterface;getByName0(java.lang.String);network
+280;java.base;java.net.NetworkInterface;getMacAddr0(byte[], java.lang.String, int);network
+281;java.base;java.net.NetworkInterface;getMTU0(java.lang.String, int);network
+282;java.base;java.net.NetworkInterface;init();internal
+283;java.base;java.net.NetworkInterface;isLoopback0(java.lang.String, int);network
+284;java.base;java.net.NetworkInterface;isP2P0(java.lang.String, int);network
+285;java.base;java.net.NetworkInterface;isUp0(java.lang.String, int);network
+286;java.base;java.net.NetworkInterface;supportsMulticast0(java.lang.String, int);network
+287;java.base;java.net.PlainDatagramSocketImpl;bind0(int, java.net.InetAddress);network
+288;java.base;java.net.PlainDatagramSocketImpl;connect0(java.net.InetAddress, int);network
+289;java.base;java.net.PlainDatagramSocketImpl;dataAvailable();network
+290;java.base;java.net.PlainDatagramSocketImpl;datagramSocketClose();network
+291;java.base;java.net.PlainDatagramSocketImpl;datagramSocketCreate();network
+292;java.base;java.net.PlainDatagramSocketImpl;disconnect0(int);network
+293;java.base;java.net.PlainDatagramSocketImpl;getTimeToLive();network
+294;java.base;java.net.PlainDatagramSocketImpl;getTTL();network
+295;java.base;java.net.PlainDatagramSocketImpl;init();internal
+296;java.base;java.net.PlainDatagramSocketImpl;join(java.net.InetAddress, java.net.NetworkInterface);network
+297;java.base;java.net.PlainDatagramSocketImpl;leave(java.net.InetAddress, java.net.NetworkInterface);network
+298;java.base;java.net.PlainDatagramSocketImpl;peek(java.net.InetAddress);network
+299;java.base;java.net.PlainDatagramSocketImpl;peekData(java.net.DatagramPacket);network
+300;java.base;java.net.PlainDatagramSocketImpl;receive0(java.net.DatagramPacket);network
+301;java.base;java.net.PlainDatagramSocketImpl;send0(java.net.DatagramPacket);network
+302;java.base;java.net.PlainDatagramSocketImpl;setTimeToLive(int);network
+303;java.base;java.net.PlainDatagramSocketImpl;setTTL(byte);network
+304;java.base;java.net.PlainDatagramSocketImpl;socketGetOption(int);network
+305;java.base;java.net.PlainDatagramSocketImpl;socketSetOption0(int, java.lang.Object);network
+306;java.base;java.net.PlainSocketImpl;initProto();network
+307;java.base;java.net.PlainSocketImpl;socketAccept(java.net.SocketImpl);network
+308;java.base;java.net.PlainSocketImpl;socketAvailable();network
+309;java.base;java.net.PlainSocketImpl;socketBind(java.net.InetAddress, int);network
+310;java.base;java.net.PlainSocketImpl;socketClose0(boolean);network
+311;java.base;java.net.PlainSocketImpl;socketConnect(java.net.InetAddress, int, int);network
+312;java.base;java.net.PlainSocketImpl;socketCreate(boolean, boolean);network
+313;java.base;java.net.PlainSocketImpl;socketGetOption(int, java.lang.Object);network
+314;java.base;java.net.PlainSocketImpl;socketListen(int);network
+315;java.base;java.net.PlainSocketImpl;socketSendUrgentData(int);network
+316;java.base;java.net.PlainSocketImpl;socketSetOption0(int, boolean, java.lang.Object);network
+317;java.base;java.net.PlainSocketImpl;socketShutdown(int);network
+318;java.base;java.net.SocketCleanable;cleanupClose0(int);network
+319;java.base;java.net.SocketInputStream;init();internal
+320;java.base;java.net.SocketInputStream;socketRead0(java.io.FileDescriptor, byte[], int, int, int);network
+321;java.base;java.net.SocketOutputStream;init();internal
+322;java.base;java.net.SocketOutputStream;socketWrite0(java.io.FileDescriptor, byte[], int, int);network
+323;java.base;java.nio.MappedMemoryUtils;force0(java.io.FileDescriptor, long, long);os
+324;java.base;java.nio.MappedMemoryUtils;isLoaded0(long, long, long);os
+325;java.base;java.nio.MappedMemoryUtils;load0(long, long);os
+326;java.base;java.nio.MappedMemoryUtils;unload0(long, long);os
+327;java.base;java.security.AccessController;ensureMaterializedForStackWalk(java.lang.Object);internal
+328;java.base;java.security.AccessController;getInheritedAccessControlContext();internal
+329;java.base;java.security.AccessController;getProtectionDomain(java.lang.Class);internal
+330;java.base;java.security.AccessController;getStackAccessControlContext();internal
+331;java.base;java.util.concurrent.atomic.AtomicLong;VMSupportsCS8();internal
+332;java.base;java.util.TimeZone;getSystemGMTOffsetID();time
+333;java.base;java.util.TimeZone;getSystemTimeZoneID(java.lang.String);time
+334;java.base;java.util.zip.Adler32;update(int, int);internal
+335;java.base;java.util.zip.Adler32;updateByteBuffer(int, long, int, int);internal
+336;java.base;java.util.zip.Adler32;updateBytes(int, byte[], int, int);internal
+337;java.base;java.util.zip.CRC32;update(int, int);internal
+338;java.base;java.util.zip.CRC32;updateByteBuffer0(int, long, int, int);internal
+339;java.base;java.util.zip.CRC32;updateBytes0(int, byte[], int, int);internal
+340;java.base;java.util.zip.Deflater;deflateBufferBuffer(long, long, int, long, int, int, int);internal
+341;java.base;java.util.zip.Deflater;deflateBufferBytes(long, long, int, byte[], int, int, int, int);internal
+342;java.base;java.util.zip.Deflater;deflateBytesBuffer(long, byte[], int, int, long, int, int, int);internal
+343;java.base;java.util.zip.Deflater;deflateBytesBytes(long, byte[], int, int, byte[], int, int, int, int);internal
+344;java.base;java.util.zip.Deflater;end(long);internal
+345;java.base;java.util.zip.Deflater;getAdler(long);internal
+346;java.base;java.util.zip.Deflater;init(int, int, boolean);internal
+347;java.base;java.util.zip.Deflater;reset(long);internal
+348;java.base;java.util.zip.Deflater;setDictionary(long, byte[], int, int);internal
+349;java.base;java.util.zip.Deflater;setDictionaryBuffer(long, long, int);internal
+350;java.base;java.util.zip.Inflater;end(long);internal
+351;java.base;java.util.zip.Inflater;getAdler(long);internal
+352;java.base;java.util.zip.Inflater;inflateBufferBuffer(long, long, int, long, int);internal
+353;java.base;java.util.zip.Inflater;inflateBufferBytes(long, long, int, byte[], int, int);internal
+354;java.base;java.util.zip.Inflater;inflateBytesBuffer(long, byte[], int, int, long, int);internal
+355;java.base;java.util.zip.Inflater;inflateBytesBytes(long, byte[], int, int, byte[], int, int);internal
+356;java.base;java.util.zip.Inflater;init(boolean);internal
+357;java.base;java.util.zip.Inflater;initIDs();internal
+358;java.base;java.util.zip.Inflater;reset(long);internal
+359;java.base;java.util.zip.Inflater;setDictionary(long, byte[], int, int);internal
+360;java.base;java.util.zip.Inflater;setDictionaryBuffer(long, long, int);internal
+361;java.base;jdk.internal.invoke.NativeEntryPoint;registerNatives();internal
+362;java.base;jdk.internal.invoke.NativeEntryPoint;vmStorageToVMReg(int, int);internal
+363;java.base;jdk.internal.jimage.NativeImageBuffer;getNativeMap(java.lang.String);files
+364;java.base;jdk.internal.loader.BootLoader;getSystemPackageLocation(java.lang.String);internal
+365;java.base;jdk.internal.loader.BootLoader;getSystemPackageNames();internal
+366;java.base;jdk.internal.loader.BootLoader;setBootLoaderUnnamedModule0(java.lang.Module);internal
+367;java.base;jdk.internal.loader.NativeLibraries;findBuiltinLib(java.lang.String);files
+368;java.base;jdk.internal.loader.NativeLibraries;findEntry0(jdk.internal.loader.NativeLibraries$NativeLibraryImpl, java.lang.String);internal
+369;java.base;jdk.internal.loader.NativeLibraries;load(jdk.internal.loader.NativeLibraries$NativeLibraryImpl, java.lang.String, boolean, boolean, boolean);files
+370;java.base;jdk.internal.loader.NativeLibraries;unload(java.lang.String, boolean, boolean, long);files
+371;java.base;jdk.internal.misc.CDS;defineArchivedModules(java.lang.ClassLoader, java.lang.ClassLoader);internal
+372;java.base;jdk.internal.misc.CDS;dumpClassList(java.lang.String);files
+373;java.base;jdk.internal.misc.CDS;dumpDynamicArchive(java.lang.String);files
+374;java.base;jdk.internal.misc.CDS;getRandomSeedForDumping();internal
+375;java.base;jdk.internal.misc.CDS;initializeFromArchive(java.lang.Class);internal
+376;java.base;jdk.internal.misc.CDS;isDumpingArchive0();internal
+377;java.base;jdk.internal.misc.CDS;isDumpingClassList0();files
+378;java.base;jdk.internal.misc.CDS;isSharingEnabled0();internal
+379;java.base;jdk.internal.misc.CDS;logLambdaFormInvoker(java.lang.String);files
+380;java.base;jdk.internal.misc.ScopedMemoryAccess;closeScope0(jdk.internal.misc.ScopedMemoryAccess$Scope, jdk.internal.misc.ScopedMemoryAccess$Scope$ScopedAccessError);internal
+381;java.base;jdk.internal.misc.ScopedMemoryAccess;registerNatives();internal
+382;java.base;jdk.internal.misc.Signal;findSignal0(java.lang.String);internal
+383;java.base;jdk.internal.misc.Signal;handle0(int, long);os
+384;java.base;jdk.internal.misc.Signal;raise0(int);os
+385;java.base;jdk.internal.misc.Unsafe;allocateInstance(java.lang.Class);internal
+386;java.base;jdk.internal.misc.Unsafe;allocateMemory0(long);internal
+387;java.base;jdk.internal.misc.Unsafe;arrayBaseOffset0(java.lang.Class);internal
+388;java.base;jdk.internal.misc.Unsafe;arrayIndexScale0(java.lang.Class);internal
+389;java.base;jdk.internal.misc.Unsafe;compareAndExchangeInt(java.lang.Object, long, int, int);internal
+390;java.base;jdk.internal.misc.Unsafe;compareAndExchangeLong(java.lang.Object, long, long, long);internal
+391;java.base;jdk.internal.misc.Unsafe;compareAndExchangeReference(java.lang.Object, long, java.lang.Object, java.lang.Object);internal
+392;java.base;jdk.internal.misc.Unsafe;compareAndSetInt(java.lang.Object, long, int, int);internal
+393;java.base;jdk.internal.misc.Unsafe;compareAndSetLong(java.lang.Object, long, long, long);internal
+394;java.base;jdk.internal.misc.Unsafe;compareAndSetReference(java.lang.Object, long, java.lang.Object, java.lang.Object);internal
+395;java.base;jdk.internal.misc.Unsafe;copyMemory0(java.lang.Object, long, java.lang.Object, long, long);internal
+396;java.base;jdk.internal.misc.Unsafe;copySwapMemory0(java.lang.Object, long, java.lang.Object, long, long, long);internal
+397;java.base;jdk.internal.misc.Unsafe;defineClass0(java.lang.String, byte[], int, int, java.lang.ClassLoader, java.security.ProtectionDomain);internal
+398;java.base;jdk.internal.misc.Unsafe;ensureClassInitialized0(java.lang.Class);internal
+399;java.base;jdk.internal.misc.Unsafe;freeMemory0(long);internal
+400;java.base;jdk.internal.misc.Unsafe;fullFence();internal
+401;java.base;jdk.internal.misc.Unsafe;getBoolean(java.lang.Object, long);internal
+402;java.base;jdk.internal.misc.Unsafe;getBooleanVolatile(java.lang.Object, long);internal
+403;java.base;jdk.internal.misc.Unsafe;getByte(java.lang.Object, long);internal
+404;java.base;jdk.internal.misc.Unsafe;getByteVolatile(java.lang.Object, long);internal
+405;java.base;jdk.internal.misc.Unsafe;getChar(java.lang.Object, long);internal
+406;java.base;jdk.internal.misc.Unsafe;getCharVolatile(java.lang.Object, long);internal
+407;java.base;jdk.internal.misc.Unsafe;getDouble(java.lang.Object, long);internal
+408;java.base;jdk.internal.misc.Unsafe;getDoubleVolatile(java.lang.Object, long);internal
+409;java.base;jdk.internal.misc.Unsafe;getFloat(java.lang.Object, long);internal
+410;java.base;jdk.internal.misc.Unsafe;getFloatVolatile(java.lang.Object, long);internal
+411;java.base;jdk.internal.misc.Unsafe;getInt(java.lang.Object, long);internal
+412;java.base;jdk.internal.misc.Unsafe;getIntVolatile(java.lang.Object, long);internal
+413;java.base;jdk.internal.misc.Unsafe;getLoadAverage0(double[], int);os
+414;java.base;jdk.internal.misc.Unsafe;getLong(java.lang.Object, long);internal
+415;java.base;jdk.internal.misc.Unsafe;getLongVolatile(java.lang.Object, long);internal
+416;java.base;jdk.internal.misc.Unsafe;getReference(java.lang.Object, long);internal
+417;java.base;jdk.internal.misc.Unsafe;getReferenceVolatile(java.lang.Object, long);internal
+418;java.base;jdk.internal.misc.Unsafe;getShort(java.lang.Object, long);internal
+419;java.base;jdk.internal.misc.Unsafe;getShortVolatile(java.lang.Object, long);internal
+420;java.base;jdk.internal.misc.Unsafe;getUncompressedObject(long);internal
+421;java.base;jdk.internal.misc.Unsafe;loadFence();internal
+422;java.base;jdk.internal.misc.Unsafe;objectFieldOffset0(java.lang.reflect.Field);internal
+423;java.base;jdk.internal.misc.Unsafe;objectFieldOffset1(java.lang.Class, java.lang.String);internal
+424;java.base;jdk.internal.misc.Unsafe;park(boolean, long);internal
+425;java.base;jdk.internal.misc.Unsafe;putBoolean(java.lang.Object, long, boolean);internal
+426;java.base;jdk.internal.misc.Unsafe;putBooleanVolatile(java.lang.Object, long, boolean);internal
+427;java.base;jdk.internal.misc.Unsafe;putByte(java.lang.Object, long, byte);internal
+428;java.base;jdk.internal.misc.Unsafe;putByteVolatile(java.lang.Object, long, byte);internal
+429;java.base;jdk.internal.misc.Unsafe;putChar(java.lang.Object, long, char);internal
+430;java.base;jdk.internal.misc.Unsafe;putCharVolatile(java.lang.Object, long, char);internal
+431;java.base;jdk.internal.misc.Unsafe;putDouble(java.lang.Object, long, double);internal
+432;java.base;jdk.internal.misc.Unsafe;putDoubleVolatile(java.lang.Object, long, double);internal
+433;java.base;jdk.internal.misc.Unsafe;putFloat(java.lang.Object, long, float);internal
+434;java.base;jdk.internal.misc.Unsafe;putFloatVolatile(java.lang.Object, long, float);internal
+435;java.base;jdk.internal.misc.Unsafe;putInt(java.lang.Object, long, int);internal
+436;java.base;jdk.internal.misc.Unsafe;putIntVolatile(java.lang.Object, long, int);internal
+437;java.base;jdk.internal.misc.Unsafe;putLong(java.lang.Object, long, long);internal
+438;java.base;jdk.internal.misc.Unsafe;putLongVolatile(java.lang.Object, long, long);internal
+439;java.base;jdk.internal.misc.Unsafe;putReference(java.lang.Object, long, java.lang.Object);internal
+440;java.base;jdk.internal.misc.Unsafe;putReferenceVolatile(java.lang.Object, long, java.lang.Object);internal
+441;java.base;jdk.internal.misc.Unsafe;putShort(java.lang.Object, long, short);internal
+442;java.base;jdk.internal.misc.Unsafe;putShortVolatile(java.lang.Object, long, short);internal
+443;java.base;jdk.internal.misc.Unsafe;reallocateMemory0(long, long);internal
+444;java.base;jdk.internal.misc.Unsafe;registerNatives();internal
+445;java.base;jdk.internal.misc.Unsafe;setMemory0(java.lang.Object, long, long, byte);internal
+446;java.base;jdk.internal.misc.Unsafe;shouldBeInitialized0(java.lang.Class);internal
+447;java.base;jdk.internal.misc.Unsafe;staticFieldBase0(java.lang.reflect.Field);internal
+448;java.base;jdk.internal.misc.Unsafe;staticFieldOffset0(java.lang.reflect.Field);internal
+449;java.base;jdk.internal.misc.Unsafe;storeFence();internal
+450;java.base;jdk.internal.misc.Unsafe;throwException(java.lang.Throwable);internal
+451;java.base;jdk.internal.misc.Unsafe;unpark(java.lang.Object);internal
+452;java.base;jdk.internal.misc.Unsafe;writeback0(long);internal
+453;java.base;jdk.internal.misc.Unsafe;writebackPostSync0();internal
+454;java.base;jdk.internal.misc.Unsafe;writebackPreSync0();internal
+455;java.base;jdk.internal.misc.VM;getegid();os
+456;java.base;jdk.internal.misc.VM;geteuid();os
+457;java.base;jdk.internal.misc.VM;getgid();os
+458;java.base;jdk.internal.misc.VM;getNanoTimeAdjustment(long);time
+459;java.base;jdk.internal.misc.VM;getRuntimeArguments();internal
+460;java.base;jdk.internal.misc.VM;getuid();os
+461;java.base;jdk.internal.misc.VM;initialize();internal
+462;java.base;jdk.internal.misc.VM;latestUserDefinedLoader0();internal
+463;java.base;jdk.internal.perf.Perf;attach(java.lang.String, int, int);os
+464;java.base;jdk.internal.perf.Perf;createByteArray(java.lang.String, int, int, byte[], int);os
+465;java.base;jdk.internal.perf.Perf;createLong(java.lang.String, int, int, long);os
+466;java.base;jdk.internal.perf.Perf;detach(java.nio.ByteBuffer);os
+467;java.base;jdk.internal.perf.Perf;highResCounter();time
+468;java.base;jdk.internal.perf.Perf;highResFrequency();internal
+469;java.base;jdk.internal.perf.Perf;registerNatives();internal
+470;java.base;jdk.internal.platform.CgroupMetrics;getTotalMemorySize0();os
+471;java.base;jdk.internal.platform.CgroupMetrics;isUseContainerSupport();internal
+472;java.base;jdk.internal.reflect.ConstantPool;getClassAt0(java.lang.Object, int);internal
+473;java.base;jdk.internal.reflect.ConstantPool;getClassAtIfLoaded0(java.lang.Object, int);internal
+474;java.base;jdk.internal.reflect.ConstantPool;getClassRefIndexAt0(java.lang.Object, int);internal
+475;java.base;jdk.internal.reflect.ConstantPool;getDoubleAt0(java.lang.Object, int);internal
+476;java.base;jdk.internal.reflect.ConstantPool;getFieldAt0(java.lang.Object, int);internal
+477;java.base;jdk.internal.reflect.ConstantPool;getFieldAtIfLoaded0(java.lang.Object, int);internal
+478;java.base;jdk.internal.reflect.ConstantPool;getFloatAt0(java.lang.Object, int);internal
+479;java.base;jdk.internal.reflect.ConstantPool;getIntAt0(java.lang.Object, int);internal
+480;java.base;jdk.internal.reflect.ConstantPool;getLongAt0(java.lang.Object, int);internal
+481;java.base;jdk.internal.reflect.ConstantPool;getMemberRefInfoAt0(java.lang.Object, int);internal
+482;java.base;jdk.internal.reflect.ConstantPool;getMethodAt0(java.lang.Object, int);internal
+483;java.base;jdk.internal.reflect.ConstantPool;getMethodAtIfLoaded0(java.lang.Object, int);internal
+484;java.base;jdk.internal.reflect.ConstantPool;getNameAndTypeRefIndexAt0(java.lang.Object, int);internal
+485;java.base;jdk.internal.reflect.ConstantPool;getNameAndTypeRefInfoAt0(java.lang.Object, int);internal
+486;java.base;jdk.internal.reflect.ConstantPool;getSize0(java.lang.Object);internal
+487;java.base;jdk.internal.reflect.ConstantPool;getStringAt0(java.lang.Object, int);internal
+488;java.base;jdk.internal.reflect.ConstantPool;getTagAt0(java.lang.Object, int);internal
+489;java.base;jdk.internal.reflect.ConstantPool;getUTF8At0(java.lang.Object, int);internal
+490;java.base;jdk.internal.reflect.NativeConstructorAccessorImpl;newInstance0(java.lang.reflect.Constructor, java.lang.Object[]);invocation
+491;java.base;jdk.internal.reflect.NativeMethodAccessorImpl;invoke0(java.lang.reflect.Method, java.lang.Object, java.lang.Object[]);invocation
+492;java.base;jdk.internal.reflect.Reflection;areNestMates(java.lang.Class, java.lang.Class);internal
+493;java.base;jdk.internal.reflect.Reflection;getCallerClass();internal
+494;java.base;jdk.internal.reflect.Reflection;getClassAccessFlags(java.lang.Class);internal
+495;java.base;jdk.internal.util.SystemProps$Raw;platformProperties();os
+496;java.base;jdk.internal.util.SystemProps$Raw;vmProperties();internal
+497;java.base;jdk.internal.vm.vector.VectorSupport;getMaxLaneCount(java.lang.Class);internal
+498;java.base;jdk.internal.vm.vector.VectorSupport;registerNatives();internal
+499;java.base;jdk.internal.vm.VMSupport;getVMTemporaryDirectory();internal
+500;java.base;jdk.internal.vm.VMSupport;initAgentProperties(java.util.Properties);internal
+501;java.base;sun.net.dns.ResolverConfigurationImpl;fallbackDomain0();os
+502;java.base;sun.net.PortConfig;getLower0();network
+503;java.base;sun.net.PortConfig;getUpper0();network
+504;java.base;sun.net.sdp.SdpSupport;convert0(int);network
+505;java.base;sun.net.sdp.SdpSupport;create0();network
+506;java.base;sun.net.spi.DefaultProxySelector;getSystemProxies(java.lang.String, java.lang.String);network
+507;java.base;sun.net.spi.DefaultProxySelector;init();network
+508;java.base;sun.nio.ch.DatagramChannelImpl;disconnect0(java.io.FileDescriptor, boolean);network
+509;java.base;sun.nio.ch.DatagramChannelImpl;receive0(java.io.FileDescriptor, long, int, long, boolean);network
+510;java.base;sun.nio.ch.DatagramChannelImpl;send0(java.io.FileDescriptor, long, int, long, int);network
+511;java.base;sun.nio.ch.DatagramDispatcher;read0(java.io.FileDescriptor, long, int);network
+512;java.base;sun.nio.ch.DatagramDispatcher;readv0(java.io.FileDescriptor, long, int);network
+513;java.base;sun.nio.ch.DatagramDispatcher;write0(java.io.FileDescriptor, long, int);network
+514;java.base;sun.nio.ch.DatagramDispatcher;writev0(java.io.FileDescriptor, long, int);network
+515;java.base;sun.nio.ch.EPoll;create();files
+516;java.base;sun.nio.ch.EPoll;ctl(int, int, int, int);files
+517;java.base;sun.nio.ch.EPoll;dataOffset();internal
+518;java.base;sun.nio.ch.EPoll;eventSize();internal
+519;java.base;sun.nio.ch.EPoll;eventsOffset();internal
+520;java.base;sun.nio.ch.EPoll;wait(int, long, int, int);files
+521;java.base;sun.nio.ch.EventFD;eventfd0();os
+522;java.base;sun.nio.ch.EventFD;set0(int);os
+523;java.base;sun.nio.ch.FileChannelImpl;initIDs();os
+524;java.base;sun.nio.ch.FileChannelImpl;map0(int, long, long, boolean);os
+525;java.base;sun.nio.ch.FileChannelImpl;maxDirectTransferSize0();internal
+526;java.base;sun.nio.ch.FileChannelImpl;transferTo0(java.io.FileDescriptor, long, long, java.io.FileDescriptor);files
+527;java.base;sun.nio.ch.FileChannelImpl;unmap0(long, long);files
+528;java.base;sun.nio.ch.FileDispatcherImpl;canTransferToFromOverlappedMap0();internal
+529;java.base;sun.nio.ch.FileDispatcherImpl;close0(java.io.FileDescriptor);files
+530;java.base;sun.nio.ch.FileDispatcherImpl;closeIntFD(int);files
+531;java.base;sun.nio.ch.FileDispatcherImpl;dup0(java.io.FileDescriptor, java.io.FileDescriptor);files
+532;java.base;sun.nio.ch.FileDispatcherImpl;force0(java.io.FileDescriptor, boolean);files
+533;java.base;sun.nio.ch.FileDispatcherImpl;init();os
+534;java.base;sun.nio.ch.FileDispatcherImpl;lock0(java.io.FileDescriptor, boolean, long, long, boolean);files
+535;java.base;sun.nio.ch.FileDispatcherImpl;pread0(java.io.FileDescriptor, long, int, long);files
+536;java.base;sun.nio.ch.FileDispatcherImpl;preClose0(java.io.FileDescriptor);files
+537;java.base;sun.nio.ch.FileDispatcherImpl;pwrite0(java.io.FileDescriptor, long, int, long);files
+538;java.base;sun.nio.ch.FileDispatcherImpl;read0(java.io.FileDescriptor, long, int);files
+539;java.base;sun.nio.ch.FileDispatcherImpl;readv0(java.io.FileDescriptor, long, int);files
+540;java.base;sun.nio.ch.FileDispatcherImpl;release0(java.io.FileDescriptor, long, long);files
+541;java.base;sun.nio.ch.FileDispatcherImpl;seek0(java.io.FileDescriptor, long);files
+542;java.base;sun.nio.ch.FileDispatcherImpl;setDirect0(java.io.FileDescriptor);files
+543;java.base;sun.nio.ch.FileDispatcherImpl;size0(java.io.FileDescriptor);files
+544;java.base;sun.nio.ch.FileDispatcherImpl;truncate0(java.io.FileDescriptor, long);files
+545;java.base;sun.nio.ch.FileDispatcherImpl;write0(java.io.FileDescriptor, long, int);files
+546;java.base;sun.nio.ch.FileDispatcherImpl;writev0(java.io.FileDescriptor, long, int);files
+547;java.base;sun.nio.ch.FileKey;init(java.io.FileDescriptor);files
+548;java.base;sun.nio.ch.FileKey;initIDs();internal
+549;java.base;sun.nio.ch.InheritedChannel;addressFamily(int);network
+550;java.base;sun.nio.ch.InheritedChannel;close0(int);network
+551;java.base;sun.nio.ch.InheritedChannel;dup(int);network
+552;java.base;sun.nio.ch.InheritedChannel;dup2(int, int);network
+553;java.base;sun.nio.ch.InheritedChannel;inetPeerAddress0(int);network
+554;java.base;sun.nio.ch.InheritedChannel;initIDs();internal
+555;java.base;sun.nio.ch.InheritedChannel;isConnected(int);network
+556;java.base;sun.nio.ch.InheritedChannel;open0(java.lang.String, int);files
+557;java.base;sun.nio.ch.InheritedChannel;peerPort0(int);network
+558;java.base;sun.nio.ch.InheritedChannel;soType0(int);network
+559;java.base;sun.nio.ch.InheritedChannel;unixPeerAddress0(int);network
+560;java.base;sun.nio.ch.IOUtil;configureBlocking(java.io.FileDescriptor, boolean);network
+561;java.base;sun.nio.ch.IOUtil;drain(int);network
+562;java.base;sun.nio.ch.IOUtil;drain1(int);network
+563;java.base;sun.nio.ch.IOUtil;fdLimit();os
+564;java.base;sun.nio.ch.IOUtil;fdVal(java.io.FileDescriptor);internal
+565;java.base;sun.nio.ch.IOUtil;initIDs();internal
+566;java.base;sun.nio.ch.IOUtil;iovMax();os
+567;java.base;sun.nio.ch.IOUtil;makePipe(boolean);network
+568;java.base;sun.nio.ch.IOUtil;randomBytes(byte[]);internal
+569;java.base;sun.nio.ch.IOUtil;setfdVal(java.io.FileDescriptor, int);internal
+570;java.base;sun.nio.ch.IOUtil;write1(int, byte);network
+571;java.base;sun.nio.ch.NativeSocketAddress;AFINET();internal
+572;java.base;sun.nio.ch.NativeSocketAddress;AFINET6();internal
+573;java.base;sun.nio.ch.NativeSocketAddress;offsetFamily();internal
+574;java.base;sun.nio.ch.NativeSocketAddress;offsetSin4Addr();internal
+575;java.base;sun.nio.ch.NativeSocketAddress;offsetSin4Port();internal
+576;java.base;sun.nio.ch.NativeSocketAddress;offsetSin6Addr();internal
+577;java.base;sun.nio.ch.NativeSocketAddress;offsetSin6FlowInfo();internal
+578;java.base;sun.nio.ch.NativeSocketAddress;offsetSin6Port();internal
+579;java.base;sun.nio.ch.NativeSocketAddress;offsetSin6ScopeId();internal
+580;java.base;sun.nio.ch.NativeSocketAddress;sizeofFamily();internal
+581;java.base;sun.nio.ch.NativeSocketAddress;sizeofSockAddr4();internal
+582;java.base;sun.nio.ch.NativeSocketAddress;sizeofSockAddr6();internal
+583;java.base;sun.nio.ch.NativeThread;current();internal
+584;java.base;sun.nio.ch.NativeThread;init();os
+585;java.base;sun.nio.ch.NativeThread;signal(long);internal
+586;java.base;sun.nio.ch.Net;accept(java.io.FileDescriptor, java.io.FileDescriptor, java.net.InetSocketAddress[]);network
+587;java.base;sun.nio.ch.Net;available(java.io.FileDescriptor);network
+588;java.base;sun.nio.ch.Net;bind0(java.io.FileDescriptor, boolean, boolean, java.net.InetAddress, int);network
+589;java.base;sun.nio.ch.Net;blockOrUnblock4(boolean, java.io.FileDescriptor, int, int, int);network
+590;java.base;sun.nio.ch.Net;blockOrUnblock6(boolean, java.io.FileDescriptor, byte[], int, byte[]);network
+591;java.base;sun.nio.ch.Net;canIPv6SocketJoinIPv4Group0();internal
+592;java.base;sun.nio.ch.Net;canJoin6WithIPv4Group0();internal
+593;java.base;sun.nio.ch.Net;canUseIPv6OptionsWithIPv4LocalAddress0();internal
+594;java.base;sun.nio.ch.Net;connect0(boolean, java.io.FileDescriptor, java.net.InetAddress, int);network
+595;java.base;sun.nio.ch.Net;discardOOB(java.io.FileDescriptor);network
+596;java.base;sun.nio.ch.Net;getInterface4(java.io.FileDescriptor);network
+597;java.base;sun.nio.ch.Net;getInterface6(java.io.FileDescriptor);network
+598;java.base;sun.nio.ch.Net;getIntOption0(java.io.FileDescriptor, boolean, int, int);network
+599;java.base;sun.nio.ch.Net;initIDs();internal
+600;java.base;sun.nio.ch.Net;isExclusiveBindAvailable();internal
+601;java.base;sun.nio.ch.Net;isIPv6Available0();internal
+602;java.base;sun.nio.ch.Net;isReusePortAvailable0();internal
+603;java.base;sun.nio.ch.Net;joinOrDrop4(boolean, java.io.FileDescriptor, int, int, int);network
+604;java.base;sun.nio.ch.Net;joinOrDrop6(boolean, java.io.FileDescriptor, byte[], int, byte[]);network
+605;java.base;sun.nio.ch.Net;listen(java.io.FileDescriptor, int);network
+606;java.base;sun.nio.ch.Net;localInetAddress(java.io.FileDescriptor);network
+607;java.base;sun.nio.ch.Net;localPort(java.io.FileDescriptor);network
+608;java.base;sun.nio.ch.Net;poll(java.io.FileDescriptor, int, long);network
+609;java.base;sun.nio.ch.Net;pollConnect(java.io.FileDescriptor, long);network
+610;java.base;sun.nio.ch.Net;pollconnValue();internal
+611;java.base;sun.nio.ch.Net;pollerrValue();internal
+612;java.base;sun.nio.ch.Net;pollhupValue();internal
+613;java.base;sun.nio.ch.Net;pollinValue();internal
+614;java.base;sun.nio.ch.Net;pollnvalValue();internal
+615;java.base;sun.nio.ch.Net;polloutValue();internal
+616;java.base;sun.nio.ch.Net;remoteInetAddress(java.io.FileDescriptor);network
+617;java.base;sun.nio.ch.Net;remotePort(java.io.FileDescriptor);network
+618;java.base;sun.nio.ch.Net;sendOOB(java.io.FileDescriptor, byte);network
+619;java.base;sun.nio.ch.Net;setInterface4(java.io.FileDescriptor, int);network
+620;java.base;sun.nio.ch.Net;setInterface6(java.io.FileDescriptor, int);network
+621;java.base;sun.nio.ch.Net;setIntOption0(java.io.FileDescriptor, boolean, int, int, int, boolean);network
+622;java.base;sun.nio.ch.Net;shouldSetBothIPv4AndIPv6Options0();internal
+623;java.base;sun.nio.ch.Net;shutdown(java.io.FileDescriptor, int);network
+624;java.base;sun.nio.ch.Net;socket0(boolean, boolean, boolean, boolean);network
+625;java.base;sun.nio.ch.PollSelectorImpl;poll(long, int, int);os
+626;java.base;sun.nio.ch.SocketDispatcher;read0(java.io.FileDescriptor, long, int);network
+627;java.base;sun.nio.ch.SocketDispatcher;readv0(java.io.FileDescriptor, long, int);network
+628;java.base;sun.nio.ch.UnixAsynchronousSocketChannelImpl;checkConnect(int);network
+629;java.base;sun.nio.ch.UnixDomainSockets;accept0(java.io.FileDescriptor, java.io.FileDescriptor, java.lang.Object[]);network
+630;java.base;sun.nio.ch.UnixDomainSockets;bind0(java.io.FileDescriptor, byte[]);network
+631;java.base;sun.nio.ch.UnixDomainSockets;connect0(java.io.FileDescriptor, byte[]);network
+632;java.base;sun.nio.ch.UnixDomainSockets;init();internal
+633;java.base;sun.nio.ch.UnixDomainSockets;localAddress0(java.io.FileDescriptor);network
+634;java.base;sun.nio.ch.UnixDomainSockets;socket0();network
+635;java.base;sun.nio.fs.LinuxNativeDispatcher;endmntent(long);files
+636;java.base;sun.nio.fs.LinuxNativeDispatcher;getmntent0(long, sun.nio.fs.UnixMountEntry, long, int);files
+637;java.base;sun.nio.fs.LinuxNativeDispatcher;init();internal
+638;java.base;sun.nio.fs.LinuxNativeDispatcher;setmntent0(long, long);files
+639;java.base;sun.nio.fs.LinuxWatchService;configureBlocking(int, boolean);os
+640;java.base;sun.nio.fs.LinuxWatchService;eventOffsets();internal
+641;java.base;sun.nio.fs.LinuxWatchService;eventSize();internal
+642;java.base;sun.nio.fs.LinuxWatchService;inotifyAddWatch(int, long, int);os
+643;java.base;sun.nio.fs.LinuxWatchService;inotifyInit();os
+644;java.base;sun.nio.fs.LinuxWatchService;inotifyRmWatch(int, int);os
+645;java.base;sun.nio.fs.LinuxWatchService;poll(int, int);os
+646;java.base;sun.nio.fs.LinuxWatchService;socketpair(int[]);os
+647;java.base;sun.nio.fs.UnixCopyFile;transfer(int, int, long);files
+648;java.base;sun.nio.fs.UnixNativeDispatcher;access0(long, int);files
+649;java.base;sun.nio.fs.UnixNativeDispatcher;chmod0(long, int);files
+650;java.base;sun.nio.fs.UnixNativeDispatcher;chown0(long, int, int);files
+651;java.base;sun.nio.fs.UnixNativeDispatcher;close0(int);files
+652;java.base;sun.nio.fs.UnixNativeDispatcher;closedir(long);files
+653;java.base;sun.nio.fs.UnixNativeDispatcher;dup(int);files
+654;java.base;sun.nio.fs.UnixNativeDispatcher;exists0(long);files
+655;java.base;sun.nio.fs.UnixNativeDispatcher;fchmod(int, int);files
+656;java.base;sun.nio.fs.UnixNativeDispatcher;fchown(int, int, int);files
+657;java.base;sun.nio.fs.UnixNativeDispatcher;fdopendir(int);files
+658;java.base;sun.nio.fs.UnixNativeDispatcher;fgetxattr0(int, long, long, int);files
+659;java.base;sun.nio.fs.UnixNativeDispatcher;flistxattr(int, long, int);files
+660;java.base;sun.nio.fs.UnixNativeDispatcher;fremovexattr0(int, long);files
+661;java.base;sun.nio.fs.UnixNativeDispatcher;fsetxattr0(int, long, long, int);files
+662;java.base;sun.nio.fs.UnixNativeDispatcher;fstat(int, sun.nio.fs.UnixFileAttributes);files
+663;java.base;sun.nio.fs.UnixNativeDispatcher;fstatat0(int, long, int, sun.nio.fs.UnixFileAttributes);files
+664;java.base;sun.nio.fs.UnixNativeDispatcher;futimens(int, long, long);files
+665;java.base;sun.nio.fs.UnixNativeDispatcher;futimes(int, long, long);files
+666;java.base;sun.nio.fs.UnixNativeDispatcher;getcwd();files
+667;java.base;sun.nio.fs.UnixNativeDispatcher;getgrgid(int);os
+668;java.base;sun.nio.fs.UnixNativeDispatcher;getgrnam0(long);os
+669;java.base;sun.nio.fs.UnixNativeDispatcher;getlinelen(long);files
+670;java.base;sun.nio.fs.UnixNativeDispatcher;getpwnam0(long);os
+671;java.base;sun.nio.fs.UnixNativeDispatcher;getpwuid(int);os
+672;java.base;sun.nio.fs.UnixNativeDispatcher;init();internal
+673;java.base;sun.nio.fs.UnixNativeDispatcher;lchown0(long, int, int);files
+674;java.base;sun.nio.fs.UnixNativeDispatcher;link0(long, long);files
+675;java.base;sun.nio.fs.UnixNativeDispatcher;lstat0(long, sun.nio.fs.UnixFileAttributes);files
+676;java.base;sun.nio.fs.UnixNativeDispatcher;lutimes0(long, long, long);files
+677;java.base;sun.nio.fs.UnixNativeDispatcher;mkdir0(long, int);files
+678;java.base;sun.nio.fs.UnixNativeDispatcher;mknod0(long, int, long);files
+679;java.base;sun.nio.fs.UnixNativeDispatcher;open0(long, int, int);files
+680;java.base;sun.nio.fs.UnixNativeDispatcher;openat0(int, long, int, int);files
+681;java.base;sun.nio.fs.UnixNativeDispatcher;opendir0(long);files
+682;java.base;sun.nio.fs.UnixNativeDispatcher;read(int, long, int);files
+683;java.base;sun.nio.fs.UnixNativeDispatcher;readdir(long);files
+684;java.base;sun.nio.fs.UnixNativeDispatcher;readlink0(long);files
+685;java.base;sun.nio.fs.UnixNativeDispatcher;realpath0(long);files
+686;java.base;sun.nio.fs.UnixNativeDispatcher;rename0(long, long);files
+687;java.base;sun.nio.fs.UnixNativeDispatcher;renameat0(int, long, int, long);files
+688;java.base;sun.nio.fs.UnixNativeDispatcher;rewind(long);files
+689;java.base;sun.nio.fs.UnixNativeDispatcher;rmdir0(long);files
+690;java.base;sun.nio.fs.UnixNativeDispatcher;stat0(long, sun.nio.fs.UnixFileAttributes);files
+691;java.base;sun.nio.fs.UnixNativeDispatcher;stat1(long);files
+692;java.base;sun.nio.fs.UnixNativeDispatcher;statvfs0(long, sun.nio.fs.UnixFileStoreAttributes);files
+693;java.base;sun.nio.fs.UnixNativeDispatcher;strerror(int);os
+694;java.base;sun.nio.fs.UnixNativeDispatcher;symlink0(long, long);files
+695;java.base;sun.nio.fs.UnixNativeDispatcher;unlink0(long);files
+696;java.base;sun.nio.fs.UnixNativeDispatcher;unlinkat0(int, long, int);files
+697;java.base;sun.nio.fs.UnixNativeDispatcher;utimes0(long, long, long);files
+698;java.base;sun.nio.fs.UnixNativeDispatcher;write(int, long, int);files
+699;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;abortRead(long);internal
+700;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;clearNativeReadAbortFlag(long);internal
+701;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;disposeReader(long);internal
+702;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;initJPEGImageReader();internal
+703;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;initReaderIDs(java.lang.Class, java.lang.Class, java.lang.Class);internal
+704;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;readImage(int, long, byte[], int, int[], int[], int, int, int, int, int, int, javax.imageio.plugins.jpeg.JPEGQTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], int, int, boolean);internal
+705;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;readImageHeader(long, boolean, boolean);internal
+706;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;resetLibraryState(long);internal
+707;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;resetReader(long);internal
+708;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;setOutColorSpace(long, int);internal
+709;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageReader;setSource(long);internal
+710;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;abortWrite(long);internal
+711;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;disposeWriter(long);internal
+712;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;initJPEGImageWriter();internal
+713;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;initWriterIDs(java.lang.Class, java.lang.Class);internal
+714;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;resetWriter(long);internal
+715;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;setDest(long);internal
+716;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;writeImage(long, byte[], int, int, int, int[], int, int, int, int, int, javax.imageio.plugins.jpeg.JPEGQTable[], boolean, javax.imageio.plugins.jpeg.JPEGHuffmanTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], boolean, boolean, boolean, int, int[], int[], int[], int[], int[], boolean, int);internal
+717;java.desktop;com.sun.imageio.plugins.jpeg.JPEGImageWriter;writeTables(long, javax.imageio.plugins.jpeg.JPEGQTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[], javax.imageio.plugins.jpeg.JPEGHuffmanTable[]);internal
+718;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_get_gtk_setting(int);desktop
+719;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_arrow(int, int, int, java.lang.String, int, int, int, int, int);desktop
+720;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_background(int, int, int, int, int, int);desktop
+721;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_box_gap(int, int, int, java.lang.String, int, int, int, int, int, int, int);desktop
+722;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_box(int, int, int, java.lang.String, int, int, int, int, int, int);desktop
+723;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_check(int, int, java.lang.String, int, int, int, int);desktop
+724;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_expander(int, int, java.lang.String, int, int, int, int, int);desktop
+725;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_extension(int, int, int, java.lang.String, int, int, int, int, int);desktop
+726;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_flat_box(int, int, int, java.lang.String, int, int, int, int, boolean);desktop
+727;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_focus(int, int, java.lang.String, int, int, int, int);desktop
+728;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_handle(int, int, int, java.lang.String, int, int, int, int, int);desktop
+729;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_hline(int, int, java.lang.String, int, int, int, int);desktop
+730;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_option(int, int, java.lang.String, int, int, int, int);desktop
+731;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_shadow(int, int, int, java.lang.String, int, int, int, int, int, int);desktop
+732;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_slider(int, int, int, java.lang.String, int, int, int, int, int, boolean);desktop
+733;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_paint_vline(int, int, java.lang.String, int, int, int, int);desktop
+734;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;native_switch_theme();desktop
+735;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;nativeFinishPainting(int[], int, int);desktop
+736;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;nativeSetRangeValue(int, double, double, double, double);desktop
+737;java.desktop;com.sun.java.swing.plaf.gtk.GTKEngine;nativeStartPainting(int, int);desktop
+738;java.desktop;com.sun.java.swing.plaf.gtk.GTKStyle;nativeGetClassValue(int, java.lang.String);desktop
+739;java.desktop;com.sun.java.swing.plaf.gtk.GTKStyle;nativeGetColorForState(int, int, int);desktop
+740;java.desktop;com.sun.java.swing.plaf.gtk.GTKStyle;nativeGetPangoFontName(int);desktop
+741;java.desktop;com.sun.java.swing.plaf.gtk.GTKStyle;nativeGetXThickness(int);desktop
+742;java.desktop;com.sun.java.swing.plaf.gtk.GTKStyle;nativeGetYThickness(int);desktop
+743;java.desktop;com.sun.media.sound.DirectAudioDevice;nAvailable(long, boolean);desktop
+744;java.desktop;com.sun.media.sound.DirectAudioDevice;nClose(long, boolean);desktop
+745;java.desktop;com.sun.media.sound.DirectAudioDevice;nFlush(long, boolean);desktop
+746;java.desktop;com.sun.media.sound.DirectAudioDevice;nGetBufferSize(long, boolean);internal
+747;java.desktop;com.sun.media.sound.DirectAudioDevice;nGetBytePosition(long, boolean, long);desktop
+748;java.desktop;com.sun.media.sound.DirectAudioDevice;nGetFormats(int, int, boolean, java.util.Vector);desktop
+749;java.desktop;com.sun.media.sound.DirectAudioDevice;nIsStillDraining(long, boolean);desktop
+750;java.desktop;com.sun.media.sound.DirectAudioDevice;nOpen(int, int, boolean, int, float, int, int, int, boolean, boolean, int);desktop
+751;java.desktop;com.sun.media.sound.DirectAudioDevice;nRead(long, byte[], int, int, int);desktop
+752;java.desktop;com.sun.media.sound.DirectAudioDevice;nRequiresServicing(long, boolean);internal
+753;java.desktop;com.sun.media.sound.DirectAudioDevice;nService(long, boolean);internal
+754;java.desktop;com.sun.media.sound.DirectAudioDevice;nSetBytePosition(long, boolean, long);internal
+755;java.desktop;com.sun.media.sound.DirectAudioDevice;nStart(long, boolean);desktop
+756;java.desktop;com.sun.media.sound.DirectAudioDevice;nStop(long, boolean);desktop
+757;java.desktop;com.sun.media.sound.DirectAudioDevice;nWrite(long, byte[], int, int, int, float, float);desktop
+758;java.desktop;com.sun.media.sound.DirectAudioDeviceProvider;nGetNumDevices();desktop
+759;java.desktop;com.sun.media.sound.DirectAudioDeviceProvider;nNewDirectAudioDeviceInfo(int);desktop
+760;java.desktop;com.sun.media.sound.MidiInDevice;nClose(long);desktop
+761;java.desktop;com.sun.media.sound.MidiInDevice;nGetMessages(long);desktop
+762;java.desktop;com.sun.media.sound.MidiInDevice;nGetTimeStamp(long);time
+763;java.desktop;com.sun.media.sound.MidiInDevice;nOpen(int);desktop
+764;java.desktop;com.sun.media.sound.MidiInDevice;nStart(long);internal
+765;java.desktop;com.sun.media.sound.MidiInDevice;nStop(long);internal
+766;java.desktop;com.sun.media.sound.MidiInDeviceProvider;nGetDescription(int);desktop
+767;java.desktop;com.sun.media.sound.MidiInDeviceProvider;nGetName(int);desktop
+768;java.desktop;com.sun.media.sound.MidiInDeviceProvider;nGetNumDevices();desktop
+769;java.desktop;com.sun.media.sound.MidiInDeviceProvider;nGetVendor(int);internal
+770;java.desktop;com.sun.media.sound.MidiInDeviceProvider;nGetVersion(int);desktop
+771;java.desktop;com.sun.media.sound.MidiOutDevice;nClose(long);desktop
+772;java.desktop;com.sun.media.sound.MidiOutDevice;nGetTimeStamp(long);time
+773;java.desktop;com.sun.media.sound.MidiOutDevice;nOpen(int);desktop
+774;java.desktop;com.sun.media.sound.MidiOutDevice;nSendLongMessage(long, byte[], int, long);desktop
+775;java.desktop;com.sun.media.sound.MidiOutDevice;nSendShortMessage(long, int, long);desktop
+776;java.desktop;com.sun.media.sound.MidiOutDeviceProvider;nGetDescription(int);desktop
+777;java.desktop;com.sun.media.sound.MidiOutDeviceProvider;nGetName(int);desktop
+778;java.desktop;com.sun.media.sound.MidiOutDeviceProvider;nGetNumDevices();desktop
+779;java.desktop;com.sun.media.sound.MidiOutDeviceProvider;nGetVendor(int);internal
+780;java.desktop;com.sun.media.sound.MidiOutDeviceProvider;nGetVersion(int);desktop
+781;java.desktop;com.sun.media.sound.Platform;nIsBigEndian();internal
+782;java.desktop;com.sun.media.sound.PortMixer;nClose(long);desktop
+783;java.desktop;com.sun.media.sound.PortMixer;nControlGetFloatValue(long);desktop
+784;java.desktop;com.sun.media.sound.PortMixer;nControlGetIntValue(long);desktop
+785;java.desktop;com.sun.media.sound.PortMixer;nControlSetFloatValue(long, float);desktop
+786;java.desktop;com.sun.media.sound.PortMixer;nControlSetIntValue(long, int);desktop
+787;java.desktop;com.sun.media.sound.PortMixer;nGetControls(long, int, java.util.Vector);desktop
+788;java.desktop;com.sun.media.sound.PortMixer;nGetPortCount(long);desktop
+789;java.desktop;com.sun.media.sound.PortMixer;nGetPortName(long, int);desktop
+790;java.desktop;com.sun.media.sound.PortMixer;nGetPortType(long, int);internal
+791;java.desktop;com.sun.media.sound.PortMixer;nOpen(int);desktop
+792;java.desktop;com.sun.media.sound.PortMixerProvider;nGetNumDevices();desktop
+793;java.desktop;com.sun.media.sound.PortMixerProvider;nNewPortMixerInfo(int);desktop
+794;java.desktop;java.awt.AWTEvent;initIDs();internal
+795;java.desktop;java.awt.AWTEvent;nativeSetSource(java.awt.peer.ComponentPeer);internal
+796;java.desktop;java.awt.Button;initIDs();internal
+797;java.desktop;java.awt.Checkbox;initIDs();internal
+798;java.desktop;java.awt.CheckboxMenuItem;initIDs();internal
+799;java.desktop;java.awt.Choice;initIDs();internal
+800;java.desktop;java.awt.Color;initIDs();internal
+801;java.desktop;java.awt.Component;initIDs();internal
+802;java.desktop;java.awt.Container;initIDs();internal
+803;java.desktop;java.awt.Cursor;finalizeImpl(long);desktop
+804;java.desktop;java.awt.Cursor;initIDs();internal
+805;java.desktop;java.awt.Dialog;initIDs();internal
+806;java.desktop;java.awt.Dimension;initIDs();internal
+807;java.desktop;java.awt.Event;initIDs();internal
+808;java.desktop;java.awt.event.InputEvent;initIDs();internal
+809;java.desktop;java.awt.event.KeyEvent;initIDs();internal
+810;java.desktop;java.awt.event.MouseEvent;initIDs();internal
+811;java.desktop;java.awt.FileDialog;initIDs();internal
+812;java.desktop;java.awt.Font;initIDs();internal
+813;java.desktop;java.awt.FontMetrics;initIDs();internal
+814;java.desktop;java.awt.Frame;initIDs();internal
+815;java.desktop;java.awt.image.BufferedImage;initIDs();internal
+816;java.desktop;java.awt.image.ColorModel;initIDs();internal
+817;java.desktop;java.awt.image.IndexColorModel;initIDs();internal
+818;java.desktop;java.awt.image.Kernel;initIDs();internal
+819;java.desktop;java.awt.image.Raster;initIDs();internal
+820;java.desktop;java.awt.image.SampleModel;initIDs();internal
+821;java.desktop;java.awt.image.SinglePixelPackedSampleModel;initIDs();internal
+822;java.desktop;java.awt.Insets;initIDs();internal
+823;java.desktop;java.awt.KeyboardFocusManager;initIDs();internal
+824;java.desktop;java.awt.Label;initIDs();internal
+825;java.desktop;java.awt.Menu;initIDs();internal
+826;java.desktop;java.awt.MenuBar;initIDs();internal
+827;java.desktop;java.awt.MenuComponent;initIDs();internal
+828;java.desktop;java.awt.MenuItem;initIDs();internal
+829;java.desktop;java.awt.Rectangle;initIDs();internal
+830;java.desktop;java.awt.Scrollbar;initIDs();internal
+831;java.desktop;java.awt.ScrollPane;initIDs();internal
+832;java.desktop;java.awt.ScrollPaneAdjustable;initIDs();internal
+833;java.desktop;java.awt.SplashScreen;_close(long);desktop
+834;java.desktop;java.awt.SplashScreen;_getBounds(long);internal
+835;java.desktop;java.awt.SplashScreen;_getImageFileName(long);internal
+836;java.desktop;java.awt.SplashScreen;_getImageJarName(long);internal
+837;java.desktop;java.awt.SplashScreen;_getInstance();internal
+838;java.desktop;java.awt.SplashScreen;_getScaleFactor(long);internal
+839;java.desktop;java.awt.SplashScreen;_isVisible(long);internal
+840;java.desktop;java.awt.SplashScreen;_setImageData(long, byte[]);os
+841;java.desktop;java.awt.SplashScreen;_update(long, int[], int, int, int, int, int);desktop
+842;java.desktop;java.awt.TextArea;initIDs();internal
+843;java.desktop;java.awt.TextField;initIDs();internal
+844;java.desktop;java.awt.Toolkit;initIDs();internal
+845;java.desktop;java.awt.TrayIcon;initIDs();internal
+846;java.desktop;java.awt.Window;initIDs();internal
+847;java.desktop;sun.awt.DebugSettings;setCTracingOn(boolean, java.lang.String, int);internal
+848;java.desktop;sun.awt.DebugSettings;setCTracingOn(boolean, java.lang.String);internal
+849;java.desktop;sun.awt.DebugSettings;setCTracingOn(boolean);internal
+850;java.desktop;sun.awt.FcFontManager;getFontPathNative(boolean, boolean);os
+851;java.desktop;sun.awt.FontDescriptor;initIDs();internal
+852;java.desktop;sun.awt.image.BufImgSurfaceData;initIDs(java.lang.Class, java.lang.Class);internal
+853;java.desktop;sun.awt.image.BufImgSurfaceData;initRaster(java.lang.Object, int, int, int, int, int, int, java.awt.image.IndexColorModel);internal
+854;java.desktop;sun.awt.image.ByteComponentRaster;initIDs();internal
+855;java.desktop;sun.awt.image.BytePackedRaster;initIDs();internal
+856;java.desktop;sun.awt.image.DataBufferNative;getElem(int, int, sun.java2d.SurfaceData);desktop
+857;java.desktop;sun.awt.image.DataBufferNative;setElem(int, int, int, sun.java2d.SurfaceData);desktop
+858;java.desktop;sun.awt.image.GifImageDecoder;initIDs();internal
+859;java.desktop;sun.awt.image.GifImageDecoder;parseImage(int, int, int, int, boolean, int, byte[], byte[], java.awt.image.IndexColorModel);files
+860;java.desktop;sun.awt.image.ImageRepresentation;initIDs();internal
+861;java.desktop;sun.awt.image.ImageRepresentation;setDiffICM(int, int, int, int, int[], int, int, java.awt.image.IndexColorModel, byte[], int, int, sun.awt.image.ByteComponentRaster, int);internal
+862;java.desktop;sun.awt.image.ImageRepresentation;setICMpixels(int, int, int, int, int[], byte[], int, int, sun.awt.image.IntegerComponentRaster);internal
+863;java.desktop;sun.awt.image.ImagingLib;convolveBI(java.awt.image.BufferedImage, java.awt.image.BufferedImage, java.awt.image.Kernel, int);internal
+864;java.desktop;sun.awt.image.ImagingLib;convolveRaster(java.awt.image.Raster, java.awt.image.Raster, java.awt.image.Kernel, int);internal
+865;java.desktop;sun.awt.image.ImagingLib;init();os
+866;java.desktop;sun.awt.image.ImagingLib;lookupByteBI(java.awt.image.BufferedImage, java.awt.image.BufferedImage, byte[][]);internal
+867;java.desktop;sun.awt.image.ImagingLib;lookupByteRaster(java.awt.image.Raster, java.awt.image.Raster, byte[][]);internal
+868;java.desktop;sun.awt.image.ImagingLib;transformBI(java.awt.image.BufferedImage, java.awt.image.BufferedImage, double[], int);internal
+869;java.desktop;sun.awt.image.ImagingLib;transformRaster(java.awt.image.Raster, java.awt.image.Raster, double[], int);internal
+870;java.desktop;sun.awt.image.IntegerComponentRaster;initIDs();internal
+871;java.desktop;sun.awt.image.JPEGImageDecoder;initIDs(java.lang.Class);internal
+872;java.desktop;sun.awt.image.JPEGImageDecoder;readImage(java.io.InputStream, byte[]);files
+873;java.desktop;sun.awt.image.ShortComponentRaster;initIDs();internal
+874;java.desktop;sun.awt.PlatformFont;initIDs();internal
+875;java.desktop;sun.awt.SunToolkit;closeSplashScreen();desktop
+876;java.desktop;sun.awt.UNIXToolkit;check_gtk(int);internal
+877;java.desktop;sun.awt.UNIXToolkit;get_gtk_version();internal
+878;java.desktop;sun.awt.UNIXToolkit;gtkCheckVersionImpl(int, int, int);desktop
+879;java.desktop;sun.awt.UNIXToolkit;load_gtk_icon(java.lang.String);files
+880;java.desktop;sun.awt.UNIXToolkit;load_gtk(int, boolean);files
+881;java.desktop;sun.awt.UNIXToolkit;load_stock_icon(int, java.lang.String, int, int, java.lang.String);desktop
+882;java.desktop;sun.awt.UNIXToolkit;nativeSync();desktop
+883;java.desktop;sun.awt.UNIXToolkit;unload_gtk();files
+884;java.desktop;sun.awt.X11.GtkFileDialogPeer;initIDs();internal
+885;java.desktop;sun.awt.X11.GtkFileDialogPeer;quit();desktop
+886;java.desktop;sun.awt.X11.GtkFileDialogPeer;run(java.lang.String, int, java.lang.String, java.lang.String, java.io.FilenameFilter, boolean, int, int);desktop
+887;java.desktop;sun.awt.X11.GtkFileDialogPeer;setBounds(int, int, int, int, int);desktop
+888;java.desktop;sun.awt.X11.GtkFileDialogPeer;toFront();desktop
+889;java.desktop;sun.awt.X11.XDesktopPeer;gnome_url_show(byte[]);desktop
+890;java.desktop;sun.awt.X11.XDesktopPeer;init(int, boolean);files
+891;java.desktop;sun.awt.X11.XInputMethod;adjustStatusWindow(long);desktop
+892;java.desktop;sun.awt.X11.XInputMethod;createXICNative(long);desktop
+893;java.desktop;sun.awt.X11.XInputMethod;openXIMNative(long);desktop
+894;java.desktop;sun.awt.X11.XInputMethod;setXICFocusNative(long, boolean, boolean);desktop
+895;java.desktop;sun.awt.X11.XlibWrapper;CallErrorHandler(long, long, long);invocation
+896;java.desktop;sun.awt.X11.XlibWrapper;copyIntArray(long, java.lang.Object, int);internal
+897;java.desktop;sun.awt.X11.XlibWrapper;copyLongArray(long, java.lang.Object, int);internal
+898;java.desktop;sun.awt.X11.XlibWrapper;DefaultScreen(long);internal
+899;java.desktop;sun.awt.X11.XlibWrapper;DisplayHeight(long, long);internal
+900;java.desktop;sun.awt.X11.XlibWrapper;DisplayHeightMM(long, long);internal
+901;java.desktop;sun.awt.X11.XlibWrapper;DisplayWidth(long, long);internal
+902;java.desktop;sun.awt.X11.XlibWrapper;DisplayWidthMM(long, long);internal
+903;java.desktop;sun.awt.X11.XlibWrapper;DoesBackingStore(long);internal
+904;java.desktop;sun.awt.X11.XlibWrapper;ExitSecondaryLoop();desktop
+905;java.desktop;sun.awt.X11.XlibWrapper;getAddress(java.lang.Object);internal
+906;java.desktop;sun.awt.X11.XlibWrapper;GetProperty(long, long, long);desktop
+907;java.desktop;sun.awt.X11.XlibWrapper;getScreenOfWindow(long, long);desktop
+908;java.desktop;sun.awt.X11.XlibWrapper;getStringBytes(long);internal
+909;java.desktop;sun.awt.X11.XlibWrapper;InternAtom(long, java.lang.String, int);desktop
+910;java.desktop;sun.awt.X11.XlibWrapper;IsKanaKeyboard(long);desktop
+911;java.desktop;sun.awt.X11.XlibWrapper;IsKeypadKey(long);internal
+912;java.desktop;sun.awt.X11.XlibWrapper;IsSunKeyboard(long);desktop
+913;java.desktop;sun.awt.X11.XlibWrapper;IsXsunKPBehavior(long);desktop
+914;java.desktop;sun.awt.X11.XlibWrapper;memcpy(long, long, long);internal
+915;java.desktop;sun.awt.X11.XlibWrapper;PrintXErrorEvent(long, long);desktop
+916;java.desktop;sun.awt.X11.XlibWrapper;RootWindow(long, long);internal
+917;java.desktop;sun.awt.X11.XlibWrapper;ScreenCount(long);internal
+918;java.desktop;sun.awt.X11.XlibWrapper;ScreenOfDisplay(long, long);internal
+919;java.desktop;sun.awt.X11.XlibWrapper;ServerVendor(long);internal
+920;java.desktop;sun.awt.X11.XlibWrapper;SetBitmapShape(long, long, int, int, int[]);desktop
+921;java.desktop;sun.awt.X11.XlibWrapper;SetProperty(long, long, long, java.lang.String);desktop
+922;java.desktop;sun.awt.X11.XlibWrapper;SetRectangularShape(long, long, int, int, int, int, sun.java2d.pipe.Region);desktop
+923;java.desktop;sun.awt.X11.XlibWrapper;SetToolkitErrorHandler();desktop
+924;java.desktop;sun.awt.X11.XlibWrapper;SetZOrder(long, long, long);desktop
+925;java.desktop;sun.awt.X11.XlibWrapper;VendorRelease(long);internal
+926;java.desktop;sun.awt.X11.XlibWrapper;XAllocColor(long, long, long);desktop
+927;java.desktop;sun.awt.X11.XlibWrapper;XAllocSizeHints();desktop
+928;java.desktop;sun.awt.X11.XlibWrapper;XAllocWMHints();desktop
+929;java.desktop;sun.awt.X11.XlibWrapper;XBell(long, int);desktop
+930;java.desktop;sun.awt.X11.XlibWrapper;XChangeActivePointerGrab(long, int, long, long);desktop
+931;java.desktop;sun.awt.X11.XlibWrapper;XChangePropertyImpl(long, long, long, long, int, int, long, int);desktop
+932;java.desktop;sun.awt.X11.XlibWrapper;XChangePropertyS(long, long, long, long, int, int, java.lang.String);desktop
+933;java.desktop;sun.awt.X11.XlibWrapper;XChangeWindowAttributes(long, long, long, long);desktop
+934;java.desktop;sun.awt.X11.XlibWrapper;XClearWindow(long, long);desktop
+935;java.desktop;sun.awt.X11.XlibWrapper;XCloseDisplay(long);desktop
+936;java.desktop;sun.awt.X11.XlibWrapper;XConfigureWindow(long, long, long, long);desktop
+937;java.desktop;sun.awt.X11.XlibWrapper;XConvertCase(long, long, long);desktop
+938;java.desktop;sun.awt.X11.XlibWrapper;XConvertSelection(long, long, long, long, long, long);desktop
+939;java.desktop;sun.awt.X11.XlibWrapper;XCreateBitmapFromData(long, long, long, int, int);desktop
+940;java.desktop;sun.awt.X11.XlibWrapper;XCreateFontCursor(long, int);desktop
+941;java.desktop;sun.awt.X11.XlibWrapper;XCreateGC(long, long, long, long);desktop
+942;java.desktop;sun.awt.X11.XlibWrapper;XCreateImage(long, long, int, int, int, long, int, int, int, int);desktop
+943;java.desktop;sun.awt.X11.XlibWrapper;XCreatePixmap(long, long, int, int, int);desktop
+944;java.desktop;sun.awt.X11.XlibWrapper;XCreatePixmapCursor(long, long, long, long, long, int, int);desktop
+945;java.desktop;sun.awt.X11.XlibWrapper;XCreateWindow(long, long, int, int, int, int, int, int, long, long, long, long);desktop
+946;java.desktop;sun.awt.X11.XlibWrapper;XdbeAllocateBackBufferName(long, long, int);desktop
+947;java.desktop;sun.awt.X11.XlibWrapper;XdbeBeginIdiom(long);desktop
+948;java.desktop;sun.awt.X11.XlibWrapper;XdbeDeallocateBackBufferName(long, long);desktop
+949;java.desktop;sun.awt.X11.XlibWrapper;XdbeEndIdiom(long);desktop
+950;java.desktop;sun.awt.X11.XlibWrapper;XdbeQueryExtension(long, long, long);desktop
+951;java.desktop;sun.awt.X11.XlibWrapper;XdbeSwapBuffers(long, long, int);desktop
+952;java.desktop;sun.awt.X11.XlibWrapper;XDeleteProperty(long, long, long);desktop
+953;java.desktop;sun.awt.X11.XlibWrapper;XDestroyImage(long);desktop
+954;java.desktop;sun.awt.X11.XlibWrapper;XDestroyWindow(long, long);desktop
+955;java.desktop;sun.awt.X11.XlibWrapper;XDisplayString(long);desktop
+956;java.desktop;sun.awt.X11.XlibWrapper;XEventsQueued(long, int);desktop
+957;java.desktop;sun.awt.X11.XlibWrapper;XFilterEvent(long, long);desktop
+958;java.desktop;sun.awt.X11.XlibWrapper;XFlush(long);desktop
+959;java.desktop;sun.awt.X11.XlibWrapper;XFree(long);desktop
+960;java.desktop;sun.awt.X11.XlibWrapper;XFreeCursor(long, long);desktop
+961;java.desktop;sun.awt.X11.XlibWrapper;XFreeGC(long, long);desktop
+962;java.desktop;sun.awt.X11.XlibWrapper;XFreeModifiermap(long);desktop
+963;java.desktop;sun.awt.X11.XlibWrapper;XFreePixmap(long, long);desktop
+964;java.desktop;sun.awt.X11.XlibWrapper;XGetAtomName(long, long);desktop
+965;java.desktop;sun.awt.X11.XlibWrapper;XGetDefault(long, java.lang.String, java.lang.String);desktop
+966;java.desktop;sun.awt.X11.XlibWrapper;XGetGeometry(long, long, long, long, long, long, long, long, long);desktop
+967;java.desktop;sun.awt.X11.XlibWrapper;XGetIconSizes(long, long, long, long);desktop
+968;java.desktop;sun.awt.X11.XlibWrapper;XGetInputFocus(long);desktop
+969;java.desktop;sun.awt.X11.XlibWrapper;XGetModifierMapping(long);desktop
+970;java.desktop;sun.awt.X11.XlibWrapper;XGetPointerMapping(long, long, int);desktop
+971;java.desktop;sun.awt.X11.XlibWrapper;XGetSelectionOwner(long, long);desktop
+972;java.desktop;sun.awt.X11.XlibWrapper;XGetVisualInfo(long, long, long, long);desktop
+973;java.desktop;sun.awt.X11.XlibWrapper;XGetWindowAttributes(long, long, long);desktop
+974;java.desktop;sun.awt.X11.XlibWrapper;XGetWindowProperty(long, long, long, long, long, long, long, long, long, long, long, long);desktop
+975;java.desktop;sun.awt.X11.XlibWrapper;XGetWMHints(long, long, long);desktop
+976;java.desktop;sun.awt.X11.XlibWrapper;XGetWMNormalHints(long, long, long, long);desktop
+977;java.desktop;sun.awt.X11.XlibWrapper;XGrabKeyboard(long, long, int, int, int, long);desktop
+978;java.desktop;sun.awt.X11.XlibWrapper;XGrabPointer(long, long, int, int, int, int, long, long, long);desktop
+979;java.desktop;sun.awt.X11.XlibWrapper;XGrabServer(long);desktop
+980;java.desktop;sun.awt.X11.XlibWrapper;XIconifyWindow(long, long, long);desktop
+981;java.desktop;sun.awt.X11.XlibWrapper;XInternAtoms(long, java.lang.String[], boolean, long);desktop
+982;java.desktop;sun.awt.X11.XlibWrapper;XkbFreeKeyboard(long, long, boolean);desktop
+983;java.desktop;sun.awt.X11.XlibWrapper;XkbGetEffectiveGroup(long);desktop
+984;java.desktop;sun.awt.X11.XlibWrapper;XkbGetMap(long, long, long);desktop
+985;java.desktop;sun.awt.X11.XlibWrapper;XkbGetUpdatedMap(long, long, long);desktop
+986;java.desktop;sun.awt.X11.XlibWrapper;XkbKeycodeToKeysym(long, int, int, int);desktop
+987;java.desktop;sun.awt.X11.XlibWrapper;XkbLibraryVersion(long, long);desktop
+988;java.desktop;sun.awt.X11.XlibWrapper;XkbQueryExtension(long, long, long, long, long, long);desktop
+989;java.desktop;sun.awt.X11.XlibWrapper;XkbSelectEventDetails(long, long, long, long, long);desktop
+990;java.desktop;sun.awt.X11.XlibWrapper;XkbSelectEvents(long, long, long, long);desktop
+991;java.desktop;sun.awt.X11.XlibWrapper;XkbSetDetectableAutoRepeat(long, boolean);desktop
+992;java.desktop;sun.awt.X11.XlibWrapper;XkbTranslateKeyCode(long, int, long, long, long);desktop
+993;java.desktop;sun.awt.X11.XlibWrapper;XKeycodeToKeysym(long, int, int);desktop
+994;java.desktop;sun.awt.X11.XlibWrapper;XKeysymToKeycode(long, long);desktop
+995;java.desktop;sun.awt.X11.XlibWrapper;XLowerWindow(long, long);desktop
+996;java.desktop;sun.awt.X11.XlibWrapper;XMapRaised(long, long);desktop
+997;java.desktop;sun.awt.X11.XlibWrapper;XMapWindow(long, long);desktop
+998;java.desktop;sun.awt.X11.XlibWrapper;XMaskEvent(long, long, long);desktop
+999;java.desktop;sun.awt.X11.XlibWrapper;XMaxRequestSize(long);desktop
+1000;java.desktop;sun.awt.X11.XlibWrapper;XMoveResizeWindow(long, long, int, int, int, int);desktop
+1001;java.desktop;sun.awt.X11.XlibWrapper;XMoveWindow(long, long, int, int);desktop
+1002;java.desktop;sun.awt.X11.XlibWrapper;XNextEvent(long, long);desktop
+1003;java.desktop;sun.awt.X11.XlibWrapper;XNextSecondaryLoopEvent(long, long);desktop
+1004;java.desktop;sun.awt.X11.XlibWrapper;XOpenDisplay(long);desktop
+1005;java.desktop;sun.awt.X11.XlibWrapper;XPeekEvent(long, long);desktop
+1006;java.desktop;sun.awt.X11.XlibWrapper;XPutBackEvent(long, long);desktop
+1007;java.desktop;sun.awt.X11.XlibWrapper;XPutImage(long, long, long, long, int, int, int, int, int, int);desktop
+1008;java.desktop;sun.awt.X11.XlibWrapper;XQueryBestCursor(long, long, int, int, long, long);desktop
+1009;java.desktop;sun.awt.X11.XlibWrapper;XQueryExtension(long, java.lang.String, long, long, long);desktop
+1010;java.desktop;sun.awt.X11.XlibWrapper;XQueryKeymap(long, long);desktop
+1011;java.desktop;sun.awt.X11.XlibWrapper;XQueryPointer(long, long, long, long, long, long, long, long, long);desktop
+1012;java.desktop;sun.awt.X11.XlibWrapper;XQueryTree(long, long, long, long, long, long);desktop
+1013;java.desktop;sun.awt.X11.XlibWrapper;XRaiseWindow(long, long);desktop
+1014;java.desktop;sun.awt.X11.XlibWrapper;XRefreshKeyboardMapping(long);desktop
+1015;java.desktop;sun.awt.X11.XlibWrapper;XReparentWindow(long, long, long, int, int);desktop
+1016;java.desktop;sun.awt.X11.XlibWrapper;XResizeWindow(long, long, int, int);desktop
+1017;java.desktop;sun.awt.X11.XlibWrapper;XRestackWindows(long, long, int);desktop
+1018;java.desktop;sun.awt.X11.XlibWrapper;XScreenNumberOfScreen(long);desktop
+1019;java.desktop;sun.awt.X11.XlibWrapper;XSelectInput(long, long, long);desktop
+1020;java.desktop;sun.awt.X11.XlibWrapper;XSendEvent(long, long, boolean, long, long);desktop
+1021;java.desktop;sun.awt.X11.XlibWrapper;XSetCloseDownMode(long, int);desktop
+1022;java.desktop;sun.awt.X11.XlibWrapper;XSetErrorHandler(long);desktop
+1023;java.desktop;sun.awt.X11.XlibWrapper;XSetInputFocus(long, long);desktop
+1024;java.desktop;sun.awt.X11.XlibWrapper;XSetInputFocus2(long, long, long);desktop
+1025;java.desktop;sun.awt.X11.XlibWrapper;XSetLocaleModifiers(java.lang.String);desktop
+1026;java.desktop;sun.awt.X11.XlibWrapper;XSetMinMaxHints(long, long, int, int, int, int, long);desktop
+1027;java.desktop;sun.awt.X11.XlibWrapper;XSetSelectionOwner(long, long, long, long);desktop
+1028;java.desktop;sun.awt.X11.XlibWrapper;XSetTransientFor(long, long, long);desktop
+1029;java.desktop;sun.awt.X11.XlibWrapper;XSetWindowBackground(long, long, long);desktop
+1030;java.desktop;sun.awt.X11.XlibWrapper;XSetWindowBackgroundPixmap(long, long, long);desktop
+1031;java.desktop;sun.awt.X11.XlibWrapper;XSetWMHints(long, long, long);desktop
+1032;java.desktop;sun.awt.X11.XlibWrapper;XSetWMNormalHints(long, long, long);desktop
+1033;java.desktop;sun.awt.X11.XlibWrapper;XShapeQueryExtension(long, long, long);desktop
+1034;java.desktop;sun.awt.X11.XlibWrapper;XSupportsLocale();desktop
+1035;java.desktop;sun.awt.X11.XlibWrapper;XSync(long, int);desktop
+1036;java.desktop;sun.awt.X11.XlibWrapper;XSynchronize(long, boolean);desktop
+1037;java.desktop;sun.awt.X11.XlibWrapper;XTextPropertyToStringList(byte[], long);desktop
+1038;java.desktop;sun.awt.X11.XlibWrapper;XTranslateCoordinates(long, long, long, long, long, long, long, long);desktop
+1039;java.desktop;sun.awt.X11.XlibWrapper;XUngrabKeyboard(long, long);desktop
+1040;java.desktop;sun.awt.X11.XlibWrapper;XUngrabPointer(long, long);desktop
+1041;java.desktop;sun.awt.X11.XlibWrapper;XUngrabServer(long);desktop
+1042;java.desktop;sun.awt.X11.XlibWrapper;XUnmapWindow(long, long);desktop
+1043;java.desktop;sun.awt.X11.XlibWrapper;XWindowEvent(long, long, long, long);desktop
+1044;java.desktop;sun.awt.X11.XRobotPeer;getRGBPixelsImpl(sun.awt.X11GraphicsConfig, int, int, int, int, int[], boolean);desktop
+1045;java.desktop;sun.awt.X11.XRobotPeer;keyPressImpl(int);desktop
+1046;java.desktop;sun.awt.X11.XRobotPeer;keyReleaseImpl(int);desktop
+1047;java.desktop;sun.awt.X11.XRobotPeer;loadNativeLibraries();files
+1048;java.desktop;sun.awt.X11.XRobotPeer;mouseMoveImpl(sun.awt.X11GraphicsConfig, int, int);desktop
+1049;java.desktop;sun.awt.X11.XRobotPeer;mousePressImpl(int);desktop
+1050;java.desktop;sun.awt.X11.XRobotPeer;mouseReleaseImpl(int);desktop
+1051;java.desktop;sun.awt.X11.XRobotPeer;mouseWheelImpl(int);desktop
+1052;java.desktop;sun.awt.X11.XRobotPeer;setup(int, int[]);desktop
+1053;java.desktop;sun.awt.X11.XTaskbarPeer;init(java.lang.String, int, boolean);files
+1054;java.desktop;sun.awt.X11.XTaskbarPeer;runloop();invocation
+1055;java.desktop;sun.awt.X11.XTaskbarPeer;setBadge(long, boolean);desktop
+1056;java.desktop;sun.awt.X11.XTaskbarPeer;setNativeMenu(java.awt.MenuItem[]);desktop
+1057;java.desktop;sun.awt.X11.XTaskbarPeer;setUrgent(boolean);desktop
+1058;java.desktop;sun.awt.X11.XTaskbarPeer;updateProgress(double, boolean);desktop
+1059;java.desktop;sun.awt.X11.XToolkit;awt_output_flush();time
+1060;java.desktop;sun.awt.X11.XToolkit;awt_toolkit_init();os
+1061;java.desktop;sun.awt.X11.XToolkit;getDefaultXColormap();desktop
+1062;java.desktop;sun.awt.X11.XToolkit;getEnv(java.lang.String);os
+1063;java.desktop;sun.awt.X11.XToolkit;getNumberOfButtonsImpl();desktop
+1064;java.desktop;sun.awt.X11.XToolkit;getTrayIconDisplayTimeout();internal
+1065;java.desktop;sun.awt.X11.XToolkit;initIDs();internal
+1066;java.desktop;sun.awt.X11.XToolkit;nativeLoadSystemColors(int[]);desktop
+1067;java.desktop;sun.awt.X11.XToolkit;waitForEvents(long);time
+1068;java.desktop;sun.awt.X11.XToolkit;wakeup_poll();desktop
+1069;java.desktop;sun.awt.X11.XWindow;getAWTKeyCodeForKeySym(int);desktop
+1070;java.desktop;sun.awt.X11.XWindow;getKeySymForAWTKeyCode(int);desktop
+1071;java.desktop;sun.awt.X11.XWindow;haveCurrentX11InputMethodInstance();internal
+1072;java.desktop;sun.awt.X11.XWindow;initIDs();os
+1073;java.desktop;sun.awt.X11.XWindow;x11inputMethodLookupString(long, long[]);desktop
+1074;java.desktop;sun.awt.X11.XWindowPeer;getJvmPID();os
+1075;java.desktop;sun.awt.X11.XWindowPeer;getLocalHostname();os
+1076;java.desktop;sun.awt.X11GraphicsConfig;createBackBuffer(long, int);desktop
+1077;java.desktop;sun.awt.X11GraphicsConfig;destroyBackBuffer(long);desktop
+1078;java.desktop;sun.awt.X11GraphicsConfig;dispose(long);desktop
+1079;java.desktop;sun.awt.X11GraphicsConfig;getNumColors();internal
+1080;java.desktop;sun.awt.X11GraphicsConfig;getXResolution(int);internal
+1081;java.desktop;sun.awt.X11GraphicsConfig;getYResolution(int);internal
+1082;java.desktop;sun.awt.X11GraphicsConfig;init(int, int);desktop
+1083;java.desktop;sun.awt.X11GraphicsConfig;initIDs();internal
+1084;java.desktop;sun.awt.X11GraphicsConfig;isTranslucencyCapable(long);internal
+1085;java.desktop;sun.awt.X11GraphicsConfig;makeColorModel();desktop
+1086;java.desktop;sun.awt.X11GraphicsConfig;swapBuffers(long, int);desktop
+1087;java.desktop;sun.awt.X11GraphicsDevice;configDisplayMode(int, int, int, int);desktop
+1088;java.desktop;sun.awt.X11GraphicsDevice;enterFullScreenExclusive(long);desktop
+1089;java.desktop;sun.awt.X11GraphicsDevice;enumDisplayModes(int, java.util.ArrayList);desktop
+1090;java.desktop;sun.awt.X11GraphicsDevice;exitFullScreenExclusive(long);desktop
+1091;java.desktop;sun.awt.X11GraphicsDevice;getConfigColormap(int, int);desktop
+1092;java.desktop;sun.awt.X11GraphicsDevice;getConfigDepth(int, int);desktop
+1093;java.desktop;sun.awt.X11GraphicsDevice;getConfigVisualId(int, int);desktop
+1094;java.desktop;sun.awt.X11GraphicsDevice;getCurrentDisplayMode(int);desktop
+1095;java.desktop;sun.awt.X11GraphicsDevice;getDisplay();internal
+1096;java.desktop;sun.awt.X11GraphicsDevice;getDoubleBufferVisuals(int);desktop
+1097;java.desktop;sun.awt.X11GraphicsDevice;getNativeScaleFactor(int);os
+1098;java.desktop;sun.awt.X11GraphicsDevice;getNumConfigs(int);desktop
+1099;java.desktop;sun.awt.X11GraphicsDevice;initXrandrExtension();desktop
+1100;java.desktop;sun.awt.X11GraphicsDevice;isDBESupported();desktop
+1101;java.desktop;sun.awt.X11GraphicsDevice;pGetBounds(int);desktop
+1102;java.desktop;sun.awt.X11GraphicsEnvironment;checkShmExt();desktop
+1103;java.desktop;sun.awt.X11GraphicsEnvironment;getDefaultScreenNum();internal
+1104;java.desktop;sun.awt.X11GraphicsEnvironment;getDisplayString();internal
+1105;java.desktop;sun.awt.X11GraphicsEnvironment;getNumScreens();internal
+1106;java.desktop;sun.awt.X11GraphicsEnvironment;initDisplay(boolean);desktop
+1107;java.desktop;sun.awt.X11GraphicsEnvironment;initGLX();desktop
+1108;java.desktop;sun.awt.X11GraphicsEnvironment;initNativeData();desktop
+1109;java.desktop;sun.awt.X11GraphicsEnvironment;initXRender(boolean, boolean);desktop
+1110;java.desktop;sun.awt.X11GraphicsEnvironment;pRunningXinerama();internal
+1111;java.desktop;sun.awt.X11InputMethodBase;disposeXIC();desktop
+1112;java.desktop;sun.awt.X11InputMethodBase;initIDs();internal
+1113;java.desktop;sun.awt.X11InputMethodBase;isCompositionEnabledNative();desktop
+1114;java.desktop;sun.awt.X11InputMethodBase;resetXIC();desktop
+1115;java.desktop;sun.awt.X11InputMethodBase;setCompositionEnabledNative(boolean);desktop
+1116;java.desktop;sun.awt.X11InputMethodBase;turnoffStatusWindow();desktop
+1117;java.desktop;sun.font.ColorGlyphSurfaceData;initOps();internal
+1118;java.desktop;sun.font.ColorGlyphSurfaceData;setCurrentGlyph(long);desktop
+1119;java.desktop;sun.font.FileFontStrike;_getGlyphImageFromWindows(java.lang.String, int, int, int, boolean, int);internal
+1120;java.desktop;sun.font.FileFontStrike;initNative();internal
+1121;java.desktop;sun.font.FontConfigManager;getFontConfig(java.lang.String, sun.font.FontConfigManager$FontConfigInfo, sun.font.FontConfigManager$FcCompFont[], boolean);desktop
+1122;java.desktop;sun.font.FontConfigManager;getFontConfigAASettings(java.lang.String, java.lang.String);desktop
+1123;java.desktop;sun.font.FontConfigManager;getFontConfigVersion();desktop
+1124;java.desktop;sun.font.FreetypeFontScaler;createScalerContextNative(long, double[], int, int, float, float);desktop
+1125;java.desktop;sun.font.FreetypeFontScaler;disposeNativeScaler(sun.font.Font2D, long);desktop
+1126;java.desktop;sun.font.FreetypeFontScaler;getFontMetricsNative(sun.font.Font2D, long, long);desktop
+1127;java.desktop;sun.font.FreetypeFontScaler;getGlyphAdvanceNative(sun.font.Font2D, long, long, int);desktop
+1128;java.desktop;sun.font.FreetypeFontScaler;getGlyphCodeNative(sun.font.Font2D, long, char);desktop
+1129;java.desktop;sun.font.FreetypeFontScaler;getGlyphImageNative(sun.font.Font2D, long, long, int);desktop
+1130;java.desktop;sun.font.FreetypeFontScaler;getGlyphMetricsNative(sun.font.Font2D, long, long, int, java.awt.geom.Point2D$Float);desktop
+1131;java.desktop;sun.font.FreetypeFontScaler;getGlyphOutlineBoundsNative(sun.font.Font2D, long, long, int);desktop
+1132;java.desktop;sun.font.FreetypeFontScaler;getGlyphOutlineNative(sun.font.Font2D, long, long, int, float, float);desktop
+1133;java.desktop;sun.font.FreetypeFontScaler;getGlyphPointNative(sun.font.Font2D, long, long, int, int);desktop
+1134;java.desktop;sun.font.FreetypeFontScaler;getGlyphVectorOutlineNative(sun.font.Font2D, long, long, int[], int, float, float);desktop
+1135;java.desktop;sun.font.FreetypeFontScaler;getMissingGlyphCodeNative(long);internal
+1136;java.desktop;sun.font.FreetypeFontScaler;getNumGlyphsNative(long);desktop
+1137;java.desktop;sun.font.FreetypeFontScaler;getUnitsPerEMNative(long);internal
+1138;java.desktop;sun.font.FreetypeFontScaler;initIDs(java.lang.Class);internal
+1139;java.desktop;sun.font.FreetypeFontScaler;initNativeScaler(sun.font.Font2D, int, int, boolean, int);desktop
+1140;java.desktop;sun.font.NativeFont;countGlyphs(byte[], int);desktop
+1141;java.desktop;sun.font.NativeFont;fontExists(byte[]);desktop
+1142;java.desktop;sun.font.NativeFont;getFontMetrics(long);desktop
+1143;java.desktop;sun.font.NativeFont;getGlyphAdvance(long, int);desktop
+1144;java.desktop;sun.font.NativeFont;getGlyphImage(long, int);desktop
+1145;java.desktop;sun.font.NativeFont;getGlyphImageNoDefault(long, int);desktop
+1146;java.desktop;sun.font.NativeFont;haveBitmapFonts(byte[]);desktop
+1147;java.desktop;sun.font.NativeStrike;createNullScalerContext();internal
+1148;java.desktop;sun.font.NativeStrike;createScalerContext(byte[], int, double);desktop
+1149;java.desktop;sun.font.NativeStrike;getMaxGlyph(long);internal
+1150;java.desktop;sun.font.NativeStrikeDisposer;freeNativeScalerContext(long);desktop
+1151;java.desktop;sun.font.NullFontScaler;getGlyphImage(long, int);internal
+1152;java.desktop;sun.font.NullFontScaler;getNullScalerContext();internal
+1153;java.desktop;sun.font.StrikeCache;freeIntMemory(int[], long);internal
+1154;java.desktop;sun.font.StrikeCache;freeIntPointer(int);internal
+1155;java.desktop;sun.font.StrikeCache;freeLongMemory(long[], long);internal
+1156;java.desktop;sun.font.StrikeCache;freeLongPointer(long);internal
+1157;java.desktop;sun.font.StrikeCache;getGlyphCacheDescription(long[]);internal
+1158;java.desktop;sun.font.SunFontManager;initIDs();internal
+1159;java.desktop;sun.font.SunLayoutEngine;createFace(sun.font.Font2D, long);desktop
+1160;java.desktop;sun.font.SunLayoutEngine;disposeFace(long);desktop
+1161;java.desktop;sun.font.SunLayoutEngine;shape(sun.font.Font2D, sun.font.FontStrike, float, float[], long, char[], sun.font.GlyphLayout$GVData, int, int, int, int, java.awt.geom.Point2D$Float, int, int);desktop
+1162;java.desktop;sun.font.X11TextRenderer;doDrawGlyphList(long, long, sun.java2d.pipe.Region, sun.font.GlyphList);desktop
+1163;java.desktop;sun.java2d.cmm.lcms.LCMS;colorConvert(long, sun.java2d.cmm.lcms.LCMSImageLayout, sun.java2d.cmm.lcms.LCMSImageLayout);internal
+1164;java.desktop;sun.java2d.cmm.lcms.LCMS;createNativeTransform(long[], int, int, boolean, int, boolean, java.lang.Object);internal
+1165;java.desktop;sun.java2d.cmm.lcms.LCMS;getProfileDataNative(long);internal
+1166;java.desktop;sun.java2d.cmm.lcms.LCMS;getProfileID(java.awt.color.ICC_Profile);internal
+1167;java.desktop;sun.java2d.cmm.lcms.LCMS;getTagNative(long, int);internal
+1168;java.desktop;sun.java2d.cmm.lcms.LCMS;initLCMS(java.lang.Class, java.lang.Class, java.lang.Class);internal
+1169;java.desktop;sun.java2d.cmm.lcms.LCMS;loadProfileNative(byte[], java.lang.Object);internal
+1170;java.desktop;sun.java2d.cmm.lcms.LCMS;setTagDataNative(long, int, byte[]);internal
+1171;java.desktop;sun.java2d.DefaultDisposerRecord;invokeNativeDispose(long, long);invocation
+1172;java.desktop;sun.java2d.Disposer;initIDs();internal
+1173;java.desktop;sun.java2d.loops.Blit;Blit(sun.java2d.SurfaceData, sun.java2d.SurfaceData, java.awt.Composite, sun.java2d.pipe.Region, int, int, int, int, int, int);desktop
+1174;java.desktop;sun.java2d.loops.BlitBg;BlitBg(sun.java2d.SurfaceData, sun.java2d.SurfaceData, java.awt.Composite, sun.java2d.pipe.Region, int, int, int, int, int, int, int);desktop
+1175;java.desktop;sun.java2d.loops.DrawGlyphList;DrawGlyphList(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, sun.font.GlyphList, int, int);desktop
+1176;java.desktop;sun.java2d.loops.DrawGlyphListAA;DrawGlyphListAA(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, sun.font.GlyphList, int, int);desktop
+1177;java.desktop;sun.java2d.loops.DrawGlyphListLCD;DrawGlyphListLCD(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, sun.font.GlyphList, int, int);desktop
+1178;java.desktop;sun.java2d.loops.DrawLine;DrawLine(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int, int, int, int);desktop
+1179;java.desktop;sun.java2d.loops.DrawParallelogram;DrawParallelogram(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, double, double, double, double, double, double, double, double);desktop
+1180;java.desktop;sun.java2d.loops.DrawPath;DrawPath(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int, int, java.awt.geom.Path2D$Float);desktop
+1181;java.desktop;sun.java2d.loops.DrawPolygons;DrawPolygons(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int[], int[], int[], int, int, int, boolean);desktop
+1182;java.desktop;sun.java2d.loops.DrawRect;DrawRect(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int, int, int, int);desktop
+1183;java.desktop;sun.java2d.loops.FillParallelogram;FillParallelogram(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, double, double, double, double, double, double);desktop
+1184;java.desktop;sun.java2d.loops.FillPath;FillPath(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int, int, java.awt.geom.Path2D$Float);desktop
+1185;java.desktop;sun.java2d.loops.FillRect;FillRect(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int, int, int, int);desktop
+1186;java.desktop;sun.java2d.loops.FillSpans;FillSpans(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, int, long, sun.java2d.pipe.SpanIterator);desktop
+1187;java.desktop;sun.java2d.loops.GraphicsPrimitiveMgr;initIDs(java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class, java.lang.Class);desktop
+1188;java.desktop;sun.java2d.loops.GraphicsPrimitiveMgr;registerNativeLoops();desktop
+1189;java.desktop;sun.java2d.loops.MaskBlit;MaskBlit(sun.java2d.SurfaceData, sun.java2d.SurfaceData, java.awt.Composite, sun.java2d.pipe.Region, int, int, int, int, int, int, byte[], int, int);desktop
+1190;java.desktop;sun.java2d.loops.MaskFill;DrawAAPgram(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, java.awt.Composite, double, double, double, double, double, double, double, double);desktop
+1191;java.desktop;sun.java2d.loops.MaskFill;FillAAPgram(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, java.awt.Composite, double, double, double, double, double, double);desktop
+1192;java.desktop;sun.java2d.loops.MaskFill;MaskFill(sun.java2d.SunGraphics2D, sun.java2d.SurfaceData, java.awt.Composite, int, int, int, int, byte[], int, int);desktop
+1193;java.desktop;sun.java2d.loops.ScaledBlit;Scale(sun.java2d.SurfaceData, sun.java2d.SurfaceData, java.awt.Composite, sun.java2d.pipe.Region, int, int, int, int, double, double, double, double);desktop
+1194;java.desktop;sun.java2d.loops.TransformBlit;Transform(sun.java2d.SurfaceData, sun.java2d.SurfaceData, java.awt.Composite, sun.java2d.pipe.Region, java.awt.geom.AffineTransform, int, int, int, int, int, int, int);desktop
+1195;java.desktop;sun.java2d.loops.TransformHelper;Transform(sun.java2d.loops.MaskBlit, sun.java2d.SurfaceData, sun.java2d.SurfaceData, java.awt.Composite, sun.java2d.pipe.Region, java.awt.geom.AffineTransform, int, int, int, int, int, int, int, int, int, int[], int, int);desktop
+1196;java.desktop;sun.java2d.opengl.GLXGraphicsConfig;getGLXConfigInfo(int, int);desktop
+1197;java.desktop;sun.java2d.opengl.GLXGraphicsConfig;getOGLCapabilities(long);internal
+1198;java.desktop;sun.java2d.opengl.GLXGraphicsConfig;initConfig(long, long);internal
+1199;java.desktop;sun.java2d.opengl.GLXSurfaceData;initOps(sun.java2d.opengl.OGLGraphicsConfig, sun.awt.X11ComponentPeer, long);desktop
+1200;java.desktop;sun.java2d.opengl.OGLContext;getOGLIdString();desktop
+1201;java.desktop;sun.java2d.opengl.OGLMaskFill;maskFill(int, int, int, int, int, int, int, byte[]);desktop
+1202;java.desktop;sun.java2d.opengl.OGLRenderer;drawPoly(int[], int[], int, boolean, int, int);desktop
+1203;java.desktop;sun.java2d.opengl.OGLRenderQueue;flushBuffer(long, int);desktop
+1204;java.desktop;sun.java2d.opengl.OGLSurfaceData;getTextureID(long);internal
+1205;java.desktop;sun.java2d.opengl.OGLSurfaceData;getTextureTarget(long);internal
+1206;java.desktop;sun.java2d.opengl.OGLSurfaceData;initFBObject(long, boolean, boolean, boolean, int, int);desktop
+1207;java.desktop;sun.java2d.opengl.OGLSurfaceData;initFlipBackbuffer(long);desktop
+1208;java.desktop;sun.java2d.opengl.OGLSurfaceData;initTexture(long, boolean, boolean, boolean, int, int);desktop
+1209;java.desktop;sun.java2d.opengl.OGLTextRenderer;drawGlyphList(int, boolean, boolean, boolean, int, float, float, long[], float[]);desktop
+1210;java.desktop;sun.java2d.pipe.BufferedMaskBlit;enqueueTile(long, int, sun.java2d.SurfaceData, long, int, byte[], int, int, int, int, int, int, int, int, int);desktop
+1211;java.desktop;sun.java2d.pipe.BufferedRenderPipe;fillSpans(sun.java2d.pipe.RenderQueue, long, int, int, sun.java2d.pipe.SpanIterator, long, int, int);desktop
+1212;java.desktop;sun.java2d.pipe.Region;initIDs();internal
+1213;java.desktop;sun.java2d.pipe.ShapeSpanIterator;addSegment(int, float[]);desktop
+1214;java.desktop;sun.java2d.pipe.ShapeSpanIterator;appendPoly(int[], int[], int, int, int);desktop
+1215;java.desktop;sun.java2d.pipe.ShapeSpanIterator;closePath();desktop
+1216;java.desktop;sun.java2d.pipe.ShapeSpanIterator;curveTo(float, float, float, float, float, float);desktop
+1217;java.desktop;sun.java2d.pipe.ShapeSpanIterator;dispose();internal
+1218;java.desktop;sun.java2d.pipe.ShapeSpanIterator;getNativeConsumer();desktop
+1219;java.desktop;sun.java2d.pipe.ShapeSpanIterator;getNativeIterator();internal
+1220;java.desktop;sun.java2d.pipe.ShapeSpanIterator;getPathBox(int[]);desktop
+1221;java.desktop;sun.java2d.pipe.ShapeSpanIterator;initIDs();internal
+1222;java.desktop;sun.java2d.pipe.ShapeSpanIterator;intersectClipBox(int, int, int, int);desktop
+1223;java.desktop;sun.java2d.pipe.ShapeSpanIterator;lineTo(float, float);desktop
+1224;java.desktop;sun.java2d.pipe.ShapeSpanIterator;moveTo(float, float);desktop
+1225;java.desktop;sun.java2d.pipe.ShapeSpanIterator;nextSpan(int[]);desktop
+1226;java.desktop;sun.java2d.pipe.ShapeSpanIterator;pathDone();desktop
+1227;java.desktop;sun.java2d.pipe.ShapeSpanIterator;quadTo(float, float, float, float);desktop
+1228;java.desktop;sun.java2d.pipe.ShapeSpanIterator;setNormalize(boolean);desktop
+1229;java.desktop;sun.java2d.pipe.ShapeSpanIterator;setOutputAreaXYXY(int, int, int, int);desktop
+1230;java.desktop;sun.java2d.pipe.ShapeSpanIterator;setRule(int);desktop
+1231;java.desktop;sun.java2d.pipe.ShapeSpanIterator;skipDownTo(int);desktop
+1232;java.desktop;sun.java2d.pipe.SpanClipRenderer;eraseTile(sun.java2d.pipe.RegionIterator, byte[], int, int, int[]);desktop
+1233;java.desktop;sun.java2d.pipe.SpanClipRenderer;fillTile(sun.java2d.pipe.RegionIterator, byte[], int, int, int[]);desktop
+1234;java.desktop;sun.java2d.pipe.SpanClipRenderer;initIDs(java.lang.Class, java.lang.Class);internal
+1235;java.desktop;sun.java2d.SurfaceData;initIDs();internal
+1236;java.desktop;sun.java2d.SurfaceData;isOpaqueGray(java.awt.image.IndexColorModel);internal
+1237;java.desktop;sun.java2d.x11.X11PMBlitBgLoops;nativeBlitBg(long, long, long, int, int, int, int, int, int, int);desktop
+1238;java.desktop;sun.java2d.x11.X11PMBlitLoops;nativeBlit(long, long, long, sun.java2d.pipe.Region, int, int, int, int, int, int);desktop
+1239;java.desktop;sun.java2d.x11.X11PMBlitLoops;updateBitmask(sun.java2d.SurfaceData, sun.java2d.SurfaceData, boolean);desktop
+1240;java.desktop;sun.java2d.x11.X11Renderer;devCopyArea(long, long, int, int, int, int, int, int);desktop
+1241;java.desktop;sun.java2d.x11.X11Renderer;XDoPath(sun.java2d.SunGraphics2D, long, long, int, int, java.awt.geom.Path2D$Float, boolean);desktop
+1242;java.desktop;sun.java2d.x11.X11Renderer;XDrawArc(long, long, int, int, int, int, int, int);desktop
+1243;java.desktop;sun.java2d.x11.X11Renderer;XDrawLine(long, long, int, int, int, int);desktop
+1244;java.desktop;sun.java2d.x11.X11Renderer;XDrawOval(long, long, int, int, int, int);desktop
+1245;java.desktop;sun.java2d.x11.X11Renderer;XDrawPoly(long, long, int, int, int[], int[], int, boolean);desktop
+1246;java.desktop;sun.java2d.x11.X11Renderer;XDrawRect(long, long, int, int, int, int);desktop
+1247;java.desktop;sun.java2d.x11.X11Renderer;XDrawRoundRect(long, long, int, int, int, int, int, int);desktop
+1248;java.desktop;sun.java2d.x11.X11Renderer;XFillArc(long, long, int, int, int, int, int, int);desktop
+1249;java.desktop;sun.java2d.x11.X11Renderer;XFillOval(long, long, int, int, int, int);desktop
+1250;java.desktop;sun.java2d.x11.X11Renderer;XFillPoly(long, long, int, int, int[], int[], int);desktop
+1251;java.desktop;sun.java2d.x11.X11Renderer;XFillRect(long, long, int, int, int, int);desktop
+1252;java.desktop;sun.java2d.x11.X11Renderer;XFillRoundRect(long, long, int, int, int, int, int, int);desktop
+1253;java.desktop;sun.java2d.x11.X11Renderer;XFillSpans(long, long, sun.java2d.pipe.SpanIterator, long, int, int);desktop
+1254;java.desktop;sun.java2d.x11.X11SurfaceData;initIDs(java.lang.Class);desktop
+1255;java.desktop;sun.java2d.x11.X11SurfaceData;initSurface(int, int, int, long);desktop
+1256;java.desktop;sun.java2d.x11.X11SurfaceData;isShmPMAvailable();internal
+1257;java.desktop;sun.java2d.x11.X11SurfaceData;XSetCopyMode(long);desktop
+1258;java.desktop;sun.java2d.x11.X11SurfaceData;XSetForeground(long, int);desktop
+1259;java.desktop;sun.java2d.x11.X11SurfaceData;XSetXorMode(long);desktop
+1260;java.desktop;sun.java2d.x11.XSurfaceData;flushNativeSurface();desktop
+1261;java.desktop;sun.java2d.x11.XSurfaceData;initOps(sun.awt.X11ComponentPeer, sun.awt.X11GraphicsConfig, int);desktop
+1262;java.desktop;sun.java2d.x11.XSurfaceData;isDrawableValid();desktop
+1263;java.desktop;sun.java2d.x11.XSurfaceData;setInvalid();desktop
+1264;java.desktop;sun.java2d.x11.XSurfaceData;XCreateGC(long);desktop
+1265;java.desktop;sun.java2d.x11.XSurfaceData;XResetClip(long);desktop
+1266;java.desktop;sun.java2d.x11.XSurfaceData;XSetClip(long, int, int, int, int, sun.java2d.pipe.Region);desktop
+1267;java.desktop;sun.java2d.x11.XSurfaceData;XSetGraphicsExposures(long, boolean);desktop
+1268;java.desktop;sun.java2d.xr.XIDGenerator;bufferXIDs(int[], int);desktop
+1269;java.desktop;sun.java2d.xr.XRBackendNative;copyArea(int, int, long, int, int, int, int, int, int);desktop
+1270;java.desktop;sun.java2d.xr.XRBackendNative;createGC(int);desktop
+1271;java.desktop;sun.java2d.xr.XRBackendNative;createPictureNative(int, long);desktop
+1272;java.desktop;sun.java2d.xr.XRBackendNative;createPixmap(int, int, int, int);desktop
+1273;java.desktop;sun.java2d.xr.XRBackendNative;freeGC(long);desktop
+1274;java.desktop;sun.java2d.xr.XRBackendNative;freePicture(int);desktop
+1275;java.desktop;sun.java2d.xr.XRBackendNative;freePixmap(int);desktop
+1276;java.desktop;sun.java2d.xr.XRBackendNative;GCRectanglesNative(int, long, int[], int);desktop
+1277;java.desktop;sun.java2d.xr.XRBackendNative;initIDs();desktop
+1278;java.desktop;sun.java2d.xr.XRBackendNative;padBlitNative(byte, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int);desktop
+1279;java.desktop;sun.java2d.xr.XRBackendNative;putMaskNative(int, long, byte[], int, int, int, int, int, int, int, int, float, long);desktop
+1280;java.desktop;sun.java2d.xr.XRBackendNative;renderComposite(byte, int, int, int, int, int, int, int, int, int, int, int);desktop
+1281;java.desktop;sun.java2d.xr.XRBackendNative;renderRectangle(int, byte, short, short, short, short, int, int, int, int);desktop
+1282;java.desktop;sun.java2d.xr.XRBackendNative;setFilter(int, int);desktop
+1283;java.desktop;sun.java2d.xr.XRBackendNative;setGCExposures(long, boolean);desktop
+1284;java.desktop;sun.java2d.xr.XRBackendNative;setGCForeground(long, int);desktop
+1285;java.desktop;sun.java2d.xr.XRBackendNative;setGCMode(long, boolean);desktop
+1286;java.desktop;sun.java2d.xr.XRBackendNative;setPictureRepeat(int, int);desktop
+1287;java.desktop;sun.java2d.xr.XRBackendNative;XRAddGlyphsNative(int, long[], int, byte[], int);desktop
+1288;java.desktop;sun.java2d.xr.XRBackendNative;XRCreateLinearGradientPaintNative(float[], short[], int, int, int, int, int, int);desktop
+1289;java.desktop;sun.java2d.xr.XRBackendNative;XRCreateRadialGradientPaintNative(float[], short[], int, int, int, int, int, int);desktop
+1290;java.desktop;sun.java2d.xr.XRBackendNative;XRenderCompositeTextNative(int, int, int, int, int, long, int[], int[], int, int);desktop
+1291;java.desktop;sun.java2d.xr.XRBackendNative;XRenderCreateGlyphSetNative(long);desktop
+1292;java.desktop;sun.java2d.xr.XRBackendNative;XRenderRectanglesNative(int, byte, short, short, short, short, int[], int);desktop
+1293;java.desktop;sun.java2d.xr.XRBackendNative;XRFreeGlyphsNative(int, int[], int);desktop
+1294;java.desktop;sun.java2d.xr.XRBackendNative;XRSetClipNative(long, int, int, int, int, sun.java2d.pipe.Region, boolean);desktop
+1295;java.desktop;sun.java2d.xr.XRBackendNative;XRSetTransformNative(int, int, int, int, int, int, int);desktop
+1296;java.desktop;sun.java2d.xr.XRMaskBlit;maskBlit(long, long, int, int, int, int, int, int, int, int, int, byte[]);desktop
+1297;java.desktop;sun.java2d.xr.XRMaskFill;maskFill(long, int, int, int, int, int, int, int, byte[]);desktop
+1298;java.desktop;sun.java2d.xr.XRSurfaceData;freeXSDOPicture(long);desktop
+1299;java.desktop;sun.java2d.xr.XRSurfaceData;initIDs();desktop
+1300;java.desktop;sun.java2d.xr.XRSurfaceData;initXRPicture(long, int);desktop
+1301;java.desktop;sun.java2d.xr.XRSurfaceData;XRInitSurface(int, int, int, long, int);desktop
+1302;java.desktop;sun.print.CUPSPrinter;canConnect(java.lang.String, int);desktop
+1303;java.desktop;sun.print.CUPSPrinter;getCupsDefaultPrinter();desktop
+1304;java.desktop;sun.print.CUPSPrinter;getCupsDefaultPrinters();desktop
+1305;java.desktop;sun.print.CUPSPrinter;getCupsPort();desktop
+1306;java.desktop;sun.print.CUPSPrinter;getCupsServer();desktop
+1307;java.desktop;sun.print.CUPSPrinter;getMedia(java.lang.String);desktop
+1308;java.desktop;sun.print.CUPSPrinter;getPageSizes(java.lang.String);desktop
+1309;java.desktop;sun.print.CUPSPrinter;getResolutions(java.lang.String, java.util.ArrayList);desktop
+1310;java.desktop;sun.print.CUPSPrinter;initIDs();files
+1311;java.instrument;sun.instrument.InstrumentationImpl;appendToClassLoaderSearch0(long, java.lang.String, boolean);internal
+1312;java.instrument;sun.instrument.InstrumentationImpl;getAllLoadedClasses0(long);internal
+1313;java.instrument;sun.instrument.InstrumentationImpl;getInitiatedClasses0(long, java.lang.ClassLoader);internal
+1314;java.instrument;sun.instrument.InstrumentationImpl;getObjectSize0(long, java.lang.Object);internal
+1315;java.instrument;sun.instrument.InstrumentationImpl;isModifiableClass0(long, java.lang.Class);internal
+1316;java.instrument;sun.instrument.InstrumentationImpl;isRetransformClassesSupported0(long);internal
+1317;java.instrument;sun.instrument.InstrumentationImpl;loadAgent0(java.lang.String);invocation
+1318;java.instrument;sun.instrument.InstrumentationImpl;redefineClasses0(long, java.lang.instrument.ClassDefinition[]);invocation
+1319;java.instrument;sun.instrument.InstrumentationImpl;retransformClasses0(long, java.lang.Class[]);invocation
+1320;java.instrument;sun.instrument.InstrumentationImpl;setHasRetransformableTransformers(long, boolean);internal
+1321;java.instrument;sun.instrument.InstrumentationImpl;setHasTransformers(long, boolean);internal
+1322;java.instrument;sun.instrument.InstrumentationImpl;setNativeMethodPrefixes(long, java.lang.String[], boolean);internal
+1323;java.management;sun.management.ClassLoadingImpl;setVerboseClass(boolean);internal
+1324;java.management;sun.management.GarbageCollectorImpl;getCollectionCount();internal
+1325;java.management;sun.management.GarbageCollectorImpl;getCollectionTime();time
+1326;java.management;sun.management.HotspotThread;getInternalThreadCount();internal
+1327;java.management;sun.management.HotspotThread;getInternalThreadTimes0(java.lang.String[], long[]);time
+1328;java.management;sun.management.MemoryImpl;getMemoryManagers0();internal
+1329;java.management;sun.management.MemoryImpl;getMemoryPools0();internal
+1330;java.management;sun.management.MemoryImpl;getMemoryUsage0(boolean);internal
+1331;java.management;sun.management.MemoryImpl;setVerboseGC(boolean);internal
+1332;java.management;sun.management.MemoryManagerImpl;getMemoryPools0();internal
+1333;java.management;sun.management.MemoryPoolImpl;getCollectionUsage0();internal
+1334;java.management;sun.management.MemoryPoolImpl;getMemoryManagers0();internal
+1335;java.management;sun.management.MemoryPoolImpl;getPeakUsage0();internal
+1336;java.management;sun.management.MemoryPoolImpl;getUsage0();internal
+1337;java.management;sun.management.MemoryPoolImpl;resetPeakUsage0();internal
+1338;java.management;sun.management.MemoryPoolImpl;setCollectionThreshold0(long, long);internal
+1339;java.management;sun.management.MemoryPoolImpl;setPoolCollectionSensor(sun.management.Sensor);internal
+1340;java.management;sun.management.MemoryPoolImpl;setPoolUsageSensor(sun.management.Sensor);internal
+1341;java.management;sun.management.MemoryPoolImpl;setUsageThreshold0(long, long);internal
+1342;java.management;sun.management.ThreadImpl;dumpThreads0(long[], boolean, boolean, int);internal
+1343;java.management;sun.management.ThreadImpl;findDeadlockedThreads0();internal
+1344;java.management;sun.management.ThreadImpl;findMonitorDeadlockedThreads0();internal
+1345;java.management;sun.management.ThreadImpl;getThreadAllocatedMemory0(long);internal
+1346;java.management;sun.management.ThreadImpl;getThreadAllocatedMemory1(long[], long[]);internal
+1347;java.management;sun.management.ThreadImpl;getThreadInfo1(long[], int, java.lang.management.ThreadInfo[]);internal
+1348;java.management;sun.management.ThreadImpl;getThreads();internal
+1349;java.management;sun.management.ThreadImpl;getThreadTotalCpuTime0(long);time
+1350;java.management;sun.management.ThreadImpl;getThreadTotalCpuTime1(long[], long[]);time
+1351;java.management;sun.management.ThreadImpl;getThreadUserCpuTime0(long);time
+1352;java.management;sun.management.ThreadImpl;getThreadUserCpuTime1(long[], long[]);time
+1353;java.management;sun.management.ThreadImpl;resetContentionTimes0(long);internal
+1354;java.management;sun.management.ThreadImpl;resetPeakThreadCount0();internal
+1355;java.management;sun.management.ThreadImpl;setThreadAllocatedMemoryEnabled0(boolean);internal
+1356;java.management;sun.management.ThreadImpl;setThreadContentionMonitoringEnabled0(boolean);internal
+1357;java.management;sun.management.ThreadImpl;setThreadCpuTimeEnabled0(boolean);internal
+1358;java.management;sun.management.VMManagementImpl;getAvailableProcessors();internal
+1359;java.management;sun.management.VMManagementImpl;getClassInitializationTime();time
+1360;java.management;sun.management.VMManagementImpl;getClassLoadingTime();time
+1361;java.management;sun.management.VMManagementImpl;getClassVerificationTime();time
+1362;java.management;sun.management.VMManagementImpl;getDaemonThreadCount();internal
+1363;java.management;sun.management.VMManagementImpl;getInitializedClassCount();internal
+1364;java.management;sun.management.VMManagementImpl;getLiveThreadCount();internal
+1365;java.management;sun.management.VMManagementImpl;getLoadedClassSize();internal
+1366;java.management;sun.management.VMManagementImpl;getMethodDataSize();internal
+1367;java.management;sun.management.VMManagementImpl;getPeakThreadCount();internal
+1368;java.management;sun.management.VMManagementImpl;getProcessId();os
+1369;java.management;sun.management.VMManagementImpl;getSafepointCount();internal
+1370;java.management;sun.management.VMManagementImpl;getSafepointSyncTime();time
+1371;java.management;sun.management.VMManagementImpl;getStartupTime();time
+1372;java.management;sun.management.VMManagementImpl;getTotalApplicationNonStoppedTime();time
+1373;java.management;sun.management.VMManagementImpl;getTotalClassCount();internal
+1374;java.management;sun.management.VMManagementImpl;getTotalCompileTime();internal
+1375;java.management;sun.management.VMManagementImpl;getTotalSafepointTime();time
+1376;java.management;sun.management.VMManagementImpl;getTotalThreadCount();internal
+1377;java.management;sun.management.VMManagementImpl;getUnloadedClassCount();internal
+1378;java.management;sun.management.VMManagementImpl;getUnloadedClassSize();internal
+1379;java.management;sun.management.VMManagementImpl;getUptime0();time
+1380;java.management;sun.management.VMManagementImpl;getVerboseClass();internal
+1381;java.management;sun.management.VMManagementImpl;getVerboseGC();internal
+1382;java.management;sun.management.VMManagementImpl;getVersion0();internal
+1383;java.management;sun.management.VMManagementImpl;getVmArguments0();internal
+1384;java.management;sun.management.VMManagementImpl;initOptionalSupportFields();internal
+1385;java.management;sun.management.VMManagementImpl;isThreadAllocatedMemoryEnabled();internal
+1386;java.management;sun.management.VMManagementImpl;isThreadContentionMonitoringEnabled();internal
+1387;java.management;sun.management.VMManagementImpl;isThreadCpuTimeEnabled();internal
+1388;java.prefs;java.util.prefs.FileSystemPreferences;chmod(java.lang.String, int);files
+1389;java.prefs;java.util.prefs.FileSystemPreferences;lockFile0(java.lang.String, int, boolean);files
+1390;java.prefs;java.util.prefs.FileSystemPreferences;unlockFile0(int);files
+1391;java.rmi;sun.rmi.transport.GC;maxObjectInspectionAge();time
+1392;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;acceptContext(long, org.ietf.jgss.ChannelBinding, byte[], sun.security.jgss.wrapper.NativeGSSContext);os
+1393;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;acquireCred(long, int, int);os
+1394;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;canonicalizeName(long);os
+1395;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;compareName(long, long);os
+1396;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;deleteContext(long);os
+1397;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;displayName(long);os
+1398;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;exportContext(long);os
+1399;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;exportName(long);os
+1400;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getContextMech(long);os
+1401;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getContextName(long, boolean);os
+1402;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getContextTime(long);os
+1403;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getCredName(long);os
+1404;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getCredTime(long);os
+1405;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getCredUsage(long);os
+1406;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getMechPtr(byte[]);os
+1407;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;getMic(long, int, byte[]);os
+1408;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;importContext(byte[]);os
+1409;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;importName(byte[], org.ietf.jgss.Oid);os
+1410;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;indicateMechs();os
+1411;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;init(java.lang.String, boolean);files
+1412;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;initContext(long, long, org.ietf.jgss.ChannelBinding, byte[], sun.security.jgss.wrapper.NativeGSSContext);os
+1413;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;inquireContext(long);os
+1414;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;inquireNamesForMech();os
+1415;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;releaseCred(long);os
+1416;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;releaseName(long);os
+1417;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;unwrap(long, byte[], org.ietf.jgss.MessageProp);os
+1418;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;verifyMic(long, byte[], byte[], org.ietf.jgss.MessageProp);os
+1419;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;wrap(long, byte[], org.ietf.jgss.MessageProp);os
+1420;java.security.jgss;sun.security.jgss.wrapper.GSSLibStub;wrapSizeLimit(long, int, int, int);os
+1421;java.security.jgss;sun.security.krb5.Config;getWindowsDirectory(boolean);os
+1422;java.security.jgss;sun.security.krb5.Credentials;acquireDefaultNativeCreds(int[]);os
+1423;java.security.jgss;sun.security.krb5.SCDynamicStoreConfig;getKerberosConfig();os
+1424;java.security.jgss;sun.security.krb5.SCDynamicStoreConfig;installNotificationCallback();os
+1425;java.smartcardio;sun.security.smartcardio.PCSC;SCardBeginTransaction(long);os
+1426;java.smartcardio;sun.security.smartcardio.PCSC;SCardConnect(long, java.lang.String, int, int);os
+1427;java.smartcardio;sun.security.smartcardio.PCSC;SCardControl(long, int, byte[]);os
+1428;java.smartcardio;sun.security.smartcardio.PCSC;SCardDisconnect(long, int);os
+1429;java.smartcardio;sun.security.smartcardio.PCSC;SCardEndTransaction(long, int);os
+1430;java.smartcardio;sun.security.smartcardio.PCSC;SCardEstablishContext(int);os
+1431;java.smartcardio;sun.security.smartcardio.PCSC;SCardGetStatusChange(long, long, int[], java.lang.String[]);os
+1432;java.smartcardio;sun.security.smartcardio.PCSC;SCardListReaders(long);os
+1433;java.smartcardio;sun.security.smartcardio.PCSC;SCardStatus(long, byte[]);os
+1434;java.smartcardio;sun.security.smartcardio.PCSC;SCardTransmit(long, int, byte[], int, int);os
+1435;java.smartcardio;sun.security.smartcardio.PlatformPCSC;initialize(java.lang.String);files
