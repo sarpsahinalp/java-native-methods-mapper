@@ -26,13 +26,11 @@ def discover_native_methods(java_source_dir):
     for java_file in java_source_dir.rglob("*"):
         if java_file.is_file() and java_file.suffix in [".java"]:
             with open(java_file, "r", encoding="utf-8") as file:
-                for line in file:
-                    match = JAVA_NATIVE_METHOD_PATTERN.search(line)
-                    if match:
-                        count += 1
-                        method_name = match.group(1)
-                        native_methods[str(java_file)].append(method_name)
-
+                content = file.read()
+                for match in JAVA_NATIVE_METHOD_PATTERN.finditer(content):
+                    count += 1
+                    method_name = match.group(1)
+                    native_methods[str(java_file)].append(method_name)
     print(f"Discovered {count} native methods.")
     return native_methods
 

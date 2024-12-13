@@ -1,7 +1,11 @@
 {
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\aix\\classes\\sun\\nio\\ch\\FileDispatcherImpl.java": [
+        "force0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\aix\\classes\\sun\\nio\\ch\\Pollset.java": [
         "pollsetCreate",
         "pollsetCtl",
+        "pollsetPoll",
         "pollsetDestroy",
         "init",
         "eventSize",
@@ -26,7 +30,8 @@
         "eventsOffset",
         "dataOffset",
         "create",
-        "ctl"
+        "ctl",
+        "wait"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\ch\\EventFD.java": [
         "eventfd0",
@@ -36,12 +41,19 @@
         "init0"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\fs\\LinuxNativeDispatcher.java": [
+        "setmntent0",
+        "getmntent0",
         "endmntent",
+        "posix_fadvise",
+        "directCopy0",
         "init"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\linux\\classes\\sun\\nio\\fs\\LinuxWatchService.java": [
         "eventSize",
         "inotifyInit",
+        "inotifyAddWatch",
+        "inotifyRmWatch",
+        "configureBlocking",
         "socketpair",
         "poll"
     ],
@@ -51,16 +63,21 @@
         "_releaseKeychainItemRef",
         "_scanKeychain"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\nio\\ch\\FileDispatcherImpl.java": [
+        "force0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\nio\\ch\\KQueue.java": [
         "keventSize",
         "identOffset",
         "filterOffset",
         "flagsOffset",
         "create",
-        "register"
+        "register",
+        "poll"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\macosx\\classes\\sun\\nio\\fs\\BsdNativeDispatcher.java": [
         "getfsstat",
+        "fsstatEntry",
         "endfsstat",
         "initIDs"
     ],
@@ -113,7 +130,9 @@
         "initIDs"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\FileOutputStream.java": [
+        "open0",
         "write",
+        "writeBytes",
         "initIDs"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\ObjectStreamClass.java": [
@@ -121,6 +140,7 @@
         "hasStaticInitializer"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\io\\RandomAccessFile.java": [
+        "open0",
         "read0",
         "readBytes0",
         "write0",
@@ -270,6 +290,10 @@
         "init"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\net\\NetworkInterface.java": [
+        "getByName0",
+        "getByIndex0",
+        "boundInetAddress0",
+        "getByInetAddress0",
         "isUp0",
         "isLoopback0",
         "supportsMulticast0",
@@ -318,6 +342,28 @@
         "waitForReferencePendingList",
         "refersTo0",
         "clear0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\lang\\reflect\\Array.java": [
+        "getLength",
+        "get",
+        "getBoolean",
+        "getByte",
+        "getChar",
+        "getShort",
+        "getInt",
+        "getLong",
+        "getFloat",
+        "getDouble",
+        "set",
+        "setBoolean",
+        "setByte",
+        "setChar",
+        "setShort",
+        "setInt",
+        "setLong",
+        "setFloat",
+        "setDouble",
+        "newArray"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\java\\util\\zip\\Adler32.java": [
         "update"
@@ -411,6 +457,7 @@
         "writeback0",
         "writebackPreSync0",
         "writebackPostSync0",
+        "allocateInstance",
         "throwException",
         "getReferenceVolatile",
         "putReferenceVolatile",
@@ -458,6 +505,9 @@
         "getNanoTimeAdjustment",
         "initialize"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\module\\ModuleBootstrap.java": [
+        "addEnableNativeAccess"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\perf\\Perf.java": [
         "attach0",
         "detach",
@@ -481,8 +531,14 @@
         "getUTF8At0",
         "getTagAt0"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\DirectConstructorHandleAccessor.java": [
+        "newInstance0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\DirectMethodHandleAccessor.java": [
         "invoke0"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\NativeConstructorAccessorImpl.java": [
+        "newInstance0"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\jdk\\internal\\reflect\\NativeMethodAccessorImpl.java": [
         "invoke0"
@@ -552,6 +608,9 @@
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\net\\spi\\DefaultProxySelector.java": [
         "init"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\DatagramChannelImpl.java": [
+        "disconnect0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\IOUtil.java": [
         "randomBytes",
         "makePipe",
@@ -589,9 +648,18 @@
         "canUseIPv6OptionsWithIPv4LocalAddress0",
         "listen",
         "shutdown",
+        "localPort",
+        "localInetAddress",
+        "remotePort",
+        "remoteInetAddress",
+        "poll",
+        "pollConnect",
         "available",
         "sendOOB",
         "discardOOB",
+        "joinOrDrop4",
+        "joinOrDrop6",
+        "blockOrUnblock6",
         "setInterface4",
         "getInterface4",
         "setInterface6",
@@ -606,7 +674,10 @@
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\share\\classes\\sun\\nio\\ch\\UnixDomainSockets.java": [
         "init",
-        "socket0"
+        "socket0",
+        "bind0",
+        "connect0",
+        "accept0"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\java\\io\\UnixFileSystem.java": [
         "canonicalize0",
@@ -635,6 +706,13 @@
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\net\\dns\\ResolverConfigurationImpl.java": [
         "fallbackDomain0"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\DatagramDispatcher.java": [
+        "read0",
+        "readv0",
+        "write0",
+        "writev0",
+        "dup0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\FileKey.java": [
         "init",
         "initIDs"
@@ -659,6 +737,12 @@
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\PollSelectorImpl.java": [
         "poll"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\SocketDispatcher.java": [
+        "read0",
+        "readv0",
+        "write0",
+        "writev0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\UnixAsynchronousSocketChannelImpl.java": [
         "checkConnect"
     ],
@@ -668,7 +752,15 @@
         "init"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\ch\\UnixFileDispatcherImpl.java": [
+        "read0",
+        "readv0",
+        "write0",
+        "writev0",
+        "force0",
+        "seek0",
+        "truncate0",
         "size0",
+        "release0",
         "closeIntFD",
         "allocationGranularity0",
         "unmap0",
@@ -676,15 +768,32 @@
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\unix\\classes\\sun\\nio\\fs\\UnixNativeDispatcher.java": [
         "dup",
+        "open0",
+        "openat0",
         "close0",
         "rewind",
         "getlinelen",
+        "link0",
         "unlink0",
+        "unlinkat0",
+        "mknod0",
+        "rename0",
+        "renameat0",
         "mkdir0",
         "rmdir0",
+        "symlink0",
         "stat0",
+        "lstat0",
+        "fstat0",
+        "chown0",
+        "lchown0",
         "fchown0",
+        "chmod0",
         "fchmod0",
+        "utimes0",
+        "futimes0",
+        "futimens0",
+        "lutimes0",
         "opendir0",
         "fdopendir",
         "closedir",
@@ -694,10 +803,14 @@
         "exists0",
         "getpwnam0",
         "getgrnam0",
+        "statvfs0",
+        "fremovexattr0",
+        "flistxattr",
         "init"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\java\\io\\WinNTFileSystem.java": [
         "getDriveDirectory",
+        "canonicalize0",
         "getBooleanAttributes0",
         "checkAccess0",
         "getLastModifiedTime0",
@@ -724,6 +837,7 @@
         "terminateProcess",
         "getProcessId0",
         "isProcessAlive",
+        "openForAtomicAppend",
         "closeHandle"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\io\\Win32ErrorMode.java": [
@@ -742,9 +856,22 @@
         "initFirst",
         "getCredentialsHandle"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\DatagramDispatcher.java": [
+        "read0",
+        "readv0",
+        "write0",
+        "writev0"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\FileDispatcherImpl.java": [
+        "read0",
+        "readv0",
+        "write0",
+        "writev0",
         "seek0",
+        "force0",
+        "truncate0",
         "size0",
+        "release0",
         "close0",
         "duplicateHandle",
         "allocationGranularity0",
@@ -762,6 +889,10 @@
         "getErrorMessage"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\SocketDispatcher.java": [
+        "read0",
+        "readv0",
+        "write0",
+        "writev0",
         "close0"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WEPoll.java": [
@@ -770,6 +901,7 @@
         "dataOffset",
         "create",
         "ctl",
+        "wait",
         "close"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WindowsAsynchronousServerSocketChannelImpl.java": [
@@ -779,6 +911,7 @@
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\ch\\WindowsAsynchronousSocketChannelImpl.java": [
         "initIDs",
         "updateConnectContext",
+        "read0",
         "shutdown0",
         "closesocket0"
     ],
@@ -790,21 +923,49 @@
         "queryStringValue"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\nio\\fs\\WindowsNativeDispatcher.java": [
+        "CreateEvent",
         "CloseHandle",
+        "DeleteFile0",
+        "CreateDirectory0",
+        "RemoveDirectory0",
+        "DeviceIoControlSetSparse",
         "GetFileSizeEx",
+        "FindFirstFile0",
+        "FindFirstFile1",
+        "FindNextFile0",
+        "FindFirstStream0",
         "FindNextStream0",
         "FindClose",
+        "GetFileInformationByHandle0",
+        "GetFileAttributes0",
+        "GetFileAttributesEx0",
         "SetEndOfFile",
         "GetLogicalDrives",
         "GetDriveType0",
+        "GetVolumePathName0",
+        "InitializeSecurityDescriptor",
+        "InitializeAcl",
+        "GetSecurityDescriptorOwner",
         "GetSecurityDescriptorDacl",
+        "SetSecurityDescriptorDacl",
         "GetAce",
+        "LookupAccountSid0",
         "GetLengthSid",
+        "ConvertSidToStringSid",
+        "ConvertStringSidToSid0",
         "GetCurrentProcess",
         "GetCurrentThread",
+        "OpenProcessToken",
+        "DuplicateTokenEx",
+        "SetThreadToken",
+        "AdjustTokenPrivileges",
+        "LookupPrivilegeValue0",
+        "GetFullPathName0",
+        "GetFinalPathNameByHandle",
         "FormatMessage",
         "LocalFree",
         "CancelIo",
+        "GetOverlappedResult",
         "initIDs"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.base\\windows\\classes\\sun\\security\\provider\\NativeSeedGenerator.java": [
@@ -1253,6 +1414,8 @@
         "disposeReader"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\imageio\\plugins\\jpeg\\JPEGImageWriter.java": [
+        "setDest",
+        "setDest",
         "initJPEGImageWriter",
         "setDest",
         "abortWrite",
@@ -1271,6 +1434,7 @@
         "nativeGetPangoFontName"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\com\\sun\\media\\sound\\DirectAudioDevice.java": [
+        "nFlush",
         "nStart",
         "nStop",
         "nClose",
@@ -1430,6 +1594,9 @@
         "_setImageData",
         "_getScaleFactor"
     ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\SystemTray.java": [
+        "initializeSystemTrayIfNeeded"
+    ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\java\\awt\\TextArea.java": [
         "initIDs"
     ],
@@ -1554,7 +1721,8 @@
         "initIDs"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\JPEGImageDecoder.java": [
-        "initIDs"
+        "initIDs",
+        "readImage"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\share\\classes\\sun\\awt\\image\\ShortComponentRaster.java": [
         "initIDs"
@@ -1660,7 +1828,8 @@
         "isCompositionEnabledNative"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\font\\FontConfigManager.java": [
-        "getFontConfigVersion"
+        "getFontConfigVersion",
+        "getFontConfigAASettings"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\font\\NativeFont.java": [
         "haveBitmapFonts",
@@ -1683,7 +1852,8 @@
         "getCupsPort",
         "getCupsDefaultPrinter",
         "canConnect",
-        "initIDs"
+        "initIDs",
+        "getResolutions"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\unix\\classes\\sun\\awt\\screencast\\ScreencastHelper.java": [
         "loadPipewire"
@@ -2046,6 +2216,7 @@
         "updateWindow",
         "reshape",
         "nativeHandleEvent",
+        "nativeHandleEvent",
         "setFocus",
         "_dispose",
         "_setForeground",
@@ -2242,12 +2413,14 @@
         "initIDs"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.desktop\\windows\\classes\\sun\\awt\\windows\\WPrinterJob.java": [
+        "setNativePrintService",
         "getNativePrintService",
         "getDefaultPage",
         "validatePaper",
         "setNativeCopies",
         "jobSetup",
         "initPrinter",
+        "_startDoc",
         "endDoc",
         "abortDoc",
         "deleteDC",
@@ -2420,6 +2593,16 @@
         "wrapped_foo"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.instrument\\share\\classes\\sun\\instrument\\InstrumentationImpl.java": [
+        "jarFile",
+        "isModifiableClass0",
+        "isRetransformClassesSupported0",
+        "setHasTransformers",
+        "setHasRetransformableTransformers",
+        "retransformClasses0",
+        "redefineClasses0",
+        "getObjectSize0",
+        "appendToClassLoaderSearch0",
+        "setNativeMethodPrefixes",
         "loadAgent0"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.management\\share\\classes\\sun\\management\\ClassLoadingImpl.java": [
@@ -2493,6 +2676,9 @@
         "getClassVerificationTime"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.prefs\\macosx\\classes\\java\\util\\prefs\\MacOSXPreferencesFile.java": [
+        "addNode",
+        "removeNode",
+        "synchronize",
         "currentUser",
         "anyUser",
         "currentHost",
@@ -2527,6 +2713,7 @@
         "importName",
         "compareName",
         "canonicalizeName",
+        "acquireCred",
         "releaseCred",
         "getCredName",
         "getCredTime",
@@ -2537,6 +2724,13 @@
         "getContextTime",
         "deleteContext",
         "wrapSizeLimit"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.smartcardio\\share\\classes\\sun\\security\\smartcardio\\PCSC.java": [
+        "SCardEstablishContext",
+        "SCardConnect",
+        "SCardDisconnect",
+        "SCardBeginTransaction",
+        "SCardEndTransaction"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\java.smartcardio\\unix\\classes\\sun\\security\\smartcardio\\PlatformPCSC.java": [
         "initialize"
@@ -2620,11 +2814,28 @@
         "C_Finalize",
         "C_GetInfo",
         "C_GetSlotInfo",
+        "C_GetTokenInfo",
+        "C_GetMechanismInfo",
         "C_CloseSession",
         "C_CloseAllSessions",
+        "C_GetSessionInfo",
+        "C_SessionCancel",
+        "C_Login",
         "C_Logout",
+        "C_CreateObject",
+        "C_DestroyObject",
+        "C_FindObjectsInit",
         "C_FindObjectsFinal",
+        "C_DigestInit",
+        "C_DigestKey",
+        "C_Verify",
+        "C_VerifyFinal",
+        "C_SeedRandom",
+        "C_GenerateRandom",
         "C_CancelFunction"
+    ],
+    "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.ec\\share\\classes\\sun\\security\\ec\\ECKeyPairGenerator.java": [
+        "ensureCurveIsSupported"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.mscapi\\windows\\classes\\sun\\security\\mscapi\\CKey.java": [
         "cleanUp",
@@ -2632,6 +2843,7 @@
         "getKeyType"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.mscapi\\windows\\classes\\sun\\security\\mscapi\\CKeyStore.java": [
+        "destroyKeyContainer",
         "removeCngKey"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.crypto.mscapi\\windows\\classes\\sun\\security\\mscapi\\PRNG.java": [
@@ -2642,10 +2854,22 @@
         "load_library"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\debugger\\bsd\\BsdDebuggerLocal.java": [
+        "init0",
+        "attach0",
+        "attach0",
+        "detach0",
+        "lookupByName0",
+        "lookupByAddress0",
         "getAddressSize"
     ],
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.hotspot.agent\\share\\classes\\sun\\jvm\\hotspot\\debugger\\linux\\LinuxDebuggerLocal.java": [
+        "init0",
         "setSAAltRoot0",
+        "attach0",
+        "attach0",
+        "detach0",
+        "lookupByName0",
+        "lookupByAddress0",
         "getAddressSize",
         "demangle",
         "findLibPtrByAddress0"
@@ -3019,11 +3243,15 @@
     "C:\\Users\\sarps\\IdeaProjects\\jdk21\\src\\jdk.sctp\\unix\\classes\\sun\\nio\\ch\\sctp\\SctpNet.java": [
         "socket0",
         "listen0",
+        "connect0",
         "close0",
         "preClose0",
         "getIntOption0",
+        "setIntOption0",
         "branch0",
+        "getPrimAddrOption0",
         "getInitMsgOption0",
+        "setInitMsgOption0",
         "shutdown0",
         "init"
     ],
