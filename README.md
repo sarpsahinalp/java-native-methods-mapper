@@ -18,3 +18,6 @@ Random Forest Classifier
 Neural Network
 ![image](https://github.com/user-attachments/assets/cb60704e-9d96-4de3-883a-ea740ea06fbd)
 
+Jdk 22 Analysis
+![img.png](img.png)
+

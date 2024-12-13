@@ -1,11 +1,12 @@
 import os
 import re
+from codecs import ignore_errors
 from pathlib import Path
 import json
 from collections import defaultdict
 
 # Paths
-JDK_SOURCE_DIR = Path(os.path.join(os.getenv("HOME") or "C:\\", "Users", "sarps", "IdeaProjects", "jdk21", "src"))
+JDK_SOURCE_DIR = Path("/home/sarps/IdeaProjects/jdk22")
 RESULTS_FILE = "native_methods_mapping.json"
 
 # Regex Patterns
@@ -25,7 +26,7 @@ def discover_native_methods(java_source_dir):
 
     for java_file in java_source_dir.rglob("*"):
         if java_file.is_file() and java_file.suffix in [".java"]:
-            with open(java_file, "r", encoding="utf-8") as file:
+            with open(java_file, "r", errors="ignore") as file:
                 content = file.read()
                 for match in JAVA_NATIVE_METHOD_PATTERN.finditer(content):
                     count += 1
