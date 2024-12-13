@@ -3,7 +3,7 @@ import os
 import subprocess
 
 # Path to your JSON file
-json_file_path = "../native_functions.json"
+json_file_path = "../native_functions_jdk22.json"
 
 
 # Function to extract functions from C files using ctags

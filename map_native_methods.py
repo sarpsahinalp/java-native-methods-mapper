@@ -60,10 +60,10 @@ def main():
     native_function_index = index_native_files(JDK_SOURCE_DIR)
 
     # save the native methods and functions as a json in different files and create a new file
-    with open("native_methods.json", "w") as f:
+    with open("native_methods_jdk22.json", "w") as f:
         json.dump(native_methods, f, indent=4)
 
-    with open("native_functions.json", "w") as f:
+    with open("native_functions_jdk22.json", "w") as f:
         json.dump(native_function_index, f, indent=4)
 
     print("Completed")
