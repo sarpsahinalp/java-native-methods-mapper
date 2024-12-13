@@ -18,6 +18,11 @@ Random Forest Classifier
 Neural Network
 ![image](https://github.com/user-attachments/assets/cb60704e-9d96-4de3-883a-ea740ea06fbd)
 
+Generated Call Graph with naive ansatz
+![call_graph_v2.png](generate_call_graph/call_graph_v2.png)
+
+Generated Call Graph with v3!
+![call_graph.png](generate_call_graph/call_graph.png)
 Jdk 22 Analysis
 ![img.png](img.png)
 
